@@ -27,7 +27,7 @@
             </li>
             <li>
               <router-link
-                to="/about"
+                to="/tutorials"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >业务范围</router-link
               >
@@ -48,7 +48,7 @@
             </li>
             <li>
               <router-link
-                to="/blog"
+                to="/support"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >联系我们</router-link
               >

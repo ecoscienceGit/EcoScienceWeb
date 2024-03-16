@@ -37,14 +37,14 @@ const router = createRouter({
       path: "/:pathMatch(.*)*",
       component: PageNotFound,
     },
-    // {
-    //   path: '/tutorials',
-    //   component: Tutorials
-    // },
-    // {
-    //   path: '/blog',
-    //   component: Blog
-    // },
+    {
+      path: "/tutorials",
+      component: Tutorials,
+    },
+    {
+      path: "/blog",
+      component: Blog,
+    },
     // {
     //   path: '/blog-post',
     //   component: BlogPost
@@ -53,10 +53,10 @@ const router = createRouter({
     //   path: '/documentation',
     //   component: Documentation
     // },
-    // {
-    //   path: '/support',
-    //   component: Support
-    // },
+    {
+      path: "/support",
+      component: Support,
+    },
   ],
 });
 
