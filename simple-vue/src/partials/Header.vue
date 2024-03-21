@@ -9,8 +9,8 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link to="/" class="flex items-center" aria-label="Cruip">
-            <img src="icon.jpg" alt="Icon" class="w-12 h-12 mr-2" />
-            <h3>思益清源</h3>
+            <img src="../images/EcoSci_icon_1.png" alt="Icon" class="w-12 h-12 mr-2" />
+            <h3 class="text-blue-111 font-semibold">思益清源</h3>
           </router-link>
         </div>
 
@@ -27,35 +27,28 @@
             </li>
             <li>
               <router-link
-                to="/tutorials"
+                to="/service"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >业务范围</router-link
               >
             </li>
             <li>
               <router-link
-                to="/about"
+                to="/blog"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >公司动态</router-link
               >
             </li>
             <li>
               <router-link
-                to="/blog"
+                to="/project"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >项目案例</router-link
               >
             </li>
             <li>
               <router-link
-                to="/support"
-                class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >联系我们</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/blog"
+                to="/download"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >软件下载</router-link
               >

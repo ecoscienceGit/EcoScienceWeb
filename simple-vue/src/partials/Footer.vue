@@ -3,37 +3,27 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <!-- Top area: Blocks -->
       <div
-        class="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200"
+        class="grid grid-cols-1 lg:grid-cols-9 gap-4 py-4 md:py-12 border-t border-gray-200"
       >
         <!-- 1st block -->
-        <div class="sm:col-span-12 lg:col-span-2">
+        <div class="lg:col-span-2">
           <div class="mb-2">
             <!-- Logo -->
             <router-link to="/" class="inline-block" aria-label="Cruip">
               <router-link to="/" class="flex items-center" aria-label="Cruip">
-                <img src="icon.jpg" alt="Icon" class="w-12 h-12 mr-2" />
-                <h3>思益清源</h3>
+                <img src="../images/EcoSci_icon_2.png" alt="Icon" class="w-32 h-36 mr-2" />
               </router-link>
             </router-link>
-          </div>
-          <div class="text-sm text-gray-600">
-            <router-link
-              to="#"
-              class="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
-              >Terms</router-link
-            >
-            ·
-            <router-link
-              to="#"
-              class="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
-              >Privacy Policy</router-link
-            >
           </div>
         </div>
 
         <!-- 2nd block -->
-        <div class="sm:col-span-6 md:col-span-2 lg:col-span-2">
-          <h6 class="text-gray-800 font-medium mb-2">关于我们</h6>
+        <div class="lg:col-span-1">
+          <router-link 
+            to="/about" 
+            class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
+            >关于我们</router-link
+          >
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -60,8 +50,11 @@
         </div>
 
         <!-- 3rd block -->
-        <div class="sm:col-span-6 md:col-span-2 lg:col-span-2">
-          <h6 class="text-gray-800 font-medium mb-2">业务范围</h6>
+        <div class="lg:col-span-1">
+          <router-link 
+            to="/service" 
+            class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
+            >业务范围</router-link>
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -95,16 +88,12 @@
         </div>
 
         <!-- 4th block -->
-        <div class="sm:col-span-6 md:col-span-2 lg:col-span-2">
-          <h6 class="text-gray-800 font-medium mb-2">公司动态</h6>
+        <div class="lg:col-span-1">
+          <router-link 
+            to="/blog" 
+            class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
+            >公司动态</router-link>
           <ul class="text-sm">
-            <li class="mb-2">
-              <router-link
-                to="#"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >项目案例</router-link
-              >
-            </li>
             <li class="mb-2">
               <router-link
                 to="#"
@@ -130,8 +119,19 @@
         </div>
 
         <!-- 5th block -->
-        <div class="sm:col-span-6 md:col-span-2 lg:col-span-2">
-          <h6 class="text-gray-800 font-medium mb-2">软件下载</h6>
+        <div class="lg:col-span-1">
+          <router-link 
+            to="/project" 
+            class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
+            >项目案例</router-link>
+        </div>
+        
+        <!-- 6th block -->
+        <div class="lg:col-span-1">
+          <router-link 
+            to="/download" 
+            class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
+            >软件下载</router-link>
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -143,50 +143,11 @@
           </ul>
         </div>
 
-        <!-- 6th block -->
-        <div class="sm:col-span-6 md:col-span-2 lg:col-span-2">
-          <h6 class="text-gray-800 font-medium mb-2">联系我们</h6>
-          <p class="text-sm text-gray-600 mb-4">获取每月最新资讯</p>
-          <form>
-            <div class="flex flex-wrap mb-4">
-              <div class="w-full">
-                <label class="block text-sm sr-only" for="newsletter"
-                  >Email</label
-                >
-                <div class="relative flex items-center max-w-xs">
-                  <input
-                    id="newsletter"
-                    type="email"
-                    class="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm"
-                    placeholder="您的邮箱"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    class="absolute inset-0 left-auto"
-                    aria-label="Subscribe"
-                  >
-                    <span
-                      class="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300"
-                      aria-hidden="true"
-                    ></span>
-                    <svg
-                      class="w-3 h-3 fill-current text-blue-600 mx-3 shrink-0"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                        fill-rule="nonzero"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <!-- Success message -->
-                <!-- <p class="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> -->
-              </div>
-            </div>
-          </form>
+        <!-- 7th block -->
+        <div class="lg:col-span-2 flex flex-col items-center justify-center">
+          <img src="../images/wechat_qr.png" alt="Icon" class="w-24 h-24 mb-1" />
+          <p class="text-xs text-gray-600 mb-2">思益清源公众号</p>
+          <p class="text-xs text-gray-600 mb-2">企业邮箱：ecosci@outlook.com</p>
         </div>
       </div>
 
