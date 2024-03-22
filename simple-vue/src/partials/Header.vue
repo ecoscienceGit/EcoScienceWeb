@@ -9,7 +9,11 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link to="/" class="flex items-center" aria-label="Cruip">
-            <img src="../images/EcoSci_icon_1.png" alt="Icon" class="w-12 h-12 mr-2" />
+            <img
+              src="../images/EcoSci_icon_1.png"
+              alt="Icon"
+              class="w-12 h-12 mr-2"
+            />
             <h3 class="text-blue-111 font-semibold">思益清源</h3>
           </router-link>
         </div>
@@ -41,7 +45,7 @@
             </li>
             <li>
               <router-link
-                to="/project"
+                to="/projects"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >项目案例</router-link
               >

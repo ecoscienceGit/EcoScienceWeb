@@ -10,6 +10,7 @@ import SignIn from "./pages/SignIn.vue";
 import SignUp from "./pages/SignUp.vue";
 import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
+import Projects from "./pages/Projects.vue";
 
 const routerHistory = createWebHistory();
 
@@ -45,10 +46,10 @@ const router = createRouter({
       path: "/blog",
       component: Blog,
     },
-    // {
-    //   path: '/blog-post',
-    //   component: BlogPost
-    // },
+    {
+      path: "/projects",
+      component: Projects,
+    },
     // {
     //   path: '/documentation',
     //   component: Documentation

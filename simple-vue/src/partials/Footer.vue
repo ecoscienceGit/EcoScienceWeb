@@ -11,7 +11,11 @@
             <!-- Logo -->
             <router-link to="/" class="inline-block" aria-label="Cruip">
               <router-link to="/" class="flex items-center" aria-label="Cruip">
-                <img src="../images/EcoSci_icon_2.png" alt="Icon" class="w-32 h-36 mr-2" />
+                <img
+                  src="../images/EcoSci_icon_2.png"
+                  alt="Icon"
+                  class="w-32 h-36 mr-2"
+                />
               </router-link>
             </router-link>
           </div>
@@ -19,8 +23,8 @@
 
         <!-- 2nd block -->
         <div class="lg:col-span-1">
-          <router-link 
-            to="/about" 
+          <router-link
+            to="/about"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
             >关于我们</router-link
           >
@@ -51,10 +55,11 @@
 
         <!-- 3rd block -->
         <div class="lg:col-span-1">
-          <router-link 
-            to="/service" 
+          <router-link
+            to="/service"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >业务范围</router-link>
+            >业务范围</router-link
+          >
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -89,10 +94,11 @@
 
         <!-- 4th block -->
         <div class="lg:col-span-1">
-          <router-link 
-            to="/blog" 
+          <router-link
+            to="/blog"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >公司动态</router-link>
+            >公司动态</router-link
+          >
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -120,18 +126,20 @@
 
         <!-- 5th block -->
         <div class="lg:col-span-1">
-          <router-link 
-            to="/project" 
+          <router-link
+            to="/projects"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >项目案例</router-link>
+            >项目案例</router-link
+          >
         </div>
-        
+
         <!-- 6th block -->
         <div class="lg:col-span-1">
-          <router-link 
-            to="/download" 
+          <router-link
+            to="/download"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >软件下载</router-link>
+            >软件下载</router-link
+          >
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
@@ -145,7 +153,11 @@
 
         <!-- 7th block -->
         <div class="lg:col-span-2 flex flex-col items-center justify-center">
-          <img src="../images/wechat_qr.png" alt="Icon" class="w-24 h-24 mb-1" />
+          <img
+            src="../images/wechat_qr.png"
+            alt="Icon"
+            class="w-24 h-24 mb-1"
+          />
           <p class="text-xs text-gray-600 mb-2">思益清源公众号</p>
           <p class="text-xs text-gray-600 mb-2">企业邮箱：ecosci@outlook.com</p>
         </div>
