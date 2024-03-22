@@ -9,11 +9,11 @@
 
       <!-- Page sections -->
       <HeroHome />
-      <FeaturesHome />
-      <FeaturesBlocks />
-      <FeaturesWorld />
-      <News />
-      <Cta />
+      <!-- <FeaturesAbout /> -->
+      <FeaturesServices />
+      <!-- <FeaturesWorld /> -->
+      <FeaturesProjects />
+      <FeaturesBlog />
 
     </main>
 
@@ -25,24 +25,26 @@
 
 <script>
 import Header from './../partials/Header.vue'
+import Carousel from './../partials/Carousel.vue'
 import HeroHome from './../partials/HeroHome.vue'
-import FeaturesHome from './../partials/FeaturesHome.vue'
-import FeaturesBlocks from './../partials/FeaturesBlocks.vue'
+import FeaturesAbout from './../partials/FeaturesAbout.vue'
+import FeaturesServices from './../partials/FeaturesServices.vue'
 import FeaturesWorld from './../partials/FeaturesWorld.vue'
-import News from './../partials/News.vue'
-import Cta from './../partials/Cta.vue'
+import FeaturesProjects from './../partials/FeaturesProjects.vue'
+import FeaturesBlog from './../partials/FeaturesBlog.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
     Header,
+    Carousel,
     HeroHome,
-    FeaturesHome,
-    FeaturesBlocks,
+    FeaturesAbout,
+    FeaturesServices,
+    FeaturesProjects,
+    FeaturesBlog,
     FeaturesWorld,
-    News,
-    Cta,
     Footer,
   },
 }

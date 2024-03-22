@@ -25,73 +25,10 @@
 
         <!-- Section header -->
         <div class="text-center pb-12 md:pb-16">
-          <h1 class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+          <h1 class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"><span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">智造绿色未来</span></h1>
           <div class="max-w-3xl mx-auto">
-            <p class="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-            <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-              <div>
-                <a class="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-              <div>
-                <a class="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
-            </div>
+            <p class="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">陕西思益清源科技有限公司致力于为水质、水动力、燃烧节能减排建模领域提供高质量的咨询和服务。我们始终秉持着 “科技赋能自然，共建洁净世界 ”的信念，紧跟科技发展和创新趋势，将先进的大数据分析、人工智能技术，与水资源、水质管理相结合，为客户提供高效智能的解决方案。</p>
           </div>
-        </div>
-
-        <!-- Hero image -->
-        <div>
-          <div class="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-            <div class="flex flex-col justify-center">
-              <img class="mx-auto" src="../images/hero-image-01.png" width="768" height="432" alt="Hero" />
-              <svg class="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <defs>
-                  <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-ill-a">
-                    <stop stop-color="#FFF" offset="0%" />
-                    <stop stop-color="#EAEAEA" offset="77.402%" />
-                    <stop stop-color="#DFDFDF" offset="100%" />
-                  </linearGradient>
-                  <linearGradient x1="50%" y1="0%" x2="50%" y2="99.24%" id="hero-ill-b">
-                    <stop stop-color="#FFF" offset="0%" />
-                    <stop stop-color="#EAEAEA" offset="48.57%" />
-                    <stop stop-color="#DFDFDF" stop-opacity="0" offset="100%" />
-                  </linearGradient>
-                  <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="hero-ill-e">
-                    <stop stop-color="#4FD1C5" offset="0%" />
-                    <stop stop-color="#81E6D9" offset="25.871%" />
-                    <stop stop-color="#338CF5" offset="100%" />
-                  </radialGradient>
-                  <circle id="hero-ill-d" cx="384" cy="216" r="64" />
-                </defs>
-                <g fill="none" fill-rule="evenodd">
-                  <circle fill-opacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
-                  <circle fill-opacity=".16" fill="url(#hero-ill-b)" cx="384" cy="216" r="96" />
-                  <g fill-rule="nonzero">
-                    <use fill="#000" xlink:href="#hero-ill-d" />
-                    <use fill="url(#hero-ill-e)" xlink:href="#hero-ill-d" />
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <button class="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" @click.prevent.stop="videoModalOpen = true" aria-controls="modal">
-              <svg class="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
-                <path d="M10 17l6-5-6-5z" />
-              </svg>
-              <span class="ml-3">Watch the full video (2 min)</span>
-            </button>
-          </div>
-
-          <!-- Modal -->
-          <Modal id="modal" ariaLabel="modal-headline" :show="videoModalOpen" @handleClose="videoModalOpen = false">
-            <div class="relative pb-9/16">
-              <video ref="video" className="absolute w-full h-full" width="1920" height="1080" loop controls>
-                <source src="../videos/video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </Modal>
-
         </div>
 
       </div>
@@ -101,26 +38,7 @@
 </template>
 
 <script>
-import { ref, watch } from 'vue'
-import Modal from './../utils/Modal.vue'
-
 export default {
   name: 'HeroHome',
-  components: {
-    Modal,
-  },
-  setup() {
-    const videoModalOpen = ref(false)
-    const video = ref(null)
-
-    watch(videoModalOpen, () => {
-      videoModalOpen.value ? video.value.play() : video.value.pause()
-    })    
-
-    return {
-      videoModalOpen,
-      video,
-    }    
-  }
 }
 </script>
