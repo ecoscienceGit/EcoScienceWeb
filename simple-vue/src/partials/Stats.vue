@@ -4,9 +4,9 @@
       <div class="py-12 md:py-20 border-t border-gray-200">
 
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h1 class="h2 mb-4">Developing a global mindset</h1>
-          <p class="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+        <div class="max-w-6xl mx-auto text-left pb-12 md:pb-16">
+          <h2 class="h2 mb-4">资质荣誉</h2>
+          <p class="text-xl text-gray-600"></p>
         </div>
 
         <!-- World illustration -->
@@ -114,26 +114,26 @@
 
           <!-- 1st item -->
           <div class="text-center">
-            <div class="h3 mb-1">2012</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="h3 mb-1">10+</div>
+            <div class="text-gray-600">知名科研院所及高校院士教授、博士硕士</div>
           </div>
 
           <!-- 2nd item -->
           <div class="text-center">
-            <div class="h3 mb-1">$20M</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="h3 mb-1">5+</div>
+            <div class="text-gray-600">发明专利</div>
           </div>
 
           <!-- 3rd item -->
           <div class="text-center">
-            <div class="h3 mb-1">250M+</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="h3 mb-1">4+</div>
+            <div class="text-gray-600">软件著作权</div>
           </div>
 
           <!-- 4th item -->
           <div class="text-center">
             <div class="h3 mb-1">2700+</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="text-gray-600">合作单位</div>
           </div>
 
           <!-- 5th item -->

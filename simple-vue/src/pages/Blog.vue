@@ -8,7 +8,7 @@
     <main class="grow">
 
       <!-- Page sections -->
-      <BlogList />
+      <TutorialsList />
 
     </main>
 
@@ -21,6 +21,7 @@
 <script>
 import Header from './../partials/Header.vue'
 import BlogList from './../partials/BlogList.vue'
+import TutorialsList from './../partials/TutorialsList.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -28,6 +29,7 @@ export default {
   components: {
     Header,
     BlogList,
+    TutorialsList,
     Footer,
   },
 }

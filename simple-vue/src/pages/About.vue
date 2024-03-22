@@ -11,11 +11,6 @@
       <AboutIntro />
       <AboutStory />
       <Stats />
-      <Team />
-      <Career />
-      <Process />
-      <CtaAlternative />      
-
     </main>
 
     <!-- Site footer -->

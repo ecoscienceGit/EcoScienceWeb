@@ -4,12 +4,12 @@
       <div class="pb-12 md:pb-20">
 
         <div class="max-w-3xl mx-auto">
-          <h3 class="h3 mb-3">Our story</h3>
+          <h3 class="h3 mb-3">公司概况</h3>
           <p class="text-lg text-gray-600 mb-8">
-            Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
+            公司的核心创始团队由来自加拿大滑铁卢大学、中国科学院地理科学与资源研究所、北京交通大学、湖北工业大学等多家知名科研院所及高校的硕士、博士组成。团队成员熟悉前沿科技，具备丰富的人工智能技术和应用经验，以及强大的计算机技术支持。我们相信，通过将人工智能与传统水资源管理相结合，可以实现更精确的预测、更高效的监测 和更优化的调度。为此，我们一直在研究和开发新技术、新方法，探索人工智能在水质、水动力和燃烧节能减排建模领域的广泛应用。
           </p>
           <p class="text-lg text-gray-600 mb-8">
-            Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
+            作为一家以科技创新为核心的公司，陕西思益清源科技有限公司始终关注人工智能、大数据、物联网等新兴技术的发展，将这些技术与我们的业务紧密结合。我们利用人工智能技术分析大量数据，对水资源进行智能化管理，提高水资源管理的效率和精确度。通过物联网技术，我们可以实时监控水资源状况，为客户提供更加便捷和准确的信息。通过整合这些先进技术，我们为客户提供了全面的智慧水利解决方案，助力实现绿色、可持续的发展。
           </p>
         </div>
 
@@ -18,27 +18,28 @@
             <img class="grow self-start rounded" src="../images/about-02.jpg" width="435" height="326" alt="About us 02" />
           </figure>
           <div class="sm:ml-8 lg:ml-16">
-            <h4 class="h4 mb-2">2017 - 2020</h4>
+            <h4 class="h4 mb-2">水质/水动力/水生态模型，如 CE-QUAL-W2、 SWAT、 SWMM等</h4>
             <p class="text-lg text-gray-600 mb-8">
-              Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
+              陕西思益清源科技有限公司与加拿大滑铁卢大学、湖北工业大学、美国波特兰州立大学共同维护和开发全国唯一的立面二维水动力水质水生态模型。我们利用人工智能和大数据技术，对这些模型进行实时优化和升级，以提高水资源管理的准确性和效率。
             </p>
-            <div class="flex  mb-8">
-              <img class="rounded-full self-start shrink-0 shadow-lg mr-4" src="../images/about-logo.png" width="40" height="40" alt="Logo" />
-              <div>
-                <blockquote class="text-gray-600 italic">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
-                </blockquote>
-                <div class="text-sm font-medium text-gray-600 mt-2">
-                  <cite class="text-gray-900 not-italic">Micheal Osman</cite> · <a class="text-blue-600" href="#0">New York Times</a>
-                </div>
-              </div>
-            </div>
+            <h4 class="h4 mb-2">反应运移- 机理简化耦合建模方法（RTM-MR）</h4>
+            <p class="text-lg text-gray-600 mb-8">
+              这是由加拿大滑铁卢大学、意大利米兰理工大学、中国地质大学以及陕西思益清源科技有限公司联手合作开发的面向复杂环境过程的数值仿真方法。RTM-MR方法结合了人工智能技术，对传统数值建模进行优化，提高模型在处理复杂环境问题时的准确性和可靠性。
+            </p>
+            <h4 class="h4 mb-2">燃烧与热力系统</h4>
+            <p class="text-lg text-gray-600 mb-8">
+              这是由北京交通大学、清华大学、武汉善水清源环境科技有限公司、陕西思益清源科技有限公司联合组成的专业团队，致力于燃烧模拟及热力系统优化。我们运用人工智能和物联网技术，实现燃烧过程的实时监测和智能调度，以降低能源消耗、减少排放并提高能源利用效率。
+            </p>
+            <h4 class="h4 mb-2">全球综合数据库</h4>
+            <p class="text-lg text-gray-600 mb-8">
+              公司提供并维护各种环境，水动力，水质模型（提供并维护各种环境，水动力，水质模型（CE-QUAL-W2, EFDC, MIKE等等），地下水模型（例如Hydrogeosphere, MODFLOW等等），矿山修复（RTM模型），综合碳排放模型可直接使用的全球范围综合的数据库，包含全球气象数据（精确到1940年至今年至今200+气象变量的每气象变量的每小时数据，例如不同高度的气温，风速，风向，气压，云层，太阳辐射，土壤等等信息），水流流量数据（精确到1901年至今的全球数据），水温数据（精确到1979年至今的全球尺度的水温数据），大坝以及水库数据（包含全球主要大坝以及水库的数据）。此外，公司的数据库结合人工智能的技术（例如最新的ChatGPT会员服务以及未来的人工智能，大数据技术），为广大高校，科研所的小伙伴们提供便捷，稳定，迅速的建模以及文稿总结等服务。
+            </p>
           </div>
         </div>
 
         <div class="max-w-3xl mx-auto">
           <p class="text-lg text-gray-600">
-            Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
+            自成立以来，我们完成了多项复杂的水质和水动力项项复杂的水质和水动力项目，并成功承办多期全成功承办多期全国研习班、相关单位定制研习班。同时，为广大学生提供了高质量的留学和课程辅导服务，赢得了客户的一致好评。在实现愿景和使命的道路上，我们将继续保持高度热情和动力，为创新和可持续发展贡献力量。陕西思益清源科技有限公司致力于将人工智能、大数据等前沿技术与实际应用相结合，不断提升行业水平，为构建绿色、可持续的未来做出贡献。
           </p>
         </div>
 
