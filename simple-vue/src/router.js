@@ -4,6 +4,7 @@ import Tutorials from "./pages/Tutorials.vue";
 import Blog from "./pages/Blog.vue";
 import BlogPost from "./pages/BlogPost.vue";
 import About from "./pages/About.vue";
+import Services from "./pages/Services.vue";
 import Documentation from "./pages/Documentation.vue";
 import Support from "./pages/Support.vue";
 import SignIn from "./pages/SignIn.vue";
@@ -33,6 +34,10 @@ const router = createRouter({
     {
       path: "/about",
       component: About,
+    },
+    {
+      path: "/services",
+      component: Services,
     },
     {
       path: "/:pathMatch(.*)*",
