@@ -13,32 +13,38 @@
           <!-- Articles container -->
           <div class="md:grow -mt-4">
             <!-- 1st article -->
-            <article class="flex items-center py-4 border-b border-gray-200">
-              <div>
-                <header>
-                  <h2 class="h4 mb-2">
-                    <router-link to="/blog-post" class="hover:underline"
-                      >Create and Deploy a blog with Simple</router-link
-                    >
-                  </h2>
-                </header>
-                <div class="text-lg text-gray-600 mb-4">
-                  In this post, you will learn how to deploy a blog using Simple
-                  custom asset source plugin that uses the webcam to insert a
-                  photo in the image field.
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div class="md:flex md:items-center">
+                <router-link to="/blog-post" class="block">
+                  <img
+                    src="../images/about-01.jpg"
+                    alt="Blog Post Preview"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/blog-post"
+                        class="hover:underline text-blue-600"
+                      >
+                        博日一
+                      </router-link>
+                    </h2>
+                  </header>
+                  <div class="text-lg text-gray-600 mb-4">项目简介</div>
+                  <footer class="text-sm">
+                    <span class="text-gray-600">2023年1月-2023年5月</span>
+                  </footer>
                 </div>
-                <footer class="text-sm">
-                  <div class="flex items-center">
-                    <span class="text-gray-600">By </span>
-                    <a class="font-medium hover:underline">Micheal Osman</a>
-                    <span class="text-gray-600"> · July 20, 2020</span>
-                  </div>
-                </footer>
               </div>
-              <router-link to="/blog-post" class="block shrink-0 ml-6">
-                <span class="sr-only">Read more</span>
+              <router-link to="/blog-post" class="hidden md:block ml-auto">
+                <span class="sr-only">阅读更多</span>
                 <svg
-                  class="w-4 h-4 fill-current text-blue-600"
+                  class="w-6 h-6 fill-current text-blue-600"
                   viewBox="0 0 16 16"
                   xmlns="http://www.w3.org/2000/svg"
                 >
