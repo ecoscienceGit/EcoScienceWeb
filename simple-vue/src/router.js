@@ -7,8 +7,6 @@ import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
 import Documentation from "./pages/Documentation.vue";
 import Support from "./pages/Support.vue";
-import SignIn from "./pages/SignIn.vue";
-import SignUp from "./pages/SignUp.vue";
 import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Projects from "./pages/Projects.vue";
@@ -37,6 +35,10 @@ const router = createRouter({
     },
     {
       path: "/services",
+      component: Services,
+    },
+    {
+      path: "/services/rtm-mr",
       component: Services,
     },
     {

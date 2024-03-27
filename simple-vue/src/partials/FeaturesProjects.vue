@@ -135,6 +135,13 @@
           </div>
         </div>
 
+        <!-- See More-->
+        <div class="max-w-6xl mx-auto mt-8 text-center border-t border-gray-200 pb-12 md:pb-20">
+          <p class="text-blue-600 mt-8">
+            <router-link to="/blog" class="hover:underline"
+            >查看更多</router-link>
+          </p>
+        </div>
       </div>
     </div>
   </section>

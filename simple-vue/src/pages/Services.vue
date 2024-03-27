@@ -7,7 +7,7 @@
 
     <!-- Page content -->
     <main class="grow">
-
+    <ServiceList />
     </main>
 
     <!-- Site footer -->
@@ -17,14 +17,14 @@
 
 <script>
 import Header from "./../partials/Header.vue";
-import ProjectsList from "./../partials/ProjectsList.vue";
 import Footer from "./../partials/Footer.vue";
+import ServiceList from "../partials/ServiceList.vue";
 
 export default {
   name: "Projects",
   components: {
     Header,
-    ProjectsList,
+    ServiceList,
     Footer,
   },
 };
