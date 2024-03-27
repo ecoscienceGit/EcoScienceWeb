@@ -2,12 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
 import Tutorials from "./pages/Tutorials.vue";
 import Blog from "./pages/Blog.vue";
-import BlogPost from "./pages/BlogPost.vue";
 import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
-import Documentation from "./pages/Documentation.vue";
+import RTMMR from "./pages/services/RTMMR.vue";
+
 import Support from "./pages/Support.vue";
-import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Projects from "./pages/Projects.vue";
 
@@ -39,7 +38,7 @@ const router = createRouter({
     },
     {
       path: "/services/rtm-mr",
-      component: Services,
+      component: RTMMR,
     },
     {
       path: "/:pathMatch(.*)*",
@@ -57,10 +56,6 @@ const router = createRouter({
       path: "/projects",
       component: Projects,
     },
-    // {
-    //   path: '/documentation',
-    //   component: Documentation
-    // },
     {
       path: "/support",
       component: Support,

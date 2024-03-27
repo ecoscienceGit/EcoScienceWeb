@@ -17,7 +17,7 @@
         <div class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
 
           <!-- 1st item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services#s1">
+          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <!-- <svg class="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
@@ -42,7 +42,7 @@
           </a>
 
           <!-- 2nd item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services#s2">
+          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -58,7 +58,7 @@
 
 
           <!-- 3rd item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services#s3">
+          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -77,7 +77,7 @@
 
 
           <!-- 4th item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services#s4">
+          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
