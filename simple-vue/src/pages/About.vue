@@ -10,7 +10,7 @@
       <!-- Page sections -->
       <AboutIntro />
       <AboutStory />
-      <Stats />
+      <AboutStats />
     </main>
 
     <!-- Site footer -->
@@ -23,11 +23,7 @@
 import Header from './../partials/Header.vue'
 import AboutIntro from './../partials/AboutIntro.vue'
 import AboutStory from './../partials/AboutStory.vue'
-import Stats from './../partials/Stats.vue'
-import Team from './../partials/Team.vue'
-import Career from './../partials/Career.vue'
-import Process from './../partials/Process.vue'
-import CtaAlternative from './../partials/CtaAlternative.vue'
+import AboutStats from './../partials/AboutStats.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -36,11 +32,7 @@ export default {
     Header,
     AboutIntro,
     AboutStory,
-    Stats,
-    Team,
-    Career,
-    Process,
-    CtaAlternative,
+    AboutStats,
     Footer,
   },
 }

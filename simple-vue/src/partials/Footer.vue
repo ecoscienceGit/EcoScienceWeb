@@ -56,35 +56,35 @@
         <!-- 3rd block -->
         <div class="lg:col-span-1">
           <router-link
-            to="/service"
+            to="/services"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
             >业务范围</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/services"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >智慧水利</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/services"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >智慧水质</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/services"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >智慧生态</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/services"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >数字孪生</router-link
               >
@@ -102,21 +102,21 @@
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/blog"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >实习招聘</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/blog"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >学术会议</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/blog"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >相关培训</router-link
               >

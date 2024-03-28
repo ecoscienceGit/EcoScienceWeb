@@ -5,7 +5,7 @@ import Blog from "./pages/Blog.vue";
 import ProjectPost from "./pages/ProjectPost.vue";
 import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
-import RTMMR from "./pages/services/RTMMR.vue";
+import ServicePost from "./pages/ServicePost.vue";
 import Support from "./pages/Support.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Projects from "./pages/Projects.vue";
@@ -37,8 +37,9 @@ const router = createRouter({
       component: Services,
     },
     {
-      path: "/services/rtm-mr",
-      component: RTMMR,
+      path: "/services/:serviceId",
+      component: ServicePost,
+      props: true,
     },
     {
       path: "/tutorials",

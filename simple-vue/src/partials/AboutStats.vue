@@ -114,13 +114,13 @@
 
           <!-- 1st item -->
           <div class="text-center">
-            <div class="h3 mb-1">10+</div>
+            <div class="h3 mb-1">14+</div>
             <div class="text-gray-600">知名科研院所及高校院士教授、博士硕士</div>
           </div>
 
           <!-- 2nd item -->
           <div class="text-center">
-            <div class="h3 mb-1">5+</div>
+            <div class="h3 mb-1">10+</div>
             <div class="text-gray-600">发明专利</div>
           </div>
 
@@ -157,6 +157,6 @@
 
 <script>
 export default {
-  name: 'Stats',
+  name: 'AboutStats',
 }
 </script>

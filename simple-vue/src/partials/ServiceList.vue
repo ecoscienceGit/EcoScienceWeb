@@ -16,7 +16,7 @@
             <div class="lg:flex lg:justify-between">
 
               <!-- Sidebar -->
-              <aside class="relative lg:block w-48 mr-20 mb-8 shrink-0">
+              <aside class="relative lg:block w-48 mr-16 mb-8 shrink-0">
                 <div class="sticky top-28">
                   <ul class="text-lg -my-1">
                     <li class="py-1 mb-4">
@@ -62,7 +62,7 @@
                 <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
                   <!-- 1st service -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 1, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 1}">
+                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 1, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 1}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">反应运移-机理简化（RTM-MR ） 耦合建模方法</p>
                       <p class="text-sm mt-4">
@@ -74,7 +74,7 @@
                   </a>
 
                   <!-- 2nd article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 2, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 2}">
+                  <a href="/services/ce-qual-w2" v-bind:class="{'hidden': openTab !== 2, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 2}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">立面二维水动力水质水生态模型 CE-QUAL-W2</p>
                       <p class="text-sm mt-4">
@@ -86,7 +86,7 @@
                   </a>
 
                   <!-- 3rd article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 3}">
+                  <a href="/services/data-python" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">Python大数据处理与数据挖掘</p>
                       <p class="text-sm mt-4">
@@ -98,7 +98,7 @@
                   </a>
 
                   <!-- 4th article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 3}">
+                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">全球综合数据库</p>
                       <p class="text-sm mt-4">
@@ -110,9 +110,9 @@
                   </a>
 
                   <!-- 5th article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 3}">
+                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">地下水-地表水环境监测</p>
+                      <p class="text-gray-900 pd-12 grow">清源智慧生态Ecosohere</p>
                       <p class="text-sm mt-4">
                         <div>
                           <span class="text-blue-600 hover:text-blue-500">了解更多 -></span>
@@ -122,7 +122,7 @@
                   </a>
 
                   <!-- 6th article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 3}">
+                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">燃烧与热力系统</p>
                       <p class="text-sm mt-4">
@@ -134,7 +134,7 @@
                   </a>
 
                   <!-- 7th article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 hover:shadow-lg': openTab == 4}">
+                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">流域数值模拟与水质数字孪生化</p>
                       <p class="text-sm mt-4">
