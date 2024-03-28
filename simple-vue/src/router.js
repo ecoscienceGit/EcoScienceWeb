@@ -2,12 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
 import Tutorials from "./pages/Tutorials.vue";
 import Blog from "./pages/Blog.vue";
-import BlogPost from "./pages/BlogPost.vue";
+import ProjectPost from "./pages/ProjectPost.vue";
 import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
-import Documentation from "./pages/Documentation.vue";
 import Support from "./pages/Support.vue";
-import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Projects from "./pages/Projects.vue";
 
@@ -42,10 +40,6 @@ const router = createRouter({
       component: Services,
     },
     {
-      path: "/:pathMatch(.*)*",
-      component: PageNotFound,
-    },
-    {
       path: "/tutorials",
       component: Tutorials,
     },
@@ -57,13 +51,18 @@ const router = createRouter({
       path: "/projects",
       component: Projects,
     },
-    // {
-    //   path: '/documentation',
-    //   component: Documentation
-    // },
+    {
+      path: "/project-post/:projectId",
+      component: ProjectPost,
+      props: true,
+    },
     {
       path: "/support",
       component: Support,
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      component: PageNotFound,
     },
   ],
 });
