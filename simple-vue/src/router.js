@@ -6,7 +6,7 @@ import ProjectPost from "./pages/ProjectPost.vue";
 import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
 import ServicePost from "./pages/ServicePost.vue";
-import Support from "./pages/Support.vue";
+import Download from "./pages/Download.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Projects from "./pages/Projects.vue";
 
@@ -59,8 +59,8 @@ const router = createRouter({
       props: true,
     },
     {
-      path: "/support",
-      component: Support,
+      path: "/download",
+      component: Download,
     },
     {
       path: "/:pathMatch(.*)*",

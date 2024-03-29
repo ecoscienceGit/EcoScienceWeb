@@ -31,23 +31,23 @@
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/about"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >公司概况</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/about"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >企业文化</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/about"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >人才队伍</router-link
+                >资质荣誉</router-link
               >
             </li>
           </ul>
@@ -143,7 +143,7 @@
           <ul class="text-sm">
             <li class="mb-2">
               <router-link
-                to="#"
+                to="/download"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >下载链接</router-link
               >
