@@ -20,7 +20,7 @@
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
                   >
-                    Table of contents
+                    目录
                   </h4>
                   <ul class="font-medium -my-1">
                     <li class="py-1">
@@ -37,7 +37,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Introduction</span>
+                        <span>我们的技术亮点</span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -54,7 +54,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>General content</span>
+                        <span>技术创新点</span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -71,7 +71,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Additional reading</span>
+                        <span>案例动图 </span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -88,7 +88,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Conclusion</span>
+                        <span>服务价值</span>
                       </a>
                     </li>
                   </ul>
@@ -117,224 +117,115 @@
                   </div>
                   <div>
                     <span class="text-gray-600">By </span>
-                    <a class="font-medium hover:underline" href="#0"
-                      >Micheal Osman</a
-                    >
-                    <span class="text-gray-600"> · July 17, 2020</span>
+                    <a class="font-medium hover:underline" href="#0">Yu</a>
+                    <span class="text-gray-600"> · Match 31, 2024</span>
                   </div>
                 </div>
                 <hr class="w-16 h-px pt-px bg-gray-200 border-0 mb-6" />
 
                 <!-- Article body -->
                 <div class="text-lg text-gray-600">
-                  <p
+                  <h3
                     id="introduction"
-                    class="mb-8"
+                    class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet
-                    <a class="text-gray-900 underline" href="#0"
-                      >how to manage anything</a
-                    >
-                    malesuada proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem
+                    我们的技术亮点
+                  </h3>
+                  <p class="mb-8" style="scroll-margin-top: 100px">
+                    面对黄河流域的重大水利枢纽工程，我们的专业团队采取了创新的建模方法，致力于提供高精度的生态模拟服务。我们的服务不仅局限于基础的水库建模，更涵盖了水动力、水质模拟，以及
                     <strong class="font-medium text-gray-900"
-                      >et tortor consequat</strong
-                    >. Pellentesque adipiscing commodo elit at imperdiet. Semper
-                    auctor neque vitae tempus quam pellentesque nec. Amet dictum
-                    sit amet justo donec enim diam.
-                    <strong class="font-medium text-gray-900"
-                      >Varius sit amet mattis vulputate enim</strong
-                    >
-                    nulla aliquet porttitor. Odio pellentesque diam volutpat
-                    commodo sed. Elit sed vulputate mi sit amet mauris commodo
-                    quis imperdiet.
+                      >叶绿素和藻类生长</strong
+                    >.
+                    的动态模拟。通过这些综合性的模型分析，我们能够帮助工程决策者和环境管理者深入理解和预测工程对当地生态系统的具体影响。
                   </p>
-                  <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <figure class="mb-8">
-                    <img
-                      class="w-full rounded"
-                      src="../images/news-single.jpg"
-                      width="768"
-                      height="432"
-                      alt="Blog single"
-                    />
-                  </figure>
                   <h3
                     id="general"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    General content
+                    技术创新点
                   </h3>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend, arcu dictum varius duis at consectetur lorem donec
-                    massa sapien, sed risus ultricies tristique nulla aliquet.
-                    Morbi tristique senectus et netus et, nibh nisl condimentum
-                    id venenatis a condimentum vitae sapien.
-                  </p>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >E-commerce</strong
-                      >: Better lorem ipsum generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Booking</strong
-                      >: Lorem ipsum post generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Retail</strong>:
-                      Generic dummy blog post generator.
+                      <strong class="font-medium text-gray-900">水库建模</strong
+                      >:
+                      利用先进的GIS和水动力水质模拟技术，构建详尽的水库模型，确保模拟的准确性和可靠性。
                     </li>
                     <li class="mb-1">
                       <strong class="font-medium text-gray-900"
-                        >On-demand services</strong
-                      >: Lorem ipsum generator shortcode.
+                        >水动力水质模拟</strong
+                      >: 综合考虑流速、温度、<strong
+                        class="font-medium text-gray-900"
+                        >沉积物</strong
+                      >等因素，模拟水质变化及其对生态环境的影响。
+                    </li>
+                    <li class="mb-1">
+                      <strong class="font-medium text-gray-900"
+                        >叶绿素与藻类生长模拟</strong
+                      >:
+                      通过生态模型分析光照、营养盐等因素对叶绿素浓度和藻类生长的影响，评估水体健康状况。
                     </li>
                   </ul>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <p class="mb-8">
-                    <a
-                      class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
-                      href="#0"
-                    >
-                      <span>Read Simple on-demand services</span>
-                      <svg
-                        class="w-3 h-3 fill-current text-blue-400 shrink-0 ml-2"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                        />
-                      </svg>
-                    </a>
-                  </p>
-                  <p class="mb-8">
-                    Aenean sed adipiscing
-                    <em class="italic"
-                      >diam donec adipiscing tristique risus nec feugiat</em
-                    >
-                    auctor urna nunc id cursus metus aliquam eleifend, arcu
-                    dictum varius duis at consectetur lorem donec massa sapien,
-                    sed risus ultricies tristique nulla aliquet.
-                  </p>
-                  <h4 class="h4 text-gray-900 mb-4">
-                    Why support for Business is important
-                  </h4>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend.
-                  </p>
-                  <blockquote class="italic text-gray-900 font-medium mb-8">
-                    “ Mi in nulla posuere sollicitudin. Porttitor eget dolor
-                    morbi non arcu risus quis varius quam. Pharetra vel turpis
-                    nunc eget lorem dolor sed viverra. Semper auctor neque vitae
-                    tempus quam pellentesque nec. “
-                  </blockquote>
-                  <p class="mb-8">
-                    Et leo duis ut diam quam nulla porttitor porttitor lacus
-                    luctus accumsan tortor, lorem dolor sed viverra ipsum nunc
-                    aliquet bibendum enim eu augue ut lectus arcu bibendum at.
-                    Non sodales neque sodales ut etiam sit. Venenatis urna
-                    cursus eget nunc scelerisque viverra mauris in aliquam.
-                  </p>
-                  <p
-                    class="p-4 bg-gray-100 border border-gray-300 rounded mb-8"
-                  >
-                    <a class="text-gray-900 underline" href="#0">Simple</a> is a
-                    sed viverra ipsum nunc aliquet bibendum enim eu augue ut
-                    lectus arcu bibendum at. Non sodales neque sodales ut etiam
-                    sit. Venenatis urna cursus eget nunc scelerisque viverra
-                    mauris in aliquam. Learn more
-                    <a class="text-gray-900 underline" href="#0">here</a>.
-                  </p>
                   <h3
                     id="additional"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    Additional reading
+                    案例动图
                   </h3>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <p class="mb-8">
-                    <strong class="font-medium text-gray-900"
-                      >Mi in nulla posuere sollicitudin:</strong
+
+                  <figure class="mb-8">
+                    <!-- <img
+                      class="w-full rounded"
+                      src="../images/news-single.jpg"
+                      width="768"
+                      height="432"
+                      alt="Blog single"
+                    /> -->
+                    <video
+                      class="w-full rounded"
+                      controls
+                      width="768"
+                      height="432"
                     >
-                  </p>
-                  <ul class="list-disc list-inside mb-8">
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >E-commerce for etter lorem ipsum generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Booking for lorem ipsum post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Retail for generic dummy blog post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >On-demand services: Lorem ipsum generator shortcode</a
-                      >
-                    </li>
-                  </ul>
+                      <source
+                        src="/projects/images/guxian/Algal2year.mp4"
+                        type="video/mp4"
+                      />
+                      您的浏览器不支持AVI视频。
+                    </video>
+
+                    <!-- 第二个AVI视频 -->
+                    <video
+                      class="w-full rounded"
+                      controls
+                      width="768"
+                      height="432"
+                    >
+                      <source
+                        src="/projects/images/guxian/Chla2year.mp4"
+                        type="video/mp4"
+                      />
+                      您的浏览器不支持AVI视频。
+                    </video>
+                  </figure>
                   <h3
                     id="conclusion"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    Conclusion
+                    服务价值
                   </h3>
                   <p>
-                    Sollicitudin ac orci phasellus egestas tellus rutrum telluse
-                    nim ut tellus elementum sagittis vitae et leo duis egestas
-                    purus viverra accumsan in nisl nisi scelerisquep ellentesque
-                    habitant morbi tristique, senectus et netus et dolor purus
-                    non enim praesent elementum facilisis leol, aoreet
-                    suspendisse interdum consectetur libero id faucibus.
+                    通过我们的模拟服务，项目管理者可以获得关于水质变化、生态平衡以及环境风险的宝贵数据，进而做出更加明智的管理决策。这些数据不仅能够指导工程的执行，还能够预见和防控可能出现的环境问题，促进区域可持续发展。
                   </p>
 
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
-                    <div class="mt-8">
-                      Interested in more tips like this? Check out
-                      <a class="text-gray-900 underline" href="#0"
-                        >Introducing the Testing Field Guide</a
-                      >.
-                    </div>
                     <div class="mt-6">
                       <router-link
-                        to="/blog"
+                        to="/projects"
                         class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
                       >
                         <svg
@@ -346,7 +237,7 @@
                             d="M.293 5.282L5 .5l1.414 1.436-3 3.048H12v2.032H3.414l3 3.048L5 11.5.293 6.718a1.027 1.027 0 010-1.436z"
                           />
                         </svg>
-                        <span>Back to the blog</span>
+                        <span>返回</span>
                       </router-link>
                     </div>
                   </div>

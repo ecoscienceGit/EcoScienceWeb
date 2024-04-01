@@ -7,7 +7,9 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">南水北调中干线湿沉降模拟</h1>
+              <h1 class="h1 text-center mb-4">
+                湿沉降对南水北调中线工程干渠水质影响模拟研究
+              </h1>
             </header>
 
             <!-- Article content -->
@@ -18,7 +20,7 @@
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
                   >
-                    Table of contents
+                    目录
                   </h4>
                   <ul class="font-medium -my-1">
                     <li class="py-1">
@@ -35,7 +37,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Introduction</span>
+                        <span>项目简介</span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -52,7 +54,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>General content</span>
+                        <span>技术概述</span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -69,7 +71,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Additional reading</span>
+                        <span>研究意义</span>
                       </a>
                     </li>
                     <li class="py-1">
@@ -86,7 +88,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Conclusion</span>
+                        <span>合作与展望</span>
                       </a>
                     </li>
                   </ul>
@@ -115,10 +117,8 @@
                   </div>
                   <div>
                     <span class="text-gray-600">By </span>
-                    <a class="font-medium hover:underline" href="#0"
-                      >Micheal Osman</a
-                    >
-                    <span class="text-gray-600"> · July 17, 2020</span>
+                    <a class="font-medium hover:underline" href="#0">Yu</a>
+                    <span class="text-gray-600"> · Match 31, 2024</span>
                   </div>
                 </div>
                 <hr class="w-16 h-px pt-px bg-gray-200 border-0 mb-6" />
@@ -130,209 +130,58 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet
-                    <a class="text-gray-900 underline" href="#0"
-                      >how to manage anything</a
-                    >
-                    malesuada proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem
-                    <strong class="font-medium text-gray-900"
-                      >et tortor consequat</strong
-                    >. Pellentesque adipiscing commodo elit at imperdiet. Semper
-                    auctor neque vitae tempus quam pellentesque nec. Amet dictum
-                    sit amet justo donec enim diam.
-                    <strong class="font-medium text-gray-900"
-                      >Varius sit amet mattis vulputate enim</strong
-                    >
-                    nulla aliquet porttitor. Odio pellentesque diam volutpat
-                    commodo sed. Elit sed vulputate mi sit amet mauris commodo
-                    quis imperdiet.
+                    南水北调中线工程，作为世界上最大的水利工程之一，对于改善我国北方地区水资源短缺的状况发挥着至关重要的作用。然而，沿途水质的保护与管理同样是项目成功实施的关键。我们公司通过模拟分析湿沉降——即大气中水分子携带污染物沉积到地面的过程——对干渠水质的影响，为中线工程建立大气-水动力水质模型，旨在为水质管理提供科学的策略与措施，确保水质安全，服务于社会和生态的可持续发展。
                   </p>
-                  <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
+
                   <figure class="mb-8">
                     <img
                       class="w-full rounded"
-                      src="../images/news-single.jpg"
+                      src="/projects/images/nanshuibeidiao/nanshuibeidiao.jpg"
                       width="768"
                       height="432"
                       alt="Blog single"
                     />
                   </figure>
+
                   <h3
                     id="general"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    General content
+                    技术概述
                   </h3>
                   <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend, arcu dictum varius duis at consectetur lorem donec
-                    massa sapien, sed risus ultricies tristique nulla aliquet.
-                    Morbi tristique senectus et netus et, nibh nisl condimentum
-                    id venenatis a condimentum vitae sapien.
+                    在本项目中，我们采用了先进的水质模拟软件（例如CE-QUAL-W2等）和技术，集成气象、水文和地理信息系统（GIS）数据，重点分析湿沉降如何影响中线工程干渠的水质。通过细致的模型构建，我们能够预测不同气象条件下，干渠内悬浮颗粒物、重金属以及有机污染物的变化趋势。
                   </p>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <ul class="list-disc list-inside mb-8">
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >E-commerce</strong
-                      >: Better lorem ipsum generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Booking</strong
-                      >: Lorem ipsum post generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Retail</strong>:
-                      Generic dummy blog post generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >On-demand services</strong
-                      >: Lorem ipsum generator shortcode.
-                    </li>
-                  </ul>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <p class="mb-8">
-                    <a
-                      class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
-                      href="#0"
-                    >
-                      <span>Read Simple on-demand services</span>
-                      <svg
-                        class="w-3 h-3 fill-current text-blue-400 shrink-0 ml-2"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                        />
-                      </svg>
-                    </a>
-                  </p>
-                  <p class="mb-8">
-                    Aenean sed adipiscing
-                    <em class="italic"
-                      >diam donec adipiscing tristique risus nec feugiat</em
-                    >
-                    auctor urna nunc id cursus metus aliquam eleifend, arcu
-                    dictum varius duis at consectetur lorem donec massa sapien,
-                    sed risus ultricies tristique nulla aliquet.
-                  </p>
-                  <h4 class="h4 text-gray-900 mb-4">
-                    Why support for Business is important
-                  </h4>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend.
-                  </p>
-                  <blockquote class="italic text-gray-900 font-medium mb-8">
-                    “ Mi in nulla posuere sollicitudin. Porttitor eget dolor
-                    morbi non arcu risus quis varius quam. Pharetra vel turpis
-                    nunc eget lorem dolor sed viverra. Semper auctor neque vitae
-                    tempus quam pellentesque nec. “
-                  </blockquote>
-                  <p class="mb-8">
-                    Et leo duis ut diam quam nulla porttitor porttitor lacus
-                    luctus accumsan tortor, lorem dolor sed viverra ipsum nunc
-                    aliquet bibendum enim eu augue ut lectus arcu bibendum at.
-                    Non sodales neque sodales ut etiam sit. Venenatis urna
-                    cursus eget nunc scelerisque viverra mauris in aliquam.
-                  </p>
-                  <p
-                    class="p-4 bg-gray-100 border border-gray-300 rounded mb-8"
-                  >
-                    <a class="text-gray-900 underline" href="#0">Simple</a> is a
-                    sed viverra ipsum nunc aliquet bibendum enim eu augue ut
-                    lectus arcu bibendum at. Non sodales neque sodales ut etiam
-                    sit. Venenatis urna cursus eget nunc scelerisque viverra
-                    mauris in aliquam. Learn more
-                    <a class="text-gray-900 underline" href="#0">here</a>.
-                  </p>
+
                   <h3
                     id="additional"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    Additional reading
+                    研究意义
                   </h3>
                   <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
+                    本研究将有助于科学预测和评估极端天气事件和变化的环境条件对中线工程水质的影响。研究成果不仅可以为南水北调中线工程的水质管理和保护提供决策支持，也可以为类似的大型水利工程提供宝贵的参考和经验。
                   </p>
-                  <p class="mb-8">
-                    <strong class="font-medium text-gray-900"
-                      >Mi in nulla posuere sollicitudin:</strong
-                    >
-                  </p>
-                  <ul class="list-disc list-inside mb-8">
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >E-commerce for etter lorem ipsum generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Booking for lorem ipsum post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Retail for generic dummy blog post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >On-demand services: Lorem ipsum generator shortcode</a
-                      >
-                    </li>
-                  </ul>
+
                   <h3
                     id="conclusion"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    Conclusion
+                    合作与展望
                   </h3>
                   <p>
-                    Sollicitudin ac orci phasellus egestas tellus rutrum telluse
-                    nim ut tellus elementum sagittis vitae et leo duis egestas
-                    purus viverra accumsan in nisl nisi scelerisquep ellentesque
-                    habitant morbi tristique, senectus et netus et dolor purus
-                    non enim praesent elementum facilisis leol, aoreet
-                    suspendisse interdum consectetur libero id faucibus.
+                    我们期待与政府部门、科研机构以及环境保护组织合作，共同探索和实施更有效的水质保护策略。
                   </p>
 
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
-                    <div class="mt-8">
-                      Interested in more tips like this? Check out
-                      <a class="text-gray-900 underline" href="#0"
-                        >Introducing the Testing Field Guide</a
-                      >.
-                    </div>
+
                     <div class="mt-6">
                       <router-link
-                        to="/blog"
+                        to="/projects"
                         class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
                       >
                         <svg
@@ -344,7 +193,7 @@
                             d="M.293 5.282L5 .5l1.414 1.436-3 3.048H12v2.032H3.414l3 3.048L5 11.5.293 6.718a1.027 1.027 0 010-1.436z"
                           />
                         </svg>
-                        <span>Back to the blog</span>
+                        <span>返回</span>
                       </router-link>
                     </div>
                   </div>

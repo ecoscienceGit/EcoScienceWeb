@@ -7,9 +7,7 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">
-                Why we think Simple is good for developers
-              </h1>
+              <h1 class="h1 text-center mb-4">我们的竞赛</h1>
             </header>
 
             <!-- Article content -->
@@ -20,7 +18,7 @@
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
                   >
-                    Table of contents
+                    目录
                   </h4>
                   <ul class="font-medium -my-1">
                     <li class="py-1">
