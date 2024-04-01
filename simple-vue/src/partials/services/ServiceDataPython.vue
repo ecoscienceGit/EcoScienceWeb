@@ -72,7 +72,7 @@
                   <p class="mb-8">
                     Python是一种高级的、面向对象的编程语言，具有内置的数据结构和动态语义。拥有一系列用于数据操作、统计计算、Web开发、机器学习和数据科学的库、包、框架和模块，允许程序模块化和代码重用，语法简单、计算高效，在数据处理、数据挖掘方面具有较大优势。
                   </p>
-                  <h4 id="file" class="h4 text-gray-900 mt-16 mb-4">文件合并与拆分</h4>
+                  <h4 id="file" class="h4 text-gray-900 mt-16 mb-4" style="scroll-margin-top: 100px">文件合并与拆分</h4>
                   <p class="mb-8">
                     实际数据可能在不同的文件中保存，而建模分析时需要读取所有数据，这时需要将所有文档<strong class="font-medium text-gray-900">合并</strong>到一个文件中；或者对于数据量比较大的文件，直接读取或者打开比较困难，这时需要<strong class="font-medium text-gray-900">拆分</strong>数据。
                   </p>
@@ -81,7 +81,7 @@
                     <img class="w-4/5 rounded" src="../../images/data-python-01.png" width="768" height="432" alt="Data Python 01" />
                   </figure>
 
-                  <h4 id="preprocessing" class="h4 text-gray-900 mt-16 mb-4">数据预处理</h4>
+                  <h4 id="preprocessing" class="h4 text-gray-900 mt-16 mb-4" style="scroll-margin-top: 100px">数据预处理</h4>
                   <p class="mb-8">包括数据读取、缺失值处理、异常值处理、描述性变量转换为数值型、训练集测试集划分、数据规范化等。</p>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
@@ -110,7 +110,7 @@
                     </li>
                   </ul>
 
-                  <h4 id="analysis" class="h4 text-gray-900 mt-16 mb-4">数据特征分析</h4>
+                  <h4 id="analysis" class="h4 text-gray-900 mt-16 mb-4" style="scroll-margin-top: 100px">数据特征分析</h4>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
                       <strong class="font-medium text-gray-900">分布分析</strong>：分布分析能揭示数据的分布特征和分布类型。对于定量分类数据，可通过绘制频率分布表，绘制频率分布直方图，绘制茎叶图进行直观的分析，对于定性分类数据，可用于图饼和条形图直观的显示分布情况。
@@ -135,7 +135,7 @@
                     </li>
                   </ul>
 
-                  <h4 id="ml" class="h4 text-gray-900 mt-16 mb-4">机器学习</h4>
+                  <h4 id="ml" class="h4 text-gray-900 mt-16 mb-4" style="scroll-margin-top: 100px">机器学习</h4>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
                       <strong class="font-medium text-gray-900">分类/聚类</strong>：对具有相同或相似属性的数据进行划分等，常用算法有随机森林、KNN算法、贝叶斯算法、决策树算法、逻辑回归算法和SVM算法等。

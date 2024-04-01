@@ -114,38 +114,38 @@
 
           <!-- 1st item -->
           <div class="text-center">
-            <div class="h3 mb-1">14+</div>
+            <div class="h3 mb-1">20+</div>
             <div class="text-gray-600">知名科研院所及高校院士教授、博士硕士</div>
           </div>
 
           <!-- 2nd item -->
           <div class="text-center">
-            <div class="h3 mb-1">10+</div>
-            <div class="text-gray-600">发明专利</div>
+            <div class="h3 mb-1">15+</div>
+            <div class="text-gray-600">发明专利、软件著作权等成果</div>
           </div>
 
           <!-- 3rd item -->
           <div class="text-center">
-            <div class="h3 mb-1">4+</div>
-            <div class="text-gray-600">软件著作权</div>
+            <div class="h3 mb-1">15+</div>
+            <div class="text-gray-600">合作单位包括海内外知名科研院所及高校</div>
           </div>
 
           <!-- 4th item -->
           <div class="text-center">
-            <div class="h3 mb-1">2700+</div>
-            <div class="text-gray-600">合作单位</div>
+            <div class="h3 mb-1">50+</div>
+            <div class="text-gray-600">海内外访问学者、硕博升学辅导案例</div>
           </div>
 
           <!-- 5th item -->
           <div class="text-center">
-            <div class="h3 mb-1">400K</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="h3 mb-1">10+</div>
+            <div class="text-gray-600">业务涉及国家</div>
           </div>
 
           <!-- 6th item -->
           <div class="text-center">
-            <div class="h3 mb-1">Millions</div>
-            <div class="text-gray-600">Lorem ipsum is placeholder text commonly used tristique senectus et netus.</div>
+            <div class="h3 mb-1">140万+</div>
+            <div class="text-gray-600">湖泊、水库、水体数据库（包含机器学习模型以及水动力水质模型）</div>
           </div>
 
         </div>

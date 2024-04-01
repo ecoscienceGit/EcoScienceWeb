@@ -23,6 +23,7 @@ import Header from './../partials/Header.vue'
 import ServiceRTMMR from './../partials/services/ServiceRTMMR.vue'
 import ServiceW2 from './../partials/services/ServiceW2.vue'
 import ServiceDataPython from './../partials/services/ServiceDataPython.vue'
+import ServiceDigitalTwinSystem from '../partials/services/ServiceDigitalTwinSystem.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -41,6 +42,8 @@ export default {
           return ServiceW2;
         case "data-python":
           return ServiceDataPython
+        case "digital-twin-system":
+          return ServiceDigitalTwinSystem
         default:
           return null;
       }

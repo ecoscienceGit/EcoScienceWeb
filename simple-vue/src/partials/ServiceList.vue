@@ -134,7 +134,7 @@
                   </a>
 
                   <!-- 7th article -->
-                  <a href="/services/rtm-mr" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
+                  <a href="/services/digital-twin-system" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">流域数值模拟与水质数字孪生化</p>
                       <p class="text-sm mt-4">
