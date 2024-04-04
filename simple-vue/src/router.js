@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
-import Tutorials from "./pages/Tutorials.vue";
 import Blog from "./pages/Blog.vue";
 import ProjectPost from "./pages/ProjectPost.vue";
 import About from "./pages/About.vue";
@@ -40,10 +39,6 @@ const router = createRouter({
       path: "/services/:serviceId",
       component: ServicePost,
       props: true,
-    },
-    {
-      path: "/tutorials",
-      component: Tutorials,
     },
     {
       path: "/blog",

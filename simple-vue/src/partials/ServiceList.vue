@@ -51,6 +51,14 @@
                         <span>数字孪生</span>
                       </a>
                     </li>
+                    <li class="py-1 mb-4">
+                      <a v-on:click="toggleTabs(5)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 5, 'flex items-center text-blue-600': openTab === 5}">
+                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
+                        </svg>
+                        <span>教育咨询</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </aside>
@@ -137,6 +145,18 @@
                   <a href="/services/digital-twin-system" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">流域数值模拟与水质数字孪生化</p>
+                      <p class="text-sm mt-4">
+                        <div>
+                          <span class="text-blue-600 hover:text-blue-500">了解更多 -></span>
+                        </div>
+                      </p> 
+                    </div>
+                  </a>
+
+                  <!-- 8th article -->
+                  <a href="/services/digital-twin-system" v-bind:class="{'hidden': openTab !== 5, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 5}">
+                    <div class="items-left p-8">
+                      <p class="text-gray-900 pd-12 grow">GPT 服务案例以及指令指南</p>
                       <p class="text-sm mt-4">
                         <div>
                           <span class="text-blue-600 hover:text-blue-500">了解更多 -></span>
