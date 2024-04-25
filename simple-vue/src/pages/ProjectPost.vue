@@ -23,7 +23,6 @@ import Competition from "./../projects/competition.vue";
 import Wuliangsuhai from "./../projects/wuliangsuhai.vue";
 import Nanshuibeidiao from "./../projects/nanshuibeidiao.vue";
 import Yanxiban from "./../projects/yanxiban.vue";
-import W2 from "./../projects/w2.vue";
 import LearningWithUs from "./../projects/learningWithUs.vue";
 
 import Footer from "./../partials/Footer.vue";
@@ -46,8 +45,6 @@ export default {
           return Nanshuibeidiao;
         case "yanxiban":
           return Yanxiban;
-        case "w2":
-          return W2;
         case "competition":
           return Competition;
         case "learningWithUs":
