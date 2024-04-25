@@ -97,29 +97,7 @@
               <div>
                 <!-- Article meta -->
                 <div class="flex items-center mb-6">
-                  <div class="flex shrink-0 mr-3">
-                    <a class="relative" href="#0">
-                      <span class="absolute inset-0 -m-px" aria-hidden="true"
-                        ><span
-                          class="absolute inset-0 -m-px bg-white rounded-full"
-                        ></span
-                      ></span>
-                      <img
-                        class="relative rounded-full"
-                        src="../images/news-author-04.jpg"
-                        width="32"
-                        height="32"
-                        alt="Author 04"
-                      />
-                    </a>
-                  </div>
-                  <div>
-                    <span class="text-gray-600">By </span>
-                    <a class="font-medium hover:underline" href="#0"
-                      >Micheal Osman</a
-                    >
-                    <span class="text-gray-600"> · July 17, 2020</span>
-                  </div>
+                  <span class="text-gray-600"> · July 17, 2020</span>
                 </div>
                 <hr class="w-16 h-px pt-px bg-gray-200 border-0 mb-6" />
 
