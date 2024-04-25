@@ -17,7 +17,9 @@
               :key="project.id"
               class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
             >
-              <div class="md:flex md:items-center">
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
                 <router-link :to="`/project-post/${project.id}`" class="block">
                   <img
                     :src="project.imageUrl"
@@ -36,12 +38,6 @@
                       </router-link>
                     </h2>
                   </header>
-                  <div class="text-lg text-gray-600 mb-4">
-                    {{ project.summary }}
-                  </div>
-                  <footer class="text-sm">
-                    <span class="text-gray-600">{{ project.date }}</span>
-                  </footer>
                 </div>
               </div>
             </article>
