@@ -109,7 +109,7 @@
                 </li>
                 <li>
                   <router-link
-                    to="/tutorials"
+                    to="/services"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
                     >业务范围</router-link
                   >
@@ -123,21 +123,14 @@
                 </li>
                 <li>
                   <router-link
-                    to="/blog"
+                    to="/projects"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
                     >项目案例</router-link
                   >
                 </li>
                 <li>
                   <router-link
-                    to="/blog"
-                    class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >联系我们</router-link
-                  >
-                </li>
-                <li>
-                  <router-link
-                    to="/blog"
+                    to="/download"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
                     >软件下载</router-link
                   >
