@@ -44,12 +44,6 @@
 
               <!-- Main content -->
               <div>
-                <!-- Article meta -->
-                <div class="flex items-center mb-6">
-                  <span class="text-gray-600"> · July 17, 2020</span>
-                </div>
-                <hr class="w-16 h-px pt-px bg-gray-200 border-0 mb-6" />
-
                 <!-- Article body -->
                 <div class="text-lg text-gray-600">
                   <p
