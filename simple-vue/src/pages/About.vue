@@ -11,6 +11,7 @@
       <AboutIntro />
       <AboutStory />
       <AboutStats />
+      <AboutContacts />
     </main>
 
     <!-- Site footer -->
@@ -24,6 +25,7 @@ import Header from './../partials/Header.vue'
 import AboutIntro from './../partials/AboutIntro.vue'
 import AboutStory from './../partials/AboutStory.vue'
 import AboutStats from './../partials/AboutStats.vue'
+import AboutContacts from './../partials/AboutContacts.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -33,6 +35,7 @@ export default {
     AboutIntro,
     AboutStory,
     AboutStats,
+    AboutContacts,
     Footer,
   },
 }

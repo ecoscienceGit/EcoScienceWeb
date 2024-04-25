@@ -5,8 +5,8 @@
       <div
         class="grid grid-cols-1 lg:grid-cols-9 gap-4 py-4 md:py-12 border-t border-gray-200"
       >
-        <!-- 1st block -->
-        <div class="lg:col-span-2">
+        <!-- 1st block logo -->
+        <div class="lg:col-span-3">
           <div class="mb-2">
             <!-- Logo -->
             <router-link to="/" class="inline-block" aria-label="Cruip">
@@ -40,14 +40,14 @@
               <router-link
                 to="/about"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >企业文化</router-link
+                >资质荣誉</router-link
               >
             </li>
             <li class="mb-2">
               <router-link
                 to="/about"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >资质荣誉</router-link
+                >联系方式</router-link
               >
             </li>
           </ul>
@@ -87,6 +87,13 @@
                 to="/services"
                 class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >数字孪生</router-link
+              >
+            </li>
+            <li class="mb-2">
+              <router-link
+                to="/services"
+                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >教育咨询</router-link
               >
             </li>
           </ul>
@@ -134,7 +141,7 @@
         </div>
 
         <!-- 6th block -->
-        <div class="lg:col-span-1">
+        <!-- <div class="lg:col-span-1">
           <router-link
             to="/download"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
@@ -149,9 +156,9 @@
               >
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <!-- 7th block -->
+        <!-- 7th block contact-->
         <div class="lg:col-span-2 flex flex-col items-center justify-center">
           <img
             src="../images/wechat_qr.png"

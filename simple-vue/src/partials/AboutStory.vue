@@ -13,7 +13,7 @@
 
         <div class="sm:flex">
           <figure class="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0">
-            <img class="grow self-start rounded" src="../images/about-02.jpg" width="435" height="326" alt="About us 02" />
+            <img class="grow self-start rounded" src="../images/about-02.png" width="435" height="326" alt="About us 02" />
           </figure>
           <div class="sm:ml-8 lg:ml-16">
             <p class="text-lg text-gray-600 mb-8">

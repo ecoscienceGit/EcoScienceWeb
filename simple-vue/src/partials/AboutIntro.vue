@@ -12,7 +12,7 @@
         </div>
 
         <figure class="flex justify-center items-start">
-          <img class="rounded shadow-2xl" src="../images/about-01.jpg" width="768" height="432" alt="About us" />
+          <img class="rounded shadow-2xl" src="../images/about-01.jpg" width="768" height="432" alt="About us 01" />
         </figure>
 
       </div>

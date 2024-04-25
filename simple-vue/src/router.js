@@ -36,7 +36,7 @@ const router = createRouter({
       component: Services,
     },
     {
-      path: "/services/:serviceId",
+      path: "/services-post/:serviceId",
       component: ServicePost,
       props: true,
     },
@@ -53,10 +53,10 @@ const router = createRouter({
       component: ProjectPost,
       props: true,
     },
-    {
-      path: "/download",
-      component: Download,
-    },
+    // {
+    //   path: "/download",
+    //   component: Download,
+    // },
     {
       path: "/:pathMatch(.*)*",
       component: PageNotFound,

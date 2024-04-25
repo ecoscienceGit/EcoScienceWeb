@@ -12,7 +12,7 @@
             <img
               src="../images/EcoSci_icon_1.png"
               alt="Icon"
-              class="w-12 h-12 mr-2"
+              class="w-10 h-10 mr-2"
             />
             <h3 class="text-blue-111 font-semibold">思益清源</h3>
           </router-link>
@@ -50,13 +50,13 @@
                 >项目案例</router-link
               >
             </li>
-            <li>
+            <!-- <li>
               <router-link
                 to="/download"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >软件下载</router-link
               >
-            </li>
+            </li> -->
             <!-- 后期加入中英文转换按钮 -->
           </ul>
         </nav>

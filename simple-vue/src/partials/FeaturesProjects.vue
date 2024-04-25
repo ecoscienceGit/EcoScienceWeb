@@ -15,13 +15,13 @@
             <!-- 1st article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out">
               <header>
-                <router-link to="/project/guxian" class="block mb-6">
+                <router-link to="/project-post/guxian" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-01.jpg" width="352" height="198" alt="News 01" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/guxian/cover.jpg" width="352" height="198" alt="Project 01" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/guxian" class="hover:underline">黄河流域古贤水利枢纽工程生态评估</router-link>
+                  <router-link to="/project-post/guxian" class="hover:underline">黄河流域古贤水利枢纽工程生态评估</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
@@ -35,19 +35,19 @@
             <!-- 2nd article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="150">
               <header>
-                <router-link to="/project/wuliangsuhai" class="block mb-6">
+                <router-link to="/project-post/wuliangsuhai" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-02.jpg" width="352" height="198" alt="News 02" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/wuliangsuhai/cover.jpg" width="352" height="198" alt="Project 02" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/wuliangsuhai" class="hover:underline">乌梁素海水动力模拟</router-link>
+                  <router-link to="/project-post/wuliangsuhai" class="hover:underline">乌梁素海水动力模拟</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
                 <div>
                   <span class="text-gray-600">合作单位： </span>
-                  <a class="font-medium hover:underline" href="#0">陕西思益清源科技公司</a>
+                  <span class="font-medium text-gray-600">陕西思益清源科技公司</span>
                 </div>
               </footer>
             </article>
@@ -55,13 +55,13 @@
             <!-- 3rd article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300">
               <header>
-                <router-link to="/project/nanshuibeidiao" class="block mb-6">
+                <router-link :to="`/project-post/nanshuibeidiao`" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-03.jpg" width="352" height="198" alt="News 03" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/nanshuibeidiao/cover.jpg" width="352" height="198" alt="News 03" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/nanshuibeidiao" class="hover:underline">南水北调中干线湿沉降模拟</router-link>
+                  <router-link to="/project-post/nanshuibeidiao" class="hover:underline">湿沉降对南水北调中线工程干渠水质影响模拟研究</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
@@ -75,13 +75,13 @@
             <!-- 4th article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300">
               <header>
-                <router-link to="/project/yanxiban" class="block mb-6">
+                <router-link to="/project-post/yanxiban" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-03.jpg" width="352" height="198" alt="News 03" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/yanxiban/cover.jpg" width="352" height="198" alt="Project 04" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/yanxiban" class="hover:underline">定制研习班</router-link>
+                  <router-link to="/project-post/yanxiban" class="hover:underline">线上线下模型培训班——定制化培训班服务</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
@@ -95,13 +95,13 @@
             <!-- 5th article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300">
               <header>
-                <router-link to="/project/w2ui" class="block mb-6">
+                <router-link to="/project-post/competition" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-03.jpg" width="352" height="198" alt="News 03" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/competition/cover.jpg" width="352" height="198" alt="Project 05" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/w2ui" class="hover:underline">CE-QUAL-W2模型论坛与界面</router-link>
+                  <router-link to="/project-post/competition" class="hover:underline">模型竞赛辅导</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
@@ -115,13 +115,13 @@
             <!-- 6th article -->
             <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300">
               <header>
-                <router-link to="/project/consulting" class="block mb-6">
+                <router-link to="/project-post/learningWithUs" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-03.jpg" width="352" height="198" alt="News 03" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src="/projects/images/learningWithUs/cover.jpg" width="352" height="198" alt="Project 06" />
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project/consulting" class="hover:underline">在线咨询</router-link>
+                  <router-link to="/project-post/learningWithUs" class="hover:underline">在线咨询</router-link>
                 </h3>
               </header>
               <footer class="text-sm flex items-center mt-4">
