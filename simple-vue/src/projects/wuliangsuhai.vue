@@ -35,58 +35,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Introduction</span>
-                      </a>
-                    </li>
-                    <li class="py-1">
-                      <a
-                        class="flex items-center hover:underline"
-                        href="#general"
-                      >
-                        <svg
-                          class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0"
-                          viewBox="0 0 16 16"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
-                          />
-                        </svg>
-                        <span>General content</span>
-                      </a>
-                    </li>
-                    <li class="py-1">
-                      <a
-                        class="flex items-center hover:underline"
-                        href="#additional"
-                      >
-                        <svg
-                          class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0"
-                          viewBox="0 0 16 16"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
-                          />
-                        </svg>
-                        <span>Additional reading</span>
-                      </a>
-                    </li>
-                    <li class="py-1">
-                      <a
-                        class="flex items-center hover:underline"
-                        href="#conclusion"
-                      >
-                        <svg
-                          class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0"
-                          viewBox="0 0 16 16"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
-                          />
-                        </svg>
-                        <span>Conclusion</span>
+                        <span>介绍</span>
                       </a>
                     </li>
                   </ul>
@@ -102,209 +51,37 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet
-                    <a class="text-gray-900 underline" href="#0"
-                      >how to manage anything</a
-                    >
-                    malesuada proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem
-                    <strong class="font-medium text-gray-900"
-                      >et tortor consequat</strong
-                    >. Pellentesque adipiscing commodo elit at imperdiet. Semper
-                    auctor neque vitae tempus quam pellentesque nec. Amet dictum
-                    sit amet justo donec enim diam.
-                    <strong class="font-medium text-gray-900"
-                      >Varius sit amet mattis vulputate enim</strong
-                    >
-                    nulla aliquet porttitor. Odio pellentesque diam volutpat
-                    commodo sed. Elit sed vulputate mi sit amet mauris commodo
-                    quis imperdiet.
+                    乌梁素海前身为黄河故道，属河成湖，湖面南北长35至40公里，东西宽5至10公里，面积约为293平方公里
                   </p>
                   <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    通过高精度的计算模拟来分析和预测乌梁素海这一内陆湖泊的水动力行为。乌梁素海位于中国内蒙古自治区，是一个重要的湿地生态系统，具有丰富的生物多样性和重要的生态功能。
                   </p>
                   <figure class="mb-8">
                     <img
                       class="w-full rounded"
-                      src="../images/news-single.jpg"
-                      width="768"
-                      height="432"
+                      src="/projects/images/wuliangsuhai/wusu.png"
+                      style="width: auto; height: 300px"
                       alt="Blog single"
                     />
                   </figure>
-                  <h3
-                    id="general"
-                    class="h3 text-gray-900 mb-4"
-                    style="scroll-margin-top: 100px"
-                  >
-                    General content
-                  </h3>
                   <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend, arcu dictum varius duis at consectetur lorem donec
-                    massa sapien, sed risus ultricies tristique nulla aliquet.
-                    Morbi tristique senectus et netus et, nibh nisl condimentum
-                    id venenatis a condimentum vitae sapien.
+                    我们利用自主研发的水动力模型以及数据库来模拟湖泊中水流的流速、流向以及湖泊水位的变化。这些模型通常基于水文学、气象学和物理学的数据，如湖泊的地形、气候条件、入湖和出湖水流的量等因素。
                   </p>
                   <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <ul class="list-disc list-inside mb-8">
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >E-commerce</strong
-                      >: Better lorem ipsum generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Booking</strong
-                      >: Lorem ipsum post generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900">Retail</strong>:
-                      Generic dummy blog post generator.
-                    </li>
-                    <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >On-demand services</strong
-                      >: Lorem ipsum generator shortcode.
-                    </li>
-                  </ul>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <p class="mb-8">
-                    <a
-                      class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
-                      href="#0"
-                    >
-                      <span>Read Simple on-demand services</span>
-                      <svg
-                        class="w-3 h-3 fill-current text-blue-400 shrink-0 ml-2"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                        />
-                      </svg>
-                    </a>
-                  </p>
-                  <p class="mb-8">
-                    Aenean sed adipiscing
-                    <em class="italic"
-                      >diam donec adipiscing tristique risus nec feugiat</em
-                    >
-                    auctor urna nunc id cursus metus aliquam eleifend, arcu
-                    dictum varius duis at consectetur lorem donec massa sapien,
-                    sed risus ultricies tristique nulla aliquet.
-                  </p>
-                  <h4 class="h4 text-gray-900 mb-4">
-                    Why support for Business is important
-                  </h4>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend.
-                  </p>
-                  <blockquote class="italic text-gray-900 font-medium mb-8">
-                    “ Mi in nulla posuere sollicitudin. Porttitor eget dolor
-                    morbi non arcu risus quis varius quam. Pharetra vel turpis
-                    nunc eget lorem dolor sed viverra. Semper auctor neque vitae
-                    tempus quam pellentesque nec. “
-                  </blockquote>
-                  <p class="mb-8">
-                    Et leo duis ut diam quam nulla porttitor porttitor lacus
-                    luctus accumsan tortor, lorem dolor sed viverra ipsum nunc
-                    aliquet bibendum enim eu augue ut lectus arcu bibendum at.
-                    Non sodales neque sodales ut etiam sit. Venenatis urna
-                    cursus eget nunc scelerisque viverra mauris in aliquam.
-                  </p>
-                  <p
-                    class="p-4 bg-gray-100 border border-gray-300 rounded mb-8"
-                  >
-                    <a class="text-gray-900 underline" href="#0">Simple</a> is a
-                    sed viverra ipsum nunc aliquet bibendum enim eu augue ut
-                    lectus arcu bibendum at. Non sodales neque sodales ut etiam
-                    sit. Venenatis urna cursus eget nunc scelerisque viverra
-                    mauris in aliquam. Learn more
-                    <a class="text-gray-900 underline" href="#0">here</a>.
-                  </p>
-                  <h3
-                    id="additional"
-                    class="h3 text-gray-900 mb-4"
-                    style="scroll-margin-top: 100px"
-                  >
-                    Additional reading
-                  </h3>
-                  <p class="mb-8">
-                    Aenean sed adipiscing diam donec adipiscing tristique risus
-                    nec feugiat auctor urna nunc id cursus metus aliquam
-                    eleifend:
-                  </p>
-                  <p class="mb-8">
-                    <strong class="font-medium text-gray-900"
-                      >Mi in nulla posuere sollicitudin:</strong
-                    >
-                  </p>
-                  <ul class="list-disc list-inside mb-8">
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >E-commerce for etter lorem ipsum generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Booking for lorem ipsum post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >Retail for generic dummy blog post generator</a
-                      >
-                    </li>
-                    <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
-                        >On-demand services: Lorem ipsum generator shortcode</a
-                      >
-                    </li>
-                  </ul>
-                  <h3
-                    id="conclusion"
-                    class="h3 text-gray-900 mb-4"
-                    style="scroll-margin-top: 100px"
-                  >
-                    Conclusion
-                  </h3>
-                  <p>
-                    Sollicitudin ac orci phasellus egestas tellus rutrum telluse
-                    nim ut tellus elementum sagittis vitae et leo duis egestas
-                    purus viverra accumsan in nisl nisi scelerisquep ellentesque
-                    habitant morbi tristique, senectus et netus et dolor purus
-                    non enim praesent elementum facilisis leol, aoreet
-                    suspendisse interdum consectetur libero id faucibus.
+                    模拟还包括对湖泊内部的营养盐循环和污染物扩散进行可视化分析，以研究人类活动对湖泊水质的影响。通过这种模拟，研究人员可以预测在不同的环境管理策略下湖泊的水质和生态状况的变化，为湖泊的环境保护和可持续管理提供科学依据。
                   </p>
 
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      Interested in more tips like this? Check out
+                      了解细节或寻求更多技术合作
                       <a class="text-gray-900 underline" href="#0"
-                        >Introducing the Testing Field Guide</a
+                        >点击该链接进行联系</a
                       >.
                     </div>
                     <div class="mt-6">
                       <router-link
-                        to="/blog"
+                        to="/projects"
                         class="inline-flex items-center text-base text-blue-600 font-medium hover:underline"
                       >
                         <svg
@@ -316,7 +93,7 @@
                             d="M.293 5.282L5 .5l1.414 1.436-3 3.048H12v2.032H3.414l3 3.048L5 11.5.293 6.718a1.027 1.027 0 010-1.436z"
                           />
                         </svg>
-                        <span>Back to the blog</span>
+                        <span>返回</span>
                       </router-link>
                     </div>
                   </div>
