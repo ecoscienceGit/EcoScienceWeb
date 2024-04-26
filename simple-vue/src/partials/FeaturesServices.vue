@@ -10,7 +10,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">
-          <h2 class="h2 mb-4">业务范围</h2>
+          <h2 class="h2 mb-4">{{ $t('services') }}</h2>
         </div>
 
         <!-- Items -->
@@ -27,8 +27,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧水利</p>
-              <p class="text-gray-600 text-center">一维二维三维水环境模拟软件定制</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterManagement') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.waterEnvSimSoftCustom') }}</p>
             </div>
           </router-link>
 
@@ -42,8 +42,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧水质</p>
-              <p class="text-gray-600 text-center">一维二维三维水质模型</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterQuality') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.waterQualityModels') }}</p>
             </div>
           </router-link>
 
@@ -60,8 +60,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧生态</p>
-              <p class="text-gray-600 text-center">人工智能大数据分析、清源智慧生态ecosohere、燃烧动力学</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartEcology') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.aiBigDataEcosphere') }}</p>
             </div>
           </router-link>
           
@@ -79,8 +79,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">数字孪生</p>
-              <p class="text-gray-600 text-center">流域数值模拟与水质数字孪生化--掌握水环境的未来</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.digitalTwin') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.waterEnvFuture') }}</p>
             </div>
           </router-link>
         </div>

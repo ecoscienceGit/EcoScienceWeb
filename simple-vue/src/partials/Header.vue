@@ -26,28 +26,28 @@
               <router-link
                 to="/about"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >关于我们</router-link
+                >{{ $t('about') }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/services"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >业务范围</router-link
+                >{{ $t('services') }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/blog"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >公司动态</router-link
+                >{{ $t('blog') }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/projects"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >项目案例</router-link
+                >{{ $t('projects') }}</router-link
               >
             </li>
             <!-- <li>
@@ -121,36 +121,52 @@
                   <router-link
                     to="/about"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >关于我们</router-link
+                    >{{ $t('about') }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/services"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >业务范围</router-link
+                    >{{ $t('services') }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/blog"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >公司动态</router-link
+                    >{{ $t('blog') }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/projects"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >项目案例</router-link
+                    >{{ $t('projects') }}</router-link
                   >
                 </li>
-                <li>
+                <!-- <li>
                   <router-link
                     to="/download"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
                     >软件下载</router-link
                   >
+                </li> -->
+                <li>
+                  <Dropdown :title="currentLocale === 'en' ? 'English' : '简体中文'">
+                    <li>
+                      <button 
+                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                        @click="changeLocale('en')"
+                      >English</button>
+                    </li>
+                    <li>
+                      <button 
+                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                        @click="changeLocale('zh')"
+                      >简体中文</button>
+                    </li>
+                  </Dropdown>
                 </li>
               </ul>
             </nav>

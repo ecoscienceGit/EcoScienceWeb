@@ -5,7 +5,7 @@
 
         <!-- Page header -->
         <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-          <h1 class="h1">公司动态</h1>
+          <h1 class="h1">{{ $t('blog') }}</h1>
         </div>
 
         <!-- Section tags -->
@@ -15,16 +15,16 @@
               <a v-on:click="toggleTabs(0)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 0, 'text-blue-600': openTab === 0}">全部</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">公司动态</a>
+              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">{{ $t('blog') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">实习招聘</a>
+              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">{{ $t('blog.internshipRecruitment') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">学术会议</a>
+              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">{{ $t('blog.academicConferences') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(4)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 4, 'text-blue-600': openTab === 4}">相关培训</a>
+              <a v-on:click="toggleTabs(4)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 4, 'text-blue-600': openTab === 4}">{{ $t('blog.relatedTraining') }}</a>
             </li>
           </ul>
         </div>

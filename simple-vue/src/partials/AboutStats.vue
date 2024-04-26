@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-16">
-          <h2 class="h2 mb-4">资质荣誉</h2>
+          <h2 class="h2 mb-4">{{ $t('about.qualificationsHonors') }}</h2>
           <p class="text-xl text-gray-600"></p>
         </div>
 
@@ -115,37 +115,37 @@
           <!-- 1st item -->
           <div class="text-center">
             <div class="h3 mb-1">20+</div>
-            <div class="text-gray-600">知名科研院所及高校院士教授、博士硕士</div>
+            <div class="text-gray-600">{{ $t('about.stat.team') }}</div>
           </div>
 
           <!-- 2nd item -->
           <div class="text-center">
             <div class="h3 mb-1">15+</div>
-            <div class="text-gray-600">发明专利、软件著作权等成果</div>
+            <div class="text-gray-600">{{ $t('about.stat.patent') }}</div>
           </div>
 
           <!-- 3rd item -->
           <div class="text-center">
             <div class="h3 mb-1">15+</div>
-            <div class="text-gray-600">合作单位包括海内外知名科研院所及高校</div>
+            <div class="text-gray-600">{{ $t('about.stat.cooperator') }}</div>
           </div>
 
           <!-- 4th item -->
           <div class="text-center">
             <div class="h3 mb-1">50+</div>
-            <div class="text-gray-600">海内外访问学者、硕博升学辅导案例</div>
+            <div class="text-gray-600">{{ $t('about.stat.admission') }}</div>
           </div>
 
           <!-- 5th item -->
           <div class="text-center">
             <div class="h3 mb-1">10+</div>
-            <div class="text-gray-600">业务涉及国家</div>
+            <div class="text-gray-600">{{ $t('about.stat.market') }}</div>
           </div>
 
           <!-- 6th item -->
           <div class="text-center">
-            <div class="h3 mb-1">140万+</div>
-            <div class="text-gray-600">湖泊、水库、水体数据库（包含机器学习模型以及水动力水质模型）</div>
+            <div class="h3 mb-1">{{ '140' + $t('about.stat.million') + '+' }}</div>
+            <div class="text-gray-600">{{ $t('about.stat.database') }}</div>
           </div>
 
         </div>

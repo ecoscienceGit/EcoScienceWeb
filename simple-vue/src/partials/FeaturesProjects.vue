@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">
-          <h2 class="h2">项目案例</h2>
+          <h2 class="h2">{{ $t('projects') }}</h2>
         </div>
 
         <!-- Articles list -->
@@ -139,7 +139,7 @@
         <div class="max-w-6xl mx-auto mt-8 text-center border-t border-gray-200 pb-12 md:pb-20">
           <p class="text-blue-600 mt-8">
             <router-link to="/projects" class="hover:underline"
-            >查看更多</router-link>
+            >{{ $t('viewMore') }}</router-link>
           </p>
         </div>
       </div>
