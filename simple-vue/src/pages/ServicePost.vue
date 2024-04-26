@@ -25,6 +25,7 @@ import ServiceW2 from './../partials/services/ServiceW2.vue'
 import ServiceDataPython from './../partials/services/ServiceDataPython.vue'
 import ServiceDigitalTwinSystem from '../partials/services/ServiceDigitalTwinSystem.vue'
 import Footer from './../partials/Footer.vue'
+import ServiceGlobalDatabase from '../partials/services/ServiceGlobalDatabase.vue'
 
 export default {
   name: 'ServicePost',
@@ -44,6 +45,8 @@ export default {
           return ServiceDataPython
         case "digital-twin-system":
           return ServiceDigitalTwinSystem
+        case "global-database":
+          return ServiceGlobalDatabase
         default:
           return null;
       }
