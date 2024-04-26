@@ -17,17 +17,8 @@
         <div class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
 
           <!-- 1st item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <!-- <svg class="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fill-rule="evenodd">
-                  <rect class="fill-current text-blue-600" width="64" height="64" rx="32" />
-                  <g stroke-width="2" class="transform scale-90 translate-x-2.5 translate-y-2">
-                  <path class="stroke-current text-white" stroke-linecap="round" stroke-linejoin="round" d="M9 29C11.7614 29 14 26.7614 14 24C14 26.7614 16.2386 29 19 29C21.7614 29 24 26.7614 24 24C24 26.7614 26.2386 29 29 29C31.7614 29 34 26.7614 34 24C34 26.7614 36.2386 29 39 29C41.7614 29 44 26.7614 44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 26.7614 6.23858 29 9 29Z" />
-                  <path class="stroke-current text-white" stroke-linecap="round" stroke-linejoin="round" d="M28 13C28 15.2091 26.2091 17 24 17C21.7909 17 20 15.2091 20 13C20 10.7909 24 4 24 4C24 4 28 10.7909 28 13Z"/>
-                  </g>
-                </g>
-              </svg> -->
 
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -39,10 +30,10 @@
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧水利</p>
               <p class="text-gray-600 text-center">一维二维三维水环境模拟软件定制</p>
             </div>
-          </a>
+          </router-link>
 
           <!-- 2nd item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -54,11 +45,11 @@
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧水质</p>
               <p class="text-gray-600 text-center">一维二维三维水质模型</p>
             </div>
-          </a>
+          </router-link>
 
 
           <!-- 3rd item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -72,12 +63,12 @@
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">智慧生态</p>
               <p class="text-gray-600 text-center">人工智能大数据分析、清源智慧生态ecosohere、燃烧动力学</p>
             </div>
-          </a>
+          </router-link>
           
 
 
           <!-- 4th item -->
-          <a class="transition duration-300 ease-in-out hover:shadow-lg mb-4" href="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -91,7 +82,7 @@
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">数字孪生</p>
               <p class="text-gray-600 text-center">流域数值模拟与水质数字孪生化--掌握水环境的未来</p>
             </div>
-          </a>
+          </router-link>
         </div>
 
       </div>

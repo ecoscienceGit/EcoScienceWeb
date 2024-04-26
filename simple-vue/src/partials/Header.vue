@@ -14,7 +14,7 @@
               alt="Icon"
               class="w-10 h-10 mr-2"
             />
-            <h3 class="text-blue-111 font-semibold">思益清源</h3>
+            <h3 class="text-blue-111 font-semibold">{{ $t('title') }}</h3>
           </router-link>
         </div>
 
@@ -57,7 +57,24 @@
                 >软件下载</router-link
               >
             </li> -->
-            <!-- 后期加入中英文转换按钮 -->
+
+            <!-- switch language -->
+            <li>
+              <Dropdown :title="currentLocale === 'en' ? 'English' : '简体中文'">
+                <li>
+                  <button 
+                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                    @click="changeLocale('en')"
+                  >English</button>
+                </li>
+                <li>
+                  <button 
+                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                    @click="changeLocale('zh')"
+                  >简体中文</button>
+                </li>
+              </Dropdown>
+            </li>
           </ul>
         </nav>
 
@@ -146,6 +163,7 @@
 
 <script>
 import Dropdown from "./../utils/Dropdown.vue";
+import { useI18n } from 'vue-i18n'
 
 export default {
   name: "Header",
@@ -157,6 +175,18 @@ export default {
       mobileNavOpen: false,
       top: true,
     };
+  },
+  setup() {
+    const { locale } = useI18n()
+
+    const changeLocale = (newLocale) => {
+      locale.value = newLocale
+    }
+
+    return {
+      changeLocale,
+      currentLocale: locale
+    }
   },
   methods: {
     clickOutside(e) {
