@@ -14,7 +14,7 @@
                 <img
                   src="../images/EcoSci_icon_2.png"
                   alt="Icon"
-                  class="w-32 h-36 mr-2"
+                  class="w-32 h-26 mr-2"
                 />
               </router-link>
             </router-link>
@@ -174,7 +174,6 @@
       <div
         class="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200"
       >
-
         <!-- Copyrights note -->
         <div class="text-sm text-gray-600 mr-4">
           &copy; 2024 陕西思益清源科技公司

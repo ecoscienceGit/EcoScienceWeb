@@ -201,7 +201,7 @@
                       了解细节或寻求更多技术合作
                       <a class="text-gray-900 underline" href="#0"
                         >点击该链接进行联系</a
-                      >.
+                      >
                     </div>
                     <div class="mt-6">
                       <router-link
