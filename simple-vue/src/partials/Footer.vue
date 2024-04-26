@@ -30,25 +30,15 @@
           >
           <ul class="text-sm">
             <li class="mb-2">
-              <router-link
-                to="/about"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >公司概况</router-link
-              >
+              <div class="text-gray-600">
+                公司概况
+              </div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/about"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >资质荣誉</router-link
-              >
+              <div class="text-gray-600">资质荣誉</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/about"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >联系方式</router-link
-              >
+              <div class="text-gray-600">联系方式</div>
             </li>
           </ul>
         </div>
@@ -62,39 +52,19 @@
           >
           <ul class="text-sm">
             <li class="mb-2">
-              <router-link
-                to="/services"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >智慧水利</router-link
-              >
+              <div class="text-gray-600">智慧水利</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/services"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >智慧水质</router-link
-              >
+              <div class="text-gray-600">智慧水质</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/services"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >智慧生态</router-link
-              >
+              <div class="text-gray-600">智慧生态</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/services"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >数字孪生</router-link
-              >
+              <div class="text-gray-600">数字孪生</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/services"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >教育咨询</router-link
-              >
+              <div class="text-gray-600">教育咨询</div>
             </li>
           </ul>
         </div>
@@ -108,25 +78,13 @@
           >
           <ul class="text-sm">
             <li class="mb-2">
-              <router-link
-                to="/blog"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >实习招聘</router-link
-              >
+              <div class="text-gray-600">实习招聘</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/blog"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >学术会议</router-link
-              >
+              <div class="text-gray-600">学术会议</div>
             </li>
             <li class="mb-2">
-              <router-link
-                to="/blog"
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >相关培训</router-link
-              >
+              <div class="text-gray-600">相关培训</div>
             </li>
           </ul>
         </div>

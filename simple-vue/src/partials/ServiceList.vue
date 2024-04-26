@@ -70,7 +70,10 @@
                 <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
                   <!-- 1st service -->
-                  <a href="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 1, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 1}">
+                  <router-link 
+                    to="/services-post/rtm-mr" 
+                    v-bind:class="{'hidden': openTab !== 1, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 1}"
+                  >
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">反应运移-机理简化（RTM-MR ） 耦合建模方法</p>
                       <p class="text-sm mt-4">
@@ -79,10 +82,13 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 2nd article -->
-                  <a href="/services-post/ce-qual-w2" v-bind:class="{'hidden': openTab !== 2, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 2}">
+                  <router-link 
+                    to="/services-post/ce-qual-w2" 
+                    v-bind:class="{'hidden': openTab !== 2, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 2}"
+                  >
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">立面二维水动力水质水生态模型 CE-QUAL-W2</p>
                       <p class="text-sm mt-4">
@@ -91,10 +97,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 3rd article -->
-                  <a href="/services-post/data-python" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
+                  <router-link to="/services-post/data-python" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">Python大数据处理与数据挖掘</p>
                       <p class="text-sm mt-4">
@@ -103,10 +109,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 4th article -->
-                  <a href="/services-post/global-database" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
+                  <router-link to="/services-post/global-database" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">全球综合数据库</p>
                       <p class="text-sm mt-4">
@@ -115,10 +121,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 5th article -->
-                  <a href="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
+                  <router-link to="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">清源智慧生态Ecosohere</p>
                       <p class="text-sm mt-4">
@@ -127,10 +133,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 6th article -->
-                  <a href="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
+                  <router-link to="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">燃烧与热力系统</p>
                       <p class="text-sm mt-4">
@@ -139,10 +145,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 7th article -->
-                  <a href="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
+                  <router-link to="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">流域数值模拟与水质数字孪生化</p>
                       <p class="text-sm mt-4">
@@ -151,10 +157,10 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                   <!-- 8th article -->
-                  <a href="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 5, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 5}">
+                  <router-link to="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 5, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 5}">
                     <div class="items-left p-8">
                       <p class="text-gray-900 pd-12 grow">GPT 服务案例以及指令指南</p>
                       <p class="text-sm mt-4">
@@ -163,7 +169,7 @@
                         </div>
                       </p> 
                     </div>
-                  </a>
+                  </router-link>
 
                 </div>
               </div>
