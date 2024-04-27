@@ -12,19 +12,16 @@
         <div class="border-b border-gray-300 pb-4 mb-12">
           <ul class="flex flex-wrap justify-center md:justify-start font-medium -mx-5 -my-1">
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(0)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 0, 'text-blue-600': openTab === 0}">全部</a>
+              <a v-on:click="toggleTabs(0)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 0, 'text-blue-600': openTab === 0}">{{ $t('blog') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">{{ $t('blog') }}</a>
+              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">{{ $t('blog.internshipRecruitment') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">{{ $t('blog.internshipRecruitment') }}</a>
+              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">{{ $t('blog.academicConferences') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">{{ $t('blog.academicConferences') }}</a>
-            </li>
-            <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(4)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 4, 'text-blue-600': openTab === 4}">{{ $t('blog.relatedTraining') }}</a>
+              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">{{ $t('blog.relatedTraining') }}</a>
             </li>
           </ul>
         </div>
@@ -37,7 +34,7 @@
 
             <!-- 1st article -->
             <!-- <article data-aos="zoom-y-out" v-bind:class="{'hidden': openTab !== 0, 'block flex flex-col h-full': openTab === 0}"> -->
-            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 4), 'block flex flex-col h-full': openTab === 0 || openTab === 4}">
+            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 3), 'block flex flex-col h-full': openTab === 0 || openTab === 3}">
               <header>
                 <router-link to="/blog-post" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
@@ -58,7 +55,7 @@
 
             <!-- 2nd article -->
             <!-- <article class="block flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="150"> -->
-            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 1), 'block flex flex-col h-full': openTab === 0 || openTab === 1}">
+            <article v-bind:class="{'hidden': !(openTab === 0), 'block flex flex-col h-full': openTab === 0}">
               <header>
                 <router-link to="/blog-post" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
@@ -79,7 +76,7 @@
 
             <!-- 3rd article -->
             <!-- <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300"> -->
-            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 2), 'block flex flex-col h-full': openTab === 0 || openTab === 2}">
+            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 1), 'block flex flex-col h-full': openTab === 0 || openTab === 1}">
               <header>
                 <router-link to="/blog-post" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
@@ -87,7 +84,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
-                  <router-link to="/blog-post" class="hover:underline">思益清源2023上半年总结</router-link>
+                  <router-link to="/blog-post" class="hover:underline">training</router-link>
                 </h3>
               </header>
               <p class="text-gray-600 grow">亲爱的读者朋友们，回顾过去的半年，陕西思益清源科技有限公司在科研和合作领域取得了令人瞩目的成绩！让我们一起来看看我们的主要亮点和成就……</p>
