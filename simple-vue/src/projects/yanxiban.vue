@@ -140,24 +140,24 @@
                   </h3>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
+                      <span class="text-gray-900 underline"
                         >第一期到第三期全国模型培训班
-                      </a>
+                      </span>
                     </li>
                     <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
+                      <span class="text-gray-900 underline"
                         >郑州专场模型培训班：与黄河水资源保护科学研究院合作
-                      </a>
+                      </span>
                     </li>
                     <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
+                      <span class="text-gray-900 underline"
                         >云南大学定制化模型培训
-                      </a>
+                      </span>
                     </li>
                     <li class="mb-1">
-                      <a class="text-gray-900 underline" href="#0"
+                      <span class="text-gray-900 underline"
                         >长江委设计院定制化培训
-                      </a>
+                      </span>
                     </li>
                   </ul>
 
