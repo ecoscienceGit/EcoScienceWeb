@@ -61,8 +61,13 @@
 
               <!-- Main content -->
               <div>
-                <!-- Article meta -->
-
+                <img
+                  class="w-full rounded"
+                  src="/projects/images/guxian/guxianshow.jpg"
+                  width="768"
+                  height="432"
+                  alt="Blog single"
+                />
                 <!-- Article body -->
                 <div class="text-lg text-gray-600">
                   <p
@@ -101,7 +106,7 @@
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
                       了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="#0"
+                      <a class="text-gray-900 underline" href="/contacts"
                         >点击该链接进行联系</a
                       >.
                     </div>
