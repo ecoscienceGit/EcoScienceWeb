@@ -32,85 +32,62 @@
           <!-- Articles container -->
           <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
-            <!-- 1st article -->
-            <!-- <article data-aos="zoom-y-out" v-bind:class="{'hidden': openTab !== 0, 'block flex flex-col h-full': openTab === 0}"> -->
             <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 3), 'block flex flex-col h-full': openTab === 0 || openTab === 3}">
               <header>
-                <router-link to="/blog-post" class="block mb-6">
+                <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485114&idx=1&sn=766302a0af17eccec95645f145485a7f&chksm=ce42e270f9356b66fae534e1add565bee10fd232db46137a34d6c24db0f8c1abdb042465c08c&token=2005173252&lang=zh_CN#rd" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-01.jpg" width="352" height="198" alt="News 01" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/news-tutorialZZ.png" width="352" height="198" alt="News ZhengZhou Tutorial" />
                   </figure>
-                </router-link>
+                </a>
                 <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
-                  <router-link to="/blog-post" class="hover:underline">第三期全国CE-QUAL-W2研习班圆满结束！</router-link>
+                  <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485114&idx=1&sn=766302a0af17eccec95645f145485a7f&chksm=ce42e270f9356b66fae534e1add565bee10fd232db46137a34d6c24db0f8c1abdb042465c08c&token=2005173252&lang=zh_CN#rd" class="hover:underline">{{ $t('news.tutorialZZ.title') }}</a>
                 </h3>
               </header>
-              <p class="text-gray-600 grow">2023年7月15日-19日，在武汉举办的初阶（3天）及高阶（2天）水环境模型研习班圆满结束。</p>
+              <p class="text-gray-600 grow">{{ $t('news.tutorialZZ.summary') }}</p>
               <footer class="text-sm flex items-center mt-4">
                 <div>
-                  <span class="text-gray-600">2023年8月12日</span>
+                  <span class="text-gray-600">{{ $t('news.tutorialZZ.date') }}</span>
                 </div>
               </footer>
             </article>
 
-            <!-- 2nd article -->
-            <!-- <article class="block flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="150"> -->
             <article v-bind:class="{'hidden': !(openTab === 0), 'block flex flex-col h-full': openTab === 0}">
               <header>
-                <router-link to="/blog-post" class="block mb-6">
+                <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485072&idx=1&sn=b29b7e1816cc2e1c45083c3373bf4d0a&chksm=ce42e25af9356b4ca659ac23fd7564bc3fdf9fe94c8304c181015d0c92729f2f876544c1bff4&token=2005173252&lang=zh_CN#rd" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-02.jpg" width="352" height="198" alt="News 02" />
+                    <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/w2UIv1.png" width="352" height="198" alt="News w2 UI v1.0" />
                   </figure>
-                </router-link>
+                </a>
                 <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
-                  <router-link to="/blog-post" class="hover:underline">思益清源2023上半年总结</router-link>
+                  <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485072&idx=1&sn=b29b7e1816cc2e1c45083c3373bf4d0a&chksm=ce42e25af9356b4ca659ac23fd7564bc3fdf9fe94c8304c181015d0c92729f2f876544c1bff4&token=2005173252&lang=zh_CN#rd" class="hover:underline">{{ $t('news.w2UIv1.title') }}</a>
                 </h3>
               </header>
-              <p class="text-gray-600 grow">亲爱的读者朋友们，回顾过去的半年，陕西思益清源科技有限公司在科研和合作领域取得了令人瞩目的成绩！让我们一起来看看我们的主要亮点和成就……</p>
+              <p class="text-gray-600 grow">{{ $t('news.w2UIv1.summary') }}</p>
               <footer class="text-sm flex items-center mt-4">
                 <div>
-                  <span class="text-gray-600">2023年7月1日</span>
+                  <span class="text-gray-600">{{ $t('news.w2UIv1.date') }}</span>
                 </div>
               </footer>
             </article>
 
-            <!-- 3rd article -->
-            <!-- <article class="flex flex-col h-full" data-aos="zoom-y-out" data-aos-delay="300"> -->
-            <article v-bind:class="{'hidden': !(openTab === 0 || openTab === 1), 'block flex flex-col h-full': openTab === 0 || openTab === 1}">
+            <article v-bind:class="{'hidden': !(openTab === 0), 'block flex flex-col h-full': openTab === 0}">
               <header>
-                <router-link to="/blog-post" class="block mb-6">
+                <a href="https://mp.weixin.qq.com/s/szZ6POtcMg2pQyEoT3-0pA" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
                     <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-02.jpg" width="352" height="198" alt="News 02" />
                   </figure>
-                </router-link>
+                </a>
                 <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
-                  <router-link to="/blog-post" class="hover:underline">training</router-link>
+                  <a href="https://mp.weixin.qq.com/s/szZ6POtcMg2pQyEoT3-0pA" class="hover:underline">{{ $t('news.sum23.title') }}</a>
                 </h3>
               </header>
-              <p class="text-gray-600 grow">亲爱的读者朋友们，回顾过去的半年，陕西思益清源科技有限公司在科研和合作领域取得了令人瞩目的成绩！让我们一起来看看我们的主要亮点和成就……</p>
+              <p class="text-gray-600 grow">{{ $t('news.sum23.summary') }}</p>
               <footer class="text-sm flex items-center mt-4">
                 <div>
-                  <span class="text-gray-600">2023年7月1日</span>
+                  <span class="text-gray-600">{{ $t('news.sum23.date') }}</span>
                 </div>
               </footer>
             </article>
-
-            <!-- 4th article -->
-           
-
-            <!-- 5th article -->
-            
-
-            <!-- 6th article -->
-            
-
-            <!-- 7th article -->
-  
-
-            <!-- 8th article -->
-            
-
-            <!-- 9th article -->
             
           </div>
 

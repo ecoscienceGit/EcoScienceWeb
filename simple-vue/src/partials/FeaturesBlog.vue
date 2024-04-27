@@ -13,24 +13,23 @@
           <div class="md:grow -mt-4">
             <!-- 1st article -->
             <article class="flex items-center py-4 border-b border-gray-200">
-              <div>
+              <div class="flex-grow">
                 <header>
                   <h2 class="h4 mb-2">
-                    <router-link to="/blog-post" class="hover:underline"
-                      >第三期全国CE-QUAL-W2研习班圆满结束！</router-link
-                    >
+                    <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485114&idx=1&sn=766302a0af17eccec95645f145485a7f&chksm=ce42e270f9356b66fae534e1add565bee10fd232db46137a34d6c24db0f8c1abdb042465c08c&token=2005173252&lang=zh_CN#rd" class="hover:underline"
+                      >{{ $t('news.tutorialZZ.title') }}</a>
                   </h2>
                 </header>
                 <div class="text-lg text-gray-600 mb-4">
-                  2023年7月15日-19日，在武汉举办的初阶（3天）及高阶（2天）水环境模型研习班圆满结束。本次研习班由陕西思益清源科技有限公司、湖北工业大学、加拿大滑铁卢大学共同承办，经过三年的积累与发展，我们呈现全新升级的培训内容，为参与者带来更丰富的学习体验与惊喜！
+                  {{ $t('news.tutorialZZ.summary') }}
                 </div>
                 <footer class="text-sm">
                   <div class="flex items-center">
-                    <span class="text-gray-600">2023年8月12日</span>
+                    <span class="text-gray-600">{{ $t('news.tutorialZZ.date') }}</span>
                   </div>
                 </footer>
               </div>
-              <router-link to="/blog-post" class="block shrink-0 ml-6">
+              <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485114&idx=1&sn=766302a0af17eccec95645f145485a7f&chksm=ce42e270f9356b66fae534e1add565bee10fd232db46137a34d6c24db0f8c1abdb042465c08c&token=2005173252&lang=zh_CN#rd" class="block shrink-0 ml-6">
                 <span class="sr-only">Read more</span>
                 <svg
                   class="w-4 h-4 fill-current text-blue-600"
@@ -41,29 +40,28 @@
                     d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"
                   />
                 </svg>
-              </router-link>
+              </a>
             </article>
 
             <!-- 2nd article -->
             <article class="flex items-center py-4 border-b border-gray-200">
-              <div>
+              <div class="flex-grow">
                 <header>
                   <h2 class="h4 mb-2">
-                    <router-link to="/blog-post" class="hover:underline"
-                      >思益清源2023上半年总结</router-link
-                    >
+                    <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485072&idx=1&sn=b29b7e1816cc2e1c45083c3373bf4d0a&chksm=ce42e25af9356b4ca659ac23fd7564bc3fdf9fe94c8304c181015d0c92729f2f876544c1bff4&token=2005173252&lang=zh_CN#rd" class="hover:underline"
+                      >{{ $t('news.w2UIv1.title') }}</a>
                   </h2>
                 </header>
                 <div class="text-lg text-gray-600 mb-4">
-                  亲爱的读者朋友们，回顾过去的半年，陕西思益清源科技有限公司在科研和合作领域取得了令人瞩目的成绩！让我们一起来看看我们的主要亮点和成就：
+                  {{ $t('news.w2UIv1.summary') }}
                 </div>
                 <footer class="text-sm">
                   <div class="flex items-center">
-                    <span class="text-gray-600">2023年7月1日</span>
+                    <span class="text-gray-600">{{ $t('news.w2UIv1.date') }}</span>
                   </div>
                 </footer>
               </div>
-              <router-link to="/blog-post" class="block shrink-0 ml-6">
+              <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjkwNzU1Nw==&mid=2247485072&idx=1&sn=b29b7e1816cc2e1c45083c3373bf4d0a&chksm=ce42e25af9356b4ca659ac23fd7564bc3fdf9fe94c8304c181015d0c92729f2f876544c1bff4&token=2005173252&lang=zh_CN#rd" class="block shrink-0 ml-6">
                 <span class="sr-only">Read more</span>
                 <svg
                   class="w-4 h-4 fill-current text-blue-600"
@@ -74,29 +72,28 @@
                     d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"
                   />
                 </svg>
-              </router-link>
+              </a>
             </article>
 
             <!-- 3rd article -->
             <article class="flex items-center py-4 border-b border-gray-200">
-              <div>
+              <div class="flex-grow">
                 <header>
                   <h2 class="h4 mb-2">
-                    <router-link to="/blog-post" class="hover:underline"
-                      >第二期全国CE-QUAL-W2研习班圆满结束！</router-link
-                    >
+                    <a href="https://mp.weixin.qq.com/s/szZ6POtcMg2pQyEoT3-0pA" class="hover:underline"
+                      >{{ $t('news.sum23.title') }}</a>
                   </h2>
                 </header>
                 <div class="text-lg text-gray-600 mb-4">
-                  2019年8月16日-20日，为期5天（初阶班3 天，高阶班2天）的CE-QUAL-W2模型研习班圆满的结束了，本次培训课程依然由武汉善水清源环境科技有限公司承办。不同于第一期研习班的是，第二期W2研习班针对学员基础及学员需求将课程内容调整为初阶和高阶，以增加学员的吸收效率。5天满满当当的内容可谓是魔鬼训练！
+                  {{ $t('news.sum23.summary') }}
                 </div>
                 <footer class="text-sm">
                   <div class="flex items-center">
-                    <span class="text-gray-600">2019年9月26日</span>
+                    <span class="text-gray-600">{{ $t('news.sum23.date') }}</span>
                   </div>
                 </footer>
               </div>
-              <router-link to="/blog-post" class="block shrink-0 ml-6">
+              <a href="https://mp.weixin.qq.com/s/szZ6POtcMg2pQyEoT3-0pA" class="block shrink-0 ml-6">
                 <span class="sr-only">Read more</span>
                 <svg
                   class="w-4 h-4 fill-current text-blue-600"
@@ -107,7 +104,7 @@
                     d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"
                   />
                 </svg>
-              </router-link>
+              </a>
             </article>
           </div>
         </div>

@@ -62,6 +62,18 @@
   "services.educationConsulting.apply": "Study Abroad",
   "services.educationConsulting.writing": "Essay Writing",
 
+  "news.sum23.title": "Ecoedu Society Mid-Year Summary 2023",
+  "news.sum23.summary": "Looking back over the past six months, Ecoedu Society has achieved remarkable results in the fields of scientific research and cooperation! Let's take a look at our main highlights and accomplishments...",
+  "news.sum23.date": "July 1, 2023",
+
+  "news.tutorialZZ.title": "Zhengzhou Special: Water Environmental Mathematical Model Workshop Concludes Successfully",
+  "news.tutorialZZ.summary": "As the spring breeze blows, the three-day Water Environmental Mathematical Model Workshop held in Zhengzhou, Henan, has successfully concluded, earning unanimous praise from participants...",
+  "news.tutorialZZ.date": "April 2, 2024",
+
+  "news.w2UIv1.title": "Ecoedu Smart Water Model V1.0",
+  "news.w2UIv1.summary": "Introducing the Ecoedu Smart Water Model, a brand-new, domestically produced intelligent hydrodynamics and water quality modeling software. Integrated with a self-developed database, this software represents a major innovation in the field of smart water management...",
+  "news.w2UIv1.date": "March 18, 2024",
+
   "project.huanghe": "Ecological Review of Guxian Project, Yellow River",
   "project.wuliangsu": "Hydrodynamic simulation of the Wuliangsu Sea",
   "project.nanshui": "Wet Deposition, South-North Canal",
