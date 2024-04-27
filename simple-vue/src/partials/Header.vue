@@ -10,11 +10,11 @@
           <!-- Logo -->
           <router-link to="/" class="flex items-center" aria-label="Cruip">
             <img
-              src="../images/EcoSci_icon_1.png"
+              src="../images/EcoSci_icon_2.png"
               alt="Icon"
               class="w-10 h-10 mr-2"
             />
-            <h3 class="text-blue-111 font-semibold">{{ $t('title') }}</h3>
+            <h3 class="text-blue-111 font-semibold">{{ $t("title") }}</h3>
           </router-link>
         </div>
 
@@ -26,28 +26,28 @@
               <router-link
                 to="/about"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t('about') }}</router-link
+                >{{ $t("about") }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/services"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t('services') }}</router-link
+                >{{ $t("services") }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/blog"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t('blog') }}</router-link
+                >{{ $t("blog") }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/projects"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t('projects') }}</router-link
+                >{{ $t("projects") }}</router-link
               >
             </li>
             <!-- <li>
@@ -60,18 +60,24 @@
 
             <!-- switch language -->
             <li>
-              <Dropdown :title="currentLocale === 'en' ? 'English' : '简体中文'">
+              <Dropdown
+                :title="currentLocale === 'en' ? 'English' : '简体中文'"
+              >
                 <li>
-                  <button 
-                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                  <button
+                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
                     @click="changeLocale('en')"
-                  >English</button>
+                  >
+                    English
+                  </button>
                 </li>
                 <li>
-                  <button 
-                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                  <button
+                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
                     @click="changeLocale('zh')"
-                  >简体中文</button>
+                  >
+                    简体中文
+                  </button>
                 </li>
               </Dropdown>
             </li>
@@ -121,28 +127,28 @@
                   <router-link
                     to="/about"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t('about') }}</router-link
+                    >{{ $t("about") }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/services"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t('services') }}</router-link
+                    >{{ $t("services") }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/blog"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t('blog') }}</router-link
+                    >{{ $t("blog") }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/projects"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t('projects') }}</router-link
+                    >{{ $t("projects") }}</router-link
                   >
                 </li>
                 <!-- <li>
@@ -153,18 +159,24 @@
                   >
                 </li> -->
                 <li>
-                  <Dropdown :title="currentLocale === 'en' ? 'English' : '简体中文'">
+                  <Dropdown
+                    :title="currentLocale === 'en' ? 'English' : '简体中文'"
+                  >
                     <li>
-                      <button 
-                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                      <button
+                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
                         @click="changeLocale('en')"
-                      >English</button>
+                      >
+                        English
+                      </button>
                     </li>
                     <li>
-                      <button 
-                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight" 
+                      <button
+                        class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
                         @click="changeLocale('zh')"
-                      >简体中文</button>
+                      >
+                        简体中文
+                      </button>
                     </li>
                   </Dropdown>
                 </li>
@@ -179,7 +191,7 @@
 
 <script>
 import Dropdown from "./../utils/Dropdown.vue";
-import { useI18n } from 'vue-i18n'
+import { useI18n } from "vue-i18n";
 
 export default {
   name: "Header",
@@ -193,16 +205,16 @@ export default {
     };
   },
   setup() {
-    const { locale } = useI18n()
+    const { locale } = useI18n();
 
     const changeLocale = (newLocale) => {
-      locale.value = newLocale
-    }
+      locale.value = newLocale;
+    };
 
     return {
       changeLocale,
-      currentLocale: locale
-    }
+      currentLocale: locale,
+    };
   },
   methods: {
     clickOutside(e) {
