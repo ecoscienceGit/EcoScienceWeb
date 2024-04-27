@@ -31,14 +31,32 @@
   "about.contact.followWechat": "Follow Ecoedu Society on WeChat",
 
   "services.smartWaterManagement": "Smart Water Management",
+  "services.smartWaterManagement.models": "One-dimensional, two-dimensional and three-dimensional water environment simulation software customization",
+  "services.smartWaterManagement.models.gas": "Transport reaction modeling, gas emissions",
+  "services.smartWaterManagement.models.water": "Hydrodynamics, watershed catchment",
+
   "services.smartWaterQuality": "Smart Water Quality",
+  "services.smartWaterQuality.models": "One to three-dimensional water quality modeling",
+  "services.smartWaterQuality.models.pollutants": "Various pollutants",
+  "services.smartWaterQuality.models.Algae": "Algae",
+  "services.smartWaterQuality.models.Nutrient": "Nutrient salts",
+  "services.smartWaterQuality.models.Gases": "Gases",
+
   "services.smartEcology": "Smart Ecology",
+  "services.smartEcology.Artificial": "Artificial Intelligence Big Data Analytics",
+  "services.smartEcology.Artificial.Ecosystem": "Global Ecosystem Data",
+  "services.smartEcology.Artificial.Lakes": "Global Reservoirs and Lakes Data",
+  "services.smartEcology.Artificial.ML": "Mechanical Learning Models",
+  "services.smartEcology.Ecology": "Ecosphere",
+  "services.smartEcology.Combustion": "Combustion Dynamics",
+
   "services.digitalTwin": "Digital Twin",
+  "services.digitalTwin.cloud": "Ali Cloud, Huawei Cloud",
+  "services.digitalTwin.systems": "Ecohydro Twin Systems",
+
   "services.educationConsulting": "Education Consulting",
-  "services.waterEnvSimSoftCustom": "Customization of 1D, 2D, and 3D Water Environment Simulation Software",
-  "services.waterQualityModels": "1D, 2D, and 3D Water Quality Models",
-  "services.aiBigDataEcosphere": "Artificial Intelligence and Big Data Analysis, Ecoedu Smart Ecology Ecosphere, Combustion Dynamics",
-  "services.waterEnvFuture": "Watershed Numerical Simulation and Water Quality Digital Twinning—Mastering the Future of the Water Environment",
+  "services.educationConsulting.apply": "Study Abroad",
+  "services.educationConsulting.writing": "Essay Writing",
 
   "blog.internshipRecruitment": "Career",
   "blog.academicConferences": "Academic Conferences",
