@@ -45,7 +45,39 @@
                 </div>
               </div>
             </article>
-
+            <!-- Project 6 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/learningWithUs" class="block">
+                  <img
+                    src="/projects/images/learningWithUs/cover.jpg"
+                    alt="learningWithUs"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/learningWithUs"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.consultation") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
             <!-- Project 2 -->
             <article
               class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
@@ -56,7 +88,7 @@
                 <router-link to="/project-post/wuliangsuhai" class="block">
                   <img
                     src="/projects/images/wuliangsuhai/cover.jpg"
-                    alt="乌梁素海项目"
+                    alt="wuliangsuhai"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -90,7 +122,7 @@
                 <router-link to="/project-post/nanshuibeidiao" class="block">
                   <img
                     src="/projects/images/nanshuibeidiao/cover.jpg"
-                    alt="乌梁素海项目"
+                    alt="nanshuibeidiao"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -124,7 +156,7 @@
                 <router-link to="/project-post/yanxiban" class="block">
                   <img
                     src="/projects/images/yanxiban/cover.jpg"
-                    alt="乌梁素海项目"
+                    alt="yanxiban"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -158,7 +190,7 @@
                 <router-link to="/project-post/competition" class="block">
                   <img
                     src="/projects/images/competition/cover.jpg"
-                    alt="乌梁素海项目"
+                    alt="competition"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -182,39 +214,6 @@
               </div>
             </article>
 
-            <!-- Project 6 -->
-            <article
-              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
-            >
-              <div
-                class="flex flex-col items-center md:flex-row md:items-center w-full"
-              >
-                <router-link to="/project-post/learningWithUs" class="block">
-                  <img
-                    src="/projects/images/learningWithUs/cover.jpg"
-                    alt="乌梁素海项目"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
-                  />
-                </router-link>
-                <div class="md:ml-6 text-center md:text-left">
-                  <header>
-                    <h2 class="text-xl font-semibold mb-2">
-                      <router-link
-                        to="/project-post/learningWithUs"
-                        class="hover:underline text-blue-600"
-                      >
-                        {{ $t("project.consultation") }}
-                      </router-link>
-                    </h2>
-                  </header>
-                  <footer class="text-sm flex items-center mt-4">
-                    <div>
-                      <span class="text-gray-600"></span>
-                    </div>
-                  </footer>
-                </div>
-              </div>
-            </article>
             <!-- Additional projects would be added here in the same pattern -->
           </div>
         </div>
