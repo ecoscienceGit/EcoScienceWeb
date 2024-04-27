@@ -26,19 +26,21 @@
           <router-link
             to="/about"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t('about') }}</router-link
+            >{{ $t("about") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t('about.companyProfile') }}
+                {{ $t("about.companyProfile") }}
               </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('about.qualificationsHonors') }}</div>
+              <div class="text-gray-600">
+                {{ $t("about.qualificationsHonors") }}
+              </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('about.contactInfo') }}</div>
+              <div class="text-gray-600">{{ $t("about.contactInfo") }}</div>
             </li>
           </ul>
         </div>
@@ -48,23 +50,29 @@
           <router-link
             to="/services"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t('services') }}</router-link
+            >{{ $t("services") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('services.smartWaterManagement') }}</div>
+              <div class="text-gray-600">
+                {{ $t("services.smartWaterManagement") }}
+              </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('services.smartWaterQuality') }}</div>
+              <div class="text-gray-600">
+                {{ $t("services.smartWaterQuality") }}
+              </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('services.smartEcology') }}</div>
+              <div class="text-gray-600">{{ $t("services.smartEcology") }}</div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('services.digitalTwin') }}</div>
+              <div class="text-gray-600">{{ $t("services.digitalTwin") }}</div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('services.educationConsulting') }}</div>
+              <div class="text-gray-600">
+                {{ $t("services.educationConsulting") }}
+              </div>
             </li>
           </ul>
         </div>
@@ -74,17 +82,21 @@
           <router-link
             to="/blog"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t('blog') }}</router-link
+            >{{ $t("blog") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('blog.internshipRecruitment') }}</div>
+              <div class="text-gray-600">
+                {{ $t("blog.internshipRecruitment") }}
+              </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('blog.academicConferences') }}</div>
+              <div class="text-gray-600">
+                {{ $t("blog.academicConferences") }}
+              </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t('blog.relatedTraining') }}</div>
+              <div class="text-gray-600">{{ $t("blog.relatedTraining") }}</div>
             </li>
           </ul>
         </div>
@@ -94,7 +106,7 @@
           <router-link
             to="/projects"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t('projects') }}</router-link
+            >{{ $t("projects") }}</router-link
           >
         </div>
 
@@ -123,8 +135,12 @@
             alt="Icon"
             class="w-24 h-24 mb-1"
           />
-          <p class="text-xs text-gray-600 mb-2">{{ $t('wechatOfficialAccount') }}</p>
-          <p class="text-xs text-gray-600 mb-2">{{ $t('ourEmail') }}</p>
+          <p class="text-xs text-gray-600 mb-2">
+            {{ $t("wechatOfficialAccount") }}
+          </p>
+          <p class="text-xs text-gray-600 mb-2">
+            {{ $t("ourEmail", { account: "ecosci", domain: "outlook.com" }) }}
+          </p>
         </div>
       </div>
 
@@ -134,7 +150,7 @@
       >
         <!-- Copyrights note -->
         <div class="text-sm text-gray-600 mr-4">
-          &copy; {{ $t('copyright') }}
+          &copy; {{ $t("copyright") }}
         </div>
       </div>
     </div>
