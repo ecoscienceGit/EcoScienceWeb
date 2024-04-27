@@ -97,6 +97,13 @@
 
               <!-- Main content -->
               <div>
+                <img
+                  class="w-full rounded"
+                  src="/projects/images/guxian/guxianshow.jpg"
+                  width="768"
+                  height="432"
+                  alt="Blog single"
+                />
                 <!-- Article body -->
                 <div class="text-lg text-gray-600">
                   <h3
@@ -148,7 +155,7 @@
                   >
                     案例动图
                   </h3>
-
+                  <span>叶绿素生长模拟</span>
                   <figure class="mb-8">
                     <!-- <img
                       class="w-full rounded"
@@ -171,6 +178,7 @@
                     </video>
 
                     <!-- 第二个AVI视频 -->
+                    <span>藻类生长模拟</span>
                     <video
                       class="w-full rounded"
                       controls
