@@ -4,6 +4,7 @@
   "services": "Services",
   "blog": "News",
   "projects": "Projects",
+  "slogon": "Dripping water becomes a river, gathering sand becomes a tower",
   "viewMore": "View More",
   "wechatOfficialAccount": "Ecoedu Society - Wechat Official Account",
   "ourEmail": "Ecoedu Email：{account}{'@'}{domain}",
@@ -57,6 +58,13 @@
   "services.educationConsulting": "Education Consulting",
   "services.educationConsulting.apply": "Study Abroad",
   "services.educationConsulting.writing": "Essay Writing",
+
+  "project.huanghe": "Ecological assessment of the Guxian Water Conservancy Center Project in the Yellow River Basin",
+  "project.wuliangsu": "Hydrodynamic simulation of the Wuliangsu Sea",
+  "project.nanshui": "Simulation study on the impact of wet deposition on the water quality of the trunk canal of the South-to-North Water Diversion Project",
+  "project.training": "Tutorial class",
+  "project.models": "Modeling Competition Coaching",
+  "project.consultation": "Online Consultation",
 
   "blog.internshipRecruitment": "Career",
   "blog.academicConferences": "Academic Conferences",

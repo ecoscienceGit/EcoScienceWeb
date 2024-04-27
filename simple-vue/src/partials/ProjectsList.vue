@@ -4,8 +4,8 @@
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Page header -->
         <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-          <h1 class="h1 mb-4">项目案例</h1>
-          <p class="text-xl text-gray-600">滴水成河 聚沙成塔</p>
+          <h1 class="h1 mb-4">{{ $t("projects") }}</h1>
+          <p class="text-xl text-gray-600">{{ $t("slogon") }}</p>
         </div>
 
         <!-- Main content -->
@@ -62,37 +62,37 @@ export default {
       projects: [
         {
           id: "guxian",
-          title: "黄河流域古贤水利枢纽工程生态评估",
+          title: this.$t("project.huanghe"),
           summary: "合作单位： 陕西思益清源科技公司",
           imageUrl: "/projects/images/guxian/cover.jpg",
         },
         {
           id: "wuliangsuhai",
-          title: "乌梁素海水动力模拟",
+          title: this.$t("project.wuliangsu"),
           summary: "合作单位： 陕西思益清源科技公司",
           imageUrl: "/projects/images/wuliangsuhai/cover.jpg",
         },
         {
           id: "nanshuibeidiao",
-          title: "湿沉降对南水北调中线工程干渠水质影响模拟研究",
+          title: this.$t("project.nanshui"),
           summary: "合作单位：南阳师范学院",
           imageUrl: "/projects/images/nanshuibeidiao/cover.jpg",
         },
         {
           id: "yanxiban",
-          title: "研习班",
+          title: this.$t("project.training"),
           summary: "合作单位：云南大学；长江委设计院；黄河水资源保护科学研究院",
           imageUrl: "/projects/images/yanxiban/cover.jpg",
         },
         {
           id: "competition",
-          title: "模型竞赛辅导",
+          title: this.$t("project.models"),
           summary: "合作单位：湖北工业大学计算机学院；加拿大工程师团队",
           imageUrl: "/projects/images/competition/cover.jpg",
         },
         {
           id: "learningWithUs",
-          title: "在线咨询",
+          title: this.$t("project.consultation"),
           summary: "",
           imageUrl: "/projects/images/learningWithUs/cover.jpg",
         },

@@ -4,6 +4,7 @@
   "services": "业务范围",
   "blog": "公司动态",
   "projects": "项目案例",
+  "slogon": "滴水成河 聚沙成塔",
   "viewMore": "查看更多",
   "wechatOfficialAccount": "思益清源公众号",
   "ourEmail": "企业邮箱: {account}{'@'}{domain}",
@@ -72,6 +73,13 @@
   "services.educationConsulting.apply.content": "我们的教育咨询服务专注于支持学生在留学申请和考研过程中的各个环节。对于留学申请，我们提供从学校选择、文书撰写到面试准备的全方位指导，帮助学生提升他们的申请质量，增加入选心仪大学的机会。同时，我们也为计划考研的学生提供专业的考试准备服务，包括考试策略、复习计划和模拟测试。我们的目标是通过个性化的咨询和策略制定，使学生能够最大化他们的潜力，顺利实现学术和职业发展的目标。",
   "services.educationConsulting.writing": "论文写作",
   "services.educationConsulting.writing.content": "我们的教育咨询服务提供专门的论文写作支持，帮助学生从选题、文献综述到最终稿件的撰写和修改。我们的专家团队具有丰富的学术背景和写作经验，能够提供针对性的建议和反馈，确保学生的研究符合学术规范和出版标准。此外，我们也提供语言润色和格式调整服务，帮助非母语学生改善论文的表达清晰度和专业性。无论是本科生的学术论文、硕士生的毕业论文还是博士生的研究论文，我们都能提供必要的支持，使学生能够自信地完成他们的学术任务。",
+
+  "project.huanghe": "黄河流域古贤水利枢纽工程生态评估",
+  "project.wuliangsu": "乌梁素海水动力模拟",
+  "project.nanshui": "湿沉降对南水北调中线工程干渠水质影响模拟研究",
+  "project.training": "研习班",
+  "project.models": "模型竞赛辅导",
+  "project.consultation": "在线咨询",
 
   "blog.internshipRecruitment": "实习招聘",
   "blog.academicConferences": "学术会议",
