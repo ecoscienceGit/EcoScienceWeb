@@ -39,9 +39,6 @@
                 {{ $t("about.qualificationsHonors") }}
               </div>
             </li>
-            <li class="mb-2">
-              <div class="text-gray-600">{{ $t("about.contactInfo") }}</div>
-            </li>
           </ul>
         </div>
 
