@@ -50,6 +50,13 @@
                 >{{ $t("projects") }}</router-link
               >
             </li>
+            <li>
+              <router-link
+                to="/contacts"
+                class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >{{ $t("about.contactInfo") }}</router-link
+              >
+            </li>
             <!-- <li>
               <router-link
                 to="/download"
@@ -61,7 +68,7 @@
             <!-- switch language -->
             <li>
               <Dropdown
-                :title="currentLocale === 'en' ? 'English' : '简体中文'"
+                :title="currentLocale === 'en' ? 'Language' : '语言'"
               >
                 <li>
                   <button
@@ -151,6 +158,13 @@
                     >{{ $t("projects") }}</router-link
                   >
                 </li>
+                <li>
+                  <router-link
+                    to="/contacts"
+                    class="flex text-gray-600 hover:text-gray-900 py-2"
+                    >{{ $t("about.contactInfo") }}</router-link
+                  >
+                </li>
                 <!-- <li>
                   <router-link
                     to="/download"
@@ -160,7 +174,7 @@
                 </li> -->
                 <li>
                   <Dropdown
-                    :title="currentLocale === 'en' ? 'English' : '简体中文'"
+                    :title="currentLocale === 'en' ? 'Language' : '语言'"
                   >
                     <li>
                       <button

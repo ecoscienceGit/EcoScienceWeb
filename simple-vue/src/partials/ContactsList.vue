@@ -1,12 +1,11 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20 border-t border-gray-200">
+      <div class="pt-32 pb-12 md:pt-40 md:pb-20">
 
-        <!-- Section header -->
-        <div class="max-w-6xl mx-auto text-left pb-2 md:pb-2">
-          <h2 class="h2 mb-4">{{ $t('about.contactInfo') }}</h2>
-          <p class="text-xl text-gray-600"></p>
+        <!-- Page header -->
+        <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
+          <h1 class="h1">{{ $t('about.contactInfo') }}</h1>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 py-4 md:py-12">
@@ -39,6 +38,6 @@
 
 <script>
 export default {
-  name: 'AboutContacts',
+  name: 'ContactsList',
 }
 </script>

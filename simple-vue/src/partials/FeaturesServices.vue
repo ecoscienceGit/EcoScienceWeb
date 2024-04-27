@@ -17,7 +17,7 @@
         <div class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
 
           <!-- 1st item -->
-          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/smart-water-management">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
 
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,12 +28,12 @@
               </svg>
 
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterManagement') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.waterEnvSimSoftCustom') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartWaterManagement.models') }}</p>
             </div>
           </router-link>
 
           <!-- 2nd item -->
-          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/smart-water-quality">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -43,13 +43,13 @@
               </svg>
 
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterQuality') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.waterQualityModels') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartWaterQuality.models') }}</p>
             </div>
           </router-link>
 
 
           <!-- 3rd item -->
-          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/smart-ecology">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -61,14 +61,14 @@
               </svg>
 
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartEcology') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.aiBigDataEcosphere') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartEcology.Artificial') + '; ' + $t('services.smartEcology.Ecology') + '; ' + $t('services.smartEcology.Combustion') }}</p>
             </div>
           </router-link>
           
 
 
           <!-- 4th item -->
-          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services">
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/digital-twin">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
@@ -80,7 +80,7 @@
               </svg>
 
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.digitalTwin') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.waterEnvFuture') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.digitalTwin.systems') + '; ' + $t('services.digitalTwin.cloud') }}</p>
             </div>
           </router-link>
         </div>

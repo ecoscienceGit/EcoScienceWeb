@@ -25,7 +25,7 @@
 
         <!-- Section header -->
         <div class="text-center pb-12 md:pb-16">
-          <h1 class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"><span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">{{ $t('slogan') }}</span></h1>
+          <h1 class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-8" data-aos="zoom-y-out"><span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">{{ $t('slogan') }}</span></h1>
           <div class="max-w-3xl mx-auto">
             <p class="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">{{ $t('companyIntro') }}</p>
           </div>

@@ -8,9 +8,8 @@
     <main class="grow">
 
       <!-- Page sections -->
-      <AboutIntro />
-      <AboutStory />
-      <AboutStats />
+      <ContactsList />
+
     </main>
 
     <!-- Site footer -->
@@ -21,18 +20,14 @@
 
 <script>
 import Header from './../partials/Header.vue'
-import AboutIntro from './../partials/AboutIntro.vue'
-import AboutStory from './../partials/AboutStory.vue'
-import AboutStats from './../partials/AboutStats.vue'
+import ContactsList from './../partials/ContactsList.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
-  name: 'About',
+  name: 'Contacts',
   components: {
     Header,
-    AboutIntro,
-    AboutStory,
-    AboutStats,
+    ContactsList,
     Footer,
   },
 }

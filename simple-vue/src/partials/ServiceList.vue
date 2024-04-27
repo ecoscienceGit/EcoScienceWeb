@@ -12,171 +12,90 @@
               <h1 class="h1 text-left mb-4">{{ $t('services') }}</h1>
             </header>
 
-            <!-- Article content -->
-            <div class="lg:flex lg:justify-between">
+            <div class="max-w-sm mx-auto md:max-w-none">
 
-              <!-- Sidebar -->
-              <aside class="relative lg:block w-48 mr-16 mb-8 shrink-0">
-                <div class="sticky top-28">
-                  <ul class="text-lg -my-1">
-                    <li class="py-1 mb-4">
-                      <a v-on:click="toggleTabs(1)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 1, 'flex items-center text-blue-600': openTab === 1}">
-                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
-                        </svg>
-                        <span>{{ $t('services.smartWaterManagement') }}</span>
-                      </a>
-                    </li>
-                    <li class="py-1 mb-4">
-                      <a v-on:click="toggleTabs(2)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 2, 'flex items-center text-blue-600': openTab === 2}">
-                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
-                        </svg>
-                        <span>{{ $t('services.smartWaterQuality') }}</span>
-                      </a>
-                    </li>
-                    <li class="py-1 mb-4">
-                      <a v-on:click="toggleTabs(3)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 3, 'flex items-center text-blue-600': openTab === 3}">
-                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
-                        </svg>
-                        <span>{{ $t('services.smartEcology') }}</span>
-                      </a>
-                    </li>
-                    <li class="py-1 mb-4">
-                      <a v-on:click="toggleTabs(4)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 4, 'flex items-center text-blue-600': openTab === 4}">
-                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
-                        </svg>
-                        <span>{{ $t('services.digitalTwin') }}</span>
-                      </a>
-                    </li>
-                    <li class="py-1 mb-4">
-                      <a v-on:click="toggleTabs(5)" v-bind:class="{'flex items-center text-gray-600 hover:text-blue-600': openTab !== 5, 'flex items-center text-blue-600': openTab === 5}">
-                        <svg class="w-4 h-4 fill-current text-gray-400 mr-3 shrink-0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z" />
-                        </svg>
-                        <span>{{ $t('services.educationConsulting') }}</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </aside>
+              <!-- Services container -->
+              <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
-              <!-- Services list -->
-              <div class="max-w-sm mx-auto md:max-w-none">
+                <!-- 1st service type --> 
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link to="/services-category/smart-water-management"  class="block mb-6">
+                      <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                        <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/swm-01.jpg" width="352" height="198" alt="Swm 01" />
+                      </figure>
+                    </router-link>
+                    <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
+                      <router-link to="/services-category/smart-water-management" class="hover:underline">{{ $t('services.smartWaterManagement') }}</router-link>
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">{{ $t('services.smartWaterManagement.models') }}</p>
+                </article>
 
-                <!-- Services container -->
-                <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
+                <!-- 2nd article -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link to="/services-category/smart-water-quality"  class="block mb-6">
+                      <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                        <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-01.jpg" width="352" height="198" alt="News 01" />
+                      </figure>
+                    </router-link>
+                    <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
+                      <router-link to="/services-category/smart-water-quality" class="hover:underline">{{ $t('services.smartWaterQuality') }}</router-link>
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">{{ $t('services.smartWaterQuality.models') }}</p>
+                </article>
 
-                  <!-- 1st service -->
-                  <router-link 
-                    to="/services-post/rtm-mr" 
-                    v-bind:class="{'hidden': openTab !== 1, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 1}"
-                  >
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">反应运移-机理简化（RTM-MR ） 耦合建模方法</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
+                <!-- 3rd article -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link to="/services-category/smart-ecology"  class="block mb-6">
+                      <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                        <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-01.jpg" width="352" height="198" alt="News 01" />
+                      </figure>
+                    </router-link>
+                    <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
+                      <router-link to="/services-category/smart-ecology" class="hover:underline">{{ $t('services.smartEcology') }}</router-link>
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">{{ $t('services.smartEcology.Artificial') + '; ' + $t('services.smartEcology.Ecology') + '; ' + $t('services.smartEcology.Combustion') }}</p>
+                </article>
+                
+                <!-- 4th article -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link to="/services-category/digital-twin"  class="block mb-6">
+                      <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                        <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-01.jpg" width="352" height="198" alt="News 01" />
+                      </figure>
+                    </router-link>
+                    <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
+                      <router-link to="/services-category/digital-twin" class="hover:underline">{{ $t('services.digitalTwin') }}</router-link>
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">{{ $t('services.digitalTwin.systems') + '; ' + $t('services.digitalTwin.cloud') }}</p>
+                </article>
 
-                  <!-- 2nd article -->
-                  <router-link 
-                    to="/services-post/ce-qual-w2" 
-                    v-bind:class="{'hidden': openTab !== 2, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 2}"
-                  >
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">立面二维水动力水质水生态模型 CE-QUAL-W2</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 3rd article -->
-                  <router-link to="/services-post/data-python" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">Python大数据处理与数据挖掘</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 4th article -->
-                  <router-link to="/services-post/global-database" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">全球综合数据库</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 5th article -->
-                  <router-link to="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">清源智慧生态Ecosohere</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 6th article -->
-                  <router-link to="/services-post/rtm-mr" v-bind:class="{'hidden': openTab !== 3, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 3}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">燃烧与热力系统</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 7th article -->
-                  <router-link to="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 4, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 4}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">流域数值模拟与水质数字孪生化</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                  <!-- 8th article -->
-                  <router-link to="/services-post/digital-twin-system" v-bind:class="{'hidden': openTab !== 5, 'block flex flex-col h-full rounded bg-gray-100 transition duration-300 ease-in-out hover:shadow-lg': openTab == 5}">
-                    <div class="items-left p-8">
-                      <p class="text-gray-900 pd-12 grow">GPT 服务案例以及指令指南</p>
-                      <p class="text-sm mt-4">
-                        <div>
-                          <span class="text-blue-600 hover:text-blue-500">了解更多 →</span>
-                        </div>
-                      </p> 
-                    </div>
-                  </router-link>
-
-                </div>
+                <!-- 5th article -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link to="/services-category/education-consulting"  class="block mb-6">
+                      <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                        <img class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src="../images/tutorial-01.jpg" width="352" height="198" alt="News 01" />
+                      </figure>
+                    </router-link>
+                    <h3 class="text-xl font-bold leading-snug tracking-tight mb-2">
+                      <router-link to="/services-category/education-consulting" class="hover:underline">{{ $t('services.educationConsulting') }}</router-link>
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">{{ $t('') }}</p>
+                </article>
+                
               </div>
 
             </div>
 
-            <!-- Article footer -->
           </article>
 
         </div>

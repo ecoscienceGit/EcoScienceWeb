@@ -10,7 +10,7 @@
   "ourEmail": "Ecoedu Email：{account}{'@'}{domain}",
   "copyright": "2024 Ecoedu Society",
   "slogan": "Creating a Green Future",
-  "companyIntro": "Ecoedu Society is dedicated to providing high-quality consulting and services in the fields of water quality, hydrodynamics, and combustion energy saving and emission reduction modeling. We always adhere to the belief of 'empowering nature with technology, building a clean world together,' keeping up with technological development and innovation trends. By integrating advanced big data analysis and artificial intelligence technologies with water resource and quality management, we offer efficient and intelligent solutions to our clients.",
+  "companyIntro": "Ecoedu Society offers top-tier consulting and services in water quality, hydrodynamics, and energy-saving combustion modeling. Upholding our belief in 'empowering nature with technology for a cleaner world,' we stay abreast of tech trends. We merge big data and AI with water resource management to deliver smart, efficient solutions to our clients.",
 
   "about.companyProfile": "Company Profile",
   "about.companyGoal": "Our goal is to enhance water resource efficiency, reduce waste and pollution, and promote sustainable development by incorporating intelligent technologies. As we continue to innovate and progress, we strive to improve our technical capabilities and service quality to meet customer and industry needs.",
@@ -32,7 +32,7 @@
   "about.contact.followWechat": "Follow Ecoedu Society on WeChat",
 
   "services.smartWaterManagement": "Smart Water Management",
-  "services.smartWaterManagement.models": "One-dimensional, two-dimensional and three-dimensional water environment simulation software customization",
+  "services.smartWaterManagement.models": "One to three-dimensional water environment simulation software customization",
   "services.smartWaterManagement.models.gas": "Transport reaction modeling, gas emissions",
   "services.smartWaterManagement.models.water": "Hydrodynamics, watershed catchment",
 

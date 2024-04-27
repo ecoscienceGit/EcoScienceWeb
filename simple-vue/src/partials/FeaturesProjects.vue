@@ -13,7 +13,7 @@
           <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
             <!-- 1st article -->
-            <article class="flex flex-col h-full" data-aos="zoom-y-out">
+            <article class="flex flex-col h-full mb-8" data-aos="zoom-y-out">
               <header>
                 <router-link to="/project-post/guxian" class="block mb-6">
                   <figure class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
@@ -21,15 +21,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/guxian" class="hover:underline">黄河流域古贤水利枢纽工程生态评估</router-link>
+                  <router-link to="/project-post/guxian" class="hover:underline">{{ $t('project.huanghe') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600">合作单位： </span>
-                  <span class="font-medium text-gray-600">陕西思益清源科技公司</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 2nd article -->
@@ -41,15 +35,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/wuliangsuhai" class="hover:underline">乌梁素海水动力模拟</router-link>
+                  <router-link to="/project-post/wuliangsuhai" class="hover:underline">{{ $t('project.wuliangsu') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600">合作单位： </span>
-                  <span class="font-medium text-gray-600">陕西思益清源科技公司</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 3rd article -->
@@ -61,15 +49,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/nanshuibeidiao" class="hover:underline">湿沉降对南水北调中线工程干渠水质影响模拟研究</router-link>
+                  <router-link to="/project-post/nanshuibeidiao" class="hover:underline">{{ $t('project.nanshui') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600">合作单位：</span>
-                  <span class="font-medium text-gray-600">南阳师范学院</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 4th article -->
@@ -81,15 +63,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/yanxiban" class="hover:underline">线上线下模型培训班——定制化培训班服务</router-link>
+                  <router-link to="/project-post/yanxiban" class="hover:underline">{{ $t('project.training') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600">合作单位：</span>
-                  <span class="font-medium text-gray-600">云南大学；长江委设计院；黄河水资源保护科学研究院</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 5th article -->
@@ -101,15 +77,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/competition" class="hover:underline">模型竞赛辅导</router-link>
+                  <router-link to="/project-post/competition" class="hover:underline">{{ $t('project.models') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600">合作单位：</span>
-                  <span class="font-medium text-gray-600">湖北工业大学计算机学院；加拿大工程师团队</span>
-                </div>
-              </footer>
             </article>
 
             <!-- 6th article -->
@@ -121,15 +91,9 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/learningWithUs" class="hover:underline">在线咨询</router-link>
+                  <router-link to="/project-post/learningWithUs" class="hover:underline">{{ $t('project.consultation') }}</router-link>
                 </h3>
               </header>
-              <footer class="text-sm flex items-center mt-4">
-                <div>
-                  <span class="text-gray-600"></span>
-                  <span class="font-medium text-gray-600"></span>
-                </div>
-              </footer>
             </article>
 
           </div>
