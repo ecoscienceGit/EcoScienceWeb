@@ -34,7 +34,10 @@
   "services.smartWaterManagement": "Smart Water Management",
   "services.smartWaterManagement.models": "One to three-dimensional water environment simulation software customization",
   "services.smartWaterManagement.models.gas": "Transport reaction modeling, gas emissions",
+  "services.smartWaterManagement.models.gas.content": "Our services integrate advection-reaction models and gas emission monitoring to provide comprehensive solutions for environmental protection and management. The advection-reaction model focuses on simulating the migration and reaction processes of pollutants in the aquatic environment, helping scientists and engineers assess the long-term impact of pollutants on water quality. Additionally, we offer monitoring and analysis services for gas emissions, used to evaluate and control greenhouse gas emissions from industrial, agricultural, and other activities. This service helps clients comply with environmental regulations while promoting the achievement of sustainable development goals.",
+  "services.smartWaterManagement.models.gas.learnMore": "Understanding Advection-Reaction Models",
   "services.smartWaterManagement.models.water": "Hydrodynamics, watershed catchment",
+  "services.smartWaterManagement.models.water.content": "Our hydrodynamics and watershed catchment services integrate advanced water flow simulation and watershed water resource management to provide comprehensive water environment solutions for our clients. Utilizing advanced Computational Fluid Dynamics (CFD) technology, we simulate the behavior of water bodies in various natural and man-made environments, including flow patterns, water level changes, and liquid dynamic effects. At the same time, we analyze the hydrological cycle of the entire watershed, achieving integrated management of rainwater catchment, surface and groundwater flow, supporting the sustainable use and protection of water resources, flood control, and addressing challenges such as drought.",
 
   "services.smartWaterQuality": "Smart Water Quality",
   "services.smartWaterQuality.models": "One to three-dimensional water quality modeling",

@@ -17,7 +17,7 @@
             <router-link 
               to="/services-post/rtm-mr" 
               class="text-blue-600 hover:text-blue-500">
-              了解反应运移模型 →</router-link>
+              {{ $t('services.smartWaterManagement.models.gas.learnMore') + ' →' }}</router-link>
           </div>
           <figure class="lg:col-span-1 mb-8 ml-8">
             <img class="w-full rounded" src="../../images/swm-09.jpg" width="768" height="432" alt="swm 09" />

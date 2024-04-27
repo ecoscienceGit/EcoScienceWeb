@@ -35,6 +35,7 @@
   "services.smartWaterManagement.models": "一维二维三维水环境模拟软件定制",
   "services.smartWaterManagement.models.gas": "运移反应模型，气体排放",
   "services.smartWaterManagement.models.gas.content": "我们的服务集成了运移反应模型和气体排放监测，为环境保护和管理提供综合解决方案。运移反应模型专注于模拟污染物在水环境中的迁移和反应过程，帮助科学家和工程师评估污染物对水质的长期影响。同时，我们提供气体排放的监测和分析服务，用于评估和控制工业、农业及其他活动产生的温室气体排放。这一服务帮助客户遵守环保法规，同时促进可持续发展目标的实现。",
+  "services.smartWaterManagement.models.gas.learnMore": "了解反应运移模型",
   "services.smartWaterManagement.models.water": "水动力，流域集水",
   "services.smartWaterManagement.models.water.content": "我们的水动力与流域集水服务整合了高级水流模拟和流域水资源管理，为客户提供全面的水环境解决方案。利用先进的计算流体动力学（CFD）技术，我们模拟水体在各种自然和人工环境中的行为，包括水流模式、水位变化和液体动力效应。同时，我们分析整个流域的水文周期，实现雨水捕集、地表及地下水流动的综合管理，支持水资源的持续利用和保护、洪水防控及应对干旱等挑战。",
 
