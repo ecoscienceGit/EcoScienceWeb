@@ -50,20 +50,27 @@
                     id="introduction"
                     class="mb-8"
                     style="scroll-margin-top: 100px"
-                  >
-                    乌梁素海前身为黄河故道，属河成湖，湖面南北长35至40公里，东西宽5至10公里，面积约为293平方公里
-                  </p>
-                  <p class="mb-8">
-                    通过高精度的计算模拟来分析和预测乌梁素海这一内陆湖泊的水动力行为。乌梁素海位于中国内蒙古自治区，是一个重要的湿地生态系统，具有丰富的生物多样性和重要的生态功能。
-                  </p>
-                  <figure class="mb-8">
-                    <img
-                      class="w-full rounded"
-                      src="/projects/images/wuliangsuhai/wusu.png"
-                      style="width: auto; height: 300px"
-                      alt="Blog single"
-                    />
-                  </figure>
+                  ></p>
+                  <div class="flex flex-col lg:flex-row lg:items-start">
+                    <div class="lg:w-1/2 mb-8">
+                      <p class="text-lg text-gray-600">
+                        乌梁素海前身为黄河故道，属河成湖，湖面南北长35至40公里，东西宽5至10公里，面积约为293平方公里
+                      </p>
+                      <p class="text-lg text-gray-600 mb-8">
+                        通过高精度的计算模拟来分析和预测乌梁素海这一内陆湖泊的水动力行为。乌梁素海位于中国内蒙古自治区，是一个重要的湿地生态系统，具有丰富的生物多样性和重要的生态功能。
+                      </p>
+                    </div>
+                    <div class="lg:w-1/2 lg:pl-8">
+                      <figure>
+                        <img
+                          class="rounded"
+                          src="/projects/images/wuliangsuhai/wuliang.jpg"
+                          alt="乌梁素海"
+                          style="width: auto; max-height: 300px"
+                        />
+                      </figure>
+                    </div>
+                  </div>
                   <p class="mb-8">
                     我们利用自主研发的水动力模型以及数据库来模拟湖泊中水流的流速、流向以及湖泊水位的变化。这些模型通常基于水文学、气象学和物理学的数据，如湖泊的地形、气候条件、入湖和出湖水流的量等因素。
                   </p>
