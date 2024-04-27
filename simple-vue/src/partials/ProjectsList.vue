@@ -12,18 +12,17 @@
         <div class="md:flex md:justify-between">
           <!-- Articles container -->
           <div class="md:grow -mt-4">
+            <!-- Project 1 -->
             <article
-              v-for="project in projects"
-              :key="project.id"
               class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
             >
               <div
                 class="flex flex-col items-center md:flex-row md:items-center w-full"
               >
-                <router-link :to="`/project-post/${project.id}`" class="block">
+                <router-link to="/project-post/guxian" class="block">
                   <img
-                    :src="project.imageUrl"
-                    :alt="project.title"
+                    src="/projects/images/guxian/cover.jpg"
+                    alt="黄河项目"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -31,73 +30,195 @@
                   <header>
                     <h2 class="text-xl font-semibold mb-2">
                       <router-link
-                        :to="`/project-post/${project.id}`"
+                        to="/project-post/guxian"
                         class="hover:underline text-blue-600"
                       >
-                        {{ project.title }}
+                        {{ $t("project.huanghe") }}
                       </router-link>
                     </h2>
                   </header>
                   <footer class="text-sm flex items-center mt-4">
                     <div>
-                      <span class="text-gray-600">{{ project.summary }} </span>
+                      <span class="text-gray-600"></span>
                     </div>
                   </footer>
                 </div>
               </div>
             </article>
+
+            <!-- Project 2 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/wuliangsuhai" class="block">
+                  <img
+                    src="/projects/images/wuliangsuhai/cover.jpg"
+                    alt="乌梁素海项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/wuliangsuhai"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.wuliangsu") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/nanshuibeidiao" class="block">
+                  <img
+                    src="/projects/images/nanshuibeidiao/cover.jpg"
+                    alt="乌梁素海项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/nanshuibeidiao"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.nanshui") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/yanxiban" class="block">
+                  <img
+                    src="/projects/images/yanxiban/cover.jpg"
+                    alt="乌梁素海项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/yanxiban"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.training") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/competition" class="block">
+                  <img
+                    src="/projects/images/competition/cover.jpg"
+                    alt="乌梁素海项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/competition"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.models") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 6 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/learningWithUs" class="block">
+                  <img
+                    src="/projects/images/learningWithUs/cover.jpg"
+                    alt="乌梁素海项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/learningWithUs"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.consultation") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+            <!-- Additional projects would be added here in the same pattern -->
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  name: "ProjectsList",
-  data() {
-    return {
-      // 示例项目数据
-      projects: [
-        {
-          id: "guxian",
-          title: this.$t("project.huanghe"),
-          summary: "合作单位： 陕西思益清源科技公司",
-          imageUrl: "/projects/images/guxian/cover.jpg",
-        },
-        {
-          id: "wuliangsuhai",
-          title: this.$t("project.wuliangsu"),
-          summary: "合作单位： 陕西思益清源科技公司",
-          imageUrl: "/projects/images/wuliangsuhai/cover.jpg",
-        },
-        {
-          id: "nanshuibeidiao",
-          title: this.$t("project.nanshui"),
-          summary: "合作单位：南阳师范学院",
-          imageUrl: "/projects/images/nanshuibeidiao/cover.jpg",
-        },
-        {
-          id: "yanxiban",
-          title: this.$t("project.training"),
-          summary: "合作单位：云南大学；长江委设计院；黄河水资源保护科学研究院",
-          imageUrl: "/projects/images/yanxiban/cover.jpg",
-        },
-        {
-          id: "competition",
-          title: this.$t("project.models"),
-          summary: "合作单位：湖北工业大学计算机学院；加拿大工程师团队",
-          imageUrl: "/projects/images/competition/cover.jpg",
-        },
-        {
-          id: "learningWithUs",
-          title: this.$t("project.consultation"),
-          summary: "",
-          imageUrl: "/projects/images/learningWithUs/cover.jpg",
-        },
-      ],
-    };
-  },
-};
-</script>
