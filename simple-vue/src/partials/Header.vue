@@ -68,7 +68,7 @@
             <!-- switch language -->
             <li>
               <Dropdown
-                :title="currentLocale === 'en' ? 'Language' : '语言'"
+                title="Language/语言"
               >
                 <li>
                   <button
