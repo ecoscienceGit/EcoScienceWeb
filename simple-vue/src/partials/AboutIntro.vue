@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-16">
-          <h1 class="h1 mb-4">{{ $t('about') }}</h1>
+          <h1 class="h1 mb-4">{{ $t('about.title') }}</h1>
           <p class="text-xl text-gray-600">
             {{ $t('companyIntro') + ' ' + $t('about.companyGoal') }}
           </p>

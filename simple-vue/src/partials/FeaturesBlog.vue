@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">
-          <h2 class="h2 mb-4">{{ $t('blog') }}</h2>
+          <h2 class="h2 mb-4">{{ $t('news.title') }}</h2>
         </div>
 
         <!-- Blog list -->

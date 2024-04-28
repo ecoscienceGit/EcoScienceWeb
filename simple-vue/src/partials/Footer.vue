@@ -26,7 +26,7 @@
           <router-link
             to="/about"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t("about") }}</router-link
+            >{{ $t("about.title") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
@@ -47,28 +47,28 @@
           <router-link
             to="/services"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t("services") }}</router-link
+            >{{ $t("services.title") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("services.smartWaterManagement") }}
+                {{ $t("services.smartWaterManagement.title") }}
               </div>
             </li>
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("services.smartWaterQuality") }}
+                {{ $t("services.smartWaterQuality.title") }}
               </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t("services.smartEcology") }}</div>
+              <div class="text-gray-600">{{ $t("services.smartEcology.title") }}</div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t("services.digitalTwin") }}</div>
+              <div class="text-gray-600">{{ $t("services.digitalTwin.title") }}</div>
             </li>
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("services.educationConsulting") }}
+                {{ $t("services.educationConsulting.title") }}
               </div>
             </li>
           </ul>
@@ -79,21 +79,21 @@
           <router-link
             to="/blog"
             class="text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out font-medium mb-2 block"
-            >{{ $t("blog") }}</router-link
+            >{{ $t("news.title") }}</router-link
           >
           <ul class="text-sm">
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("blog.internshipRecruitment") }}
+                {{ $t("news.career") }}
               </div>
             </li>
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("blog.academicConferences") }}
+                {{ $t("news.academicConferences") }}
               </div>
             </li>
             <li class="mb-2">
-              <div class="text-gray-600">{{ $t("blog.relatedTraining") }}</div>
+              <div class="text-gray-600">{{ $t("news.training") }}</div>
             </li>
           </ul>
         </div>

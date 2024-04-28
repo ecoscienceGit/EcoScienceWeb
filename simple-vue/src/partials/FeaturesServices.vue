@@ -10,7 +10,7 @@
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">
-          <h2 class="h2 mb-4">{{ $t('services') }}</h2>
+          <h2 class="h2 mb-4">{{ $t('services.title') }}</h2>
         </div>
 
         <!-- Items -->
@@ -28,8 +28,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterManagement') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.smartWaterManagement.models') }}</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterManagement.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartWaterManagement.intro') }}</p>
             </div>
           </router-link>
 
@@ -43,8 +43,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterQuality') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.smartWaterQuality.models') }}</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartWaterQuality.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartWaterQuality.intro') }}</p>
             </div>
           </router-link>
 
@@ -61,8 +61,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartEcology') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.smartEcology.Artificial') + '; ' + $t('services.smartEcology.Ecology') + '; ' + $t('services.smartEcology.Combustion') }}</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.smartEcology.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.smartEcology.Artificial.title') + '; ' + $t('services.smartEcology.Ecology.title') + '; ' + $t('services.smartEcology.Combustion.title') }}</p>
             </div>
           </router-link>
           
@@ -80,8 +80,8 @@
                 </g>
               </svg>
 
-              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.digitalTwin') }}</p>
-              <p class="text-gray-600 text-center">{{ $t('services.digitalTwin.systems') + '; ' + $t('services.digitalTwin.cloud') }}</p>
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.digitalTwin.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.digitalTwin.systems.title') + '; ' + $t('services.digitalTwin.cloud.title') }}</p>
             </div>
           </router-link>
         </div>

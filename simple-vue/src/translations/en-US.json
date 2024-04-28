@@ -2,9 +2,133 @@
   "title": "Ecoedu Society",
   "catalogs": "Catalogs",
   "introduction": "Introduction",
-  "about": "About",
-  "services": "Services",
-  "blog": "News",
+  "about": {
+    "title": "About",
+    "companyProfile": "Company Profile",
+    "companyGoal": "Our goal is to enhance water resource efficiency, reduce waste and pollution, and promote sustainable development by incorporating intelligent technologies. As we continue to innovate and progress, we strive to improve our technical capabilities and service quality to meet customer and industry needs.",
+    "team": "The core founding team of the company consists of masters and PhDs from renowned research institutes and universities such as the University of Waterloo in Canada, the Institute of Geographic Sciences and Natural Resources Research at the Chinese Academy of Sciences, Beijing Jiaotong University, and Hubei University of Technology. Team members are familiar with cutting-edge technologies, possess extensive experience in artificial intelligence technologies and applications, and have strong computer technology support. We believe that combining artificial intelligence with traditional water resource management can achieve more precise predictions, more efficient monitoring, and optimized scheduling. To this end, we have been researching and developing new technologies and methods, exploring the wide application of artificial intelligence in the fields of water quality, hydrodynamics, and combustion energy saving and emission reduction modeling.",
+    "focus": "As a company centered on technological innovation, Ecoedu Society always focuses on the development of emerging technologies such as artificial intelligence, big data, and the Internet of Things, integrating these technologies closely with our business. We use AI technologies to analyze large amounts of data for intelligent management of water resources, enhancing the efficiency and precision of water resource management. Through IoT technology, we can monitor water resources in real time, providing clients with more convenient and accurate information. By integrating these advanced technologies, we offer comprehensive smart water management solutions to help achieve green, sustainable development.",
+    "story": "Since its establishment, we have completed numerous complex water quality and hydrodynamics projects, and have successfully organized several national workshops and customized workshops for relevant units. Additionally, we provide high-quality overseas study and course tutoring services to a wide range of students, earning unanimous praise from our clients. On the path to realizing our vision and mission, we will continue to maintain high enthusiasm and motivation, contributing to innovation and sustainable development. Ecoedu Society is committed to combining cutting-edge technologies like artificial intelligence and big data with practical applications, continuously improving industry standards, and contributing to the construction of a green, sustainable future.",
+    "qualificationsHonors": "Qualifications & Honors",
+    "stat": {
+      "team": "Distinguished professors, academicians, and master's and PhD graduates from renowned research institutes and universities",
+      "patent": "Inventions, patents, software copyrights, and other achievements",
+      "cooperator": "Partners include well-known domestic and international research institutes and universities",
+      "admission": "Domestic and international visiting scholars, master's and doctoral admission coaching cases",
+      "market": "Business involves countries",
+      "database": "Lakes, reservoirs, and aquatic databases (including machine learning models and hydrodynamic water quality models)",
+      "million": " Million"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "smartWaterManagement": {
+      "title": "Smart Water Management",
+      "intro": "One to three-dimensional water environment simulation software customization",
+      "models": {
+        "gas": {
+          "title": "Transport reaction modeling, gas emissions",
+          "content": "Our services integrate advection-reaction models and gas emission monitoring to provide comprehensive solutions for environmental protection and management. The advection-reaction model focuses on simulating the migration and reaction processes of pollutants in the aquatic environment, helping scientists and engineers assess the long-term impact of pollutants on water quality. Additionally, we offer monitoring and analysis services for gas emissions, used to evaluate and control greenhouse gas emissions from industrial, agricultural, and other activities. This service helps clients comply with environmental regulations while promoting the achievement of sustainable development goals.",
+          "learnMore": "Understanding Advection-Reaction Models"
+        },
+        "water": {
+          "title": "Hydrodynamics, watershed catchment",
+          "content": "Our hydrodynamics and watershed catchment services integrate advanced water flow simulation and watershed water resource management to provide comprehensive water environment solutions for our clients. Utilizing advanced Computational Fluid Dynamics (CFD) technology, we simulate the behavior of water bodies in various natural and man-made environments, including flow patterns, water level changes, and liquid dynamic effects. At the same time, we analyze the hydrological cycle of the entire watershed, achieving integrated management of rainwater catchment, surface and groundwater flow, supporting the sustainable use and protection of water resources, flood control, and addressing challenges such as drought."
+        }
+      }
+    },
+    "smartWaterQuality": {
+      "title": "Smart Water Quality",
+      "intro": "One to three-dimensional water quality modeling",
+      "models": {
+        "pollutants": {
+          "title": "Various pollutants",
+          "content": "Our smart water quality services use one to three-dimensional water quality models to provide accurate water quality analysis and prediction. These models simulate the behavior of various pollutants in water bodies, including their spread, diffusion, and ultimate impact. The service supports pollutant identification, concentration assessment, and risk analysis, helping decision-makers develop effective water quality management and purification strategies. Our solutions are suitable for urban water supply systems, natural water bodies, and industrial wastewater treatment, ensuring the safety and sustainability of water resources."
+        },
+        "Algae": {
+          "title": "Algae",
+          "content": "Our smart water quality services combine one to three-dimensional water quality models specifically for monitoring and analyzing the growth and distribution of algae. These models detail the dynamic changes of algae in different aquatic environments, including growth rates, influencing factors, and potential toxicity risks. Through precise data-driven models, we help environmental agencies and water managers identify early signs of algae outbreaks and develop timely and effective control and response strategies to protect water quality and ecological safety."
+        },
+        "Nutrient": {
+          "title": "Nutrient salts",
+          "content": "Our smart water quality services use one to three-dimensional water quality models to provide high-precision analysis and management solutions for nutrients in water bodies. These models accurately simulate and predict the concentration changes and migration paths of key nutrients such as nitrogen and phosphorus, helping users identify potential eutrophication issues. Our technology supports environmental scientists and water resource managers in developing effective nutrient control strategies and prevention measures to maintain water body health and ecological balance."
+        },
+        "Gases": {
+          "title": "Gases",
+          "content": "Our smart water quality services use one to three-dimensional water quality models to provide detailed monitoring and analysis of dissolved gases in water, such as oxygen, carbon dioxide, and methane. These models accurately simulate the dissolution, diffusion, and exchange processes of gases, helping scientists and engineers understand the behavior of gases in the aquatic environment and their impact on water quality and aquatic life. This service supports environmental protection projects, ensuring the quality of water resources and the health of ecosystems."
+        }
+      }
+    },
+    "smartEcology": {
+      "title": "Smart Ecology",
+      "Artificial": {
+        "intro": "Artificial Intelligence Big Data Analytics",
+        "Ecosystem": {
+          "title": "Global Ecosystem Data",
+          "content": "Our smart ecology services use artificial intelligence and big data technology to provide clients with deep analysis and insights into global ecological data. Utilizing advanced algorithms and large-scale data processing capabilities, we analyze ecological trends, environmental stress factors, and biodiversity indicators. This service assists government agencies, research organizations, and environmental protection agencies in making data-based decisions, effectively addressing climate change, ecological degradation, and natural resource management challenges."
+        },
+        "Lakes": {
+          "title": "Global Reservoirs and Lakes Data",
+          "content": "Our smart ecology services focus on the analysis of global reservoir and lake data using artificial intelligence and big data technology. This service uses advanced algorithms to process and analyze a large amount of water body data, including water quality, water level, biodiversity, and water usage. Our goal is to help environmental agencies, government departments, and research institutions formulate more effective water resource management and protection strategies, promoting the sustainable development of the water environment."
+        },
+        "ML": {
+          "title": "Mechanical Learning Models",
+          "content": "Our smart ecology services utilize artificial intelligence and big data technologies, especially advanced machine learning models, to analyze and predict environmental changes. These models are capable of processing complex ecological datasets, identifying patterns, predicting future trends, and proposing possible environmental interventions. Applications include climate change impact assessments, biodiversity protection, and natural resource management. Through these deep learning technologies, we help clients make scientific, data-driven decisions to more effectively address global environmental challenges."
+        }
+      },
+      "Ecology": {
+        "title": "Ecosphere",
+        "content": "Our smart ecology system services use the most advanced technology integration, including artificial intelligence, IoT devices, and big data platforms, to monitor, analyze, and manage the natural environment. These technologies enable real-time data collection and analysis, optimizing responses to climate change, improving biodiversity protection measures, and supporting sustainable natural resource management. Through automated data analysis and intelligent decision support, our system helps government agencies, environmental organizations, and research institutions implement environmental policies and projects more effectively."
+      },
+      "Combustion": {
+        "title": "Combustion Dynamics",
+        "content": "Our smart ecology services integrate advanced simulation and analysis technologies in combustion dynamics to help businesses optimize combustion processes and reduce environmental impacts. Utilizing machine learning and big data analysis, our system can predict and adjust combustion parameters to achieve higher energy efficiency and lower emissions. This service is tailored for various combustion systems, including industrial furnaces, power stations, and other energy-related facilities, providing customized solutions to meet specific environmental standards and efficiency requirements."
+      }
+    },
+    "digitalTwin": {
+      "title": "Digital Twin",
+      "cloud": {
+        "title": "Alibaba Cloud",
+        "content": "Our digital twin services are implemented on Alibaba Cloud and Huawei Cloud platforms, fully utilizing these platforms' powerful cloud computing resources and advanced data analysis tools. By building virtual models in the cloud, we can provide customers with real-time data analysis and insights, helping them predict system performance, optimize operations, and reduce maintenance costs. This service is especially applicable to manufacturing, urban infrastructure, and large engineering projects, achieving higher operational efficiency and better decision support. With Alibaba Cloud and Huawei Cloud's digital twin technology, customers can enjoy seamless data integration, efficient computing processing capabilities, and global technical support."
+      },
+      "systems": {
+        "title": "Ecohydro Twin Systems",
+        "content": "The Qingyuan Digital Twin System uses advanced digital twin technology to provide users with comprehensive real-time data monitoring and analysis capabilities. This system, by creating precise virtual models of physical objects or processes, can achieve continuous performance evaluation and predictive maintenance. Suitable for environmental management, water treatment, and industrial automation, the Qingyuan system helps users optimize operational processes, reduce energy consumption, and improve the overall reliability and efficiency of the system through simulation and data analysis. With its powerful data processing and visualization tools, users can gain in-depth insights to support more accurate decision-making."
+      }
+    },
+    "educationConsulting": {
+      "title": "Education Consulting",
+      "apply": {
+        "title": "Study Abroad",
+        "content": "Our educational consulting services focus on supporting students in various stages of studying abroad and postgraduate entrance examination processes. For study abroad applications, we provide comprehensive guidance from school selection, essay writing to interview preparation, helping students improve their application quality and increasing the chance of being admitted to their desired universities. At the same time, we also provide professional exam preparation services for students planning to take postgraduate entrance exams, including exam strategies, review plans, and mock tests. Our goal is to maximize students' potential through personalized consulting and strategy development, enabling them to smoothly achieve their academic and career development goals."
+      },
+      "writing": {
+        "title": "Essay Writing",
+        "content": "Our educational consulting services provide specialized thesis writing support, helping students from topic selection, literature review to the writing and modification of the final manuscript. Our expert team has a rich academic background and writing experience, can provide targeted suggestions and feedback, ensuring that students' research complies with academic norms and publication standards. In addition, we also provide language polishing and format adjustment services to help non-native students improve the clarity and professionalism of their papers. Whether it is an undergraduate academic paper, a master's thesis, or a doctoral research paper, we can provide the necessary support, enabling students to confidently complete their academic tasks."
+      }
+    }
+  },
+  "news": {
+    "title": "News",
+    "career": "Career",
+    "academicConferences": "Academic Conferences",
+    "training": "Training",
+    "sum23": {
+      "title": "Ecoedu Society Mid-Year Summary 2023",
+      "summary": "Looking back over the past six months, Ecoedu Society has achieved remarkable results in the fields of scientific research and cooperation! Let's take a look at our main highlights and accomplishments...",
+      "date": "July 1, 2023"
+    },
+    "tutorialZZ": {
+      "title": "Zhengzhou Special: Water Environmental Mathematical Model Workshop Concludes Successfully",
+      "summary": "As the spring breeze blows, the three-day Water Environmental Mathematical Model Workshop held in Zhengzhou, Henan, has successfully concluded, earning unanimous praise from participants...",
+      "date": "April 2, 2024"
+    },
+    "w2UIv1": {
+      "title": "Ecoedu Smart Water Model V1.0",
+      "summary": "Introducing the Ecoedu Smart Water Model, a brand-new, domestically produced intelligent hydrodynamics and water quality modeling software. Integrated with a self-developed database, this software represents a major innovation in the field of smart water management...",
+      "date": "March 18, 2024"
+    }
+  },
   "projects": "Projects",
   "slogon": "Dripping water becomes a river, gathering sand becomes a tower",
   "viewMore": "View More",
@@ -13,68 +137,6 @@
   "copyright": "2024 Ecoedu Society",
   "slogan": "Creating a Green Future",
   "companyIntro": "Welcome to the EcoEdu Society, a non-profit organization dedicated to harnessing artificial intelligence and digital innovation to promote sustainable development and ecological awareness. Our mission is to empower communities and businesses through social media advocacy, educational consulting in AI, and transformative digital services, all aimed at fostering a greener, more sustainable future. Join us in driving positive change for our planet.",
-
-  "about.companyProfile": "Company Profile",
-  "about.companyGoal": "Our goal is to enhance water resource efficiency, reduce waste and pollution, and promote sustainable development by incorporating intelligent technologies. As we continue to innovate and progress, we strive to improve our technical capabilities and service quality to meet customer and industry needs.",
-  "about.team": "The core founding team of the company consists of masters and PhDs from renowned research institutes and universities such as the University of Waterloo in Canada, the Institute of Geographic Sciences and Natural Resources Research at the Chinese Academy of Sciences, Beijing Jiaotong University, and Hubei University of Technology. Team members are familiar with cutting-edge technologies, possess extensive experience in artificial intelligence technologies and applications, and have strong computer technology support. We believe that combining artificial intelligence with traditional water resource management can achieve more precise predictions, more efficient monitoring, and optimized scheduling. To this end, we have been researching and developing new technologies and methods, exploring the wide application of artificial intelligence in the fields of water quality, hydrodynamics, and combustion energy saving and emission reduction modeling.",
-  "about.focus": "As a company centered on technological innovation, Ecoedu Society always focuses on the development of emerging technologies such as artificial intelligence, big data, and the Internet of Things, integrating these technologies closely with our business. We use AI technologies to analyze large amounts of data for intelligent management of water resources, enhancing the efficiency and precision of water resource management. Through IoT technology, we can monitor water resources in real time, providing clients with more convenient and accurate information. By integrating these advanced technologies, we offer comprehensive smart water management solutions to help achieve green, sustainable development.",
-  "about.story": "Since its establishment, we have completed numerous complex water quality and hydrodynamics projects, and have successfully organized several national workshops and customized workshops for relevant units. Additionally, we provide high-quality overseas study and course tutoring services to a wide range of students, earning unanimous praise from our clients. On the path to realizing our vision and mission, we will continue to maintain high enthusiasm and motivation, contributing to innovation and sustainable development. Ecoedu Society is committed to combining cutting-edge technologies like artificial intelligence and big data with practical applications, continuously improving industry standards, and contributing to the construction of a green, sustainable future.",
-  "about.qualificationsHonors": "Qualifications & Honors",
-  "about.stat.team": "Distinguished professors, academicians, and master's and PhD graduates from renowned research institutes and universities",
-  "about.stat.patent": "Inventions, patents, software copyrights, and other achievements",
-  "about.stat.cooperator": "Partners include well-known domestic and international research institutes and universities",
-  "about.stat.admission": "Domestic and international visiting scholars, master's and doctoral admission coaching cases",
-  "about.stat.market": "Business involves countries",
-  "about.stat.database": "Lakes, reservoirs, and aquatic databases (including machine learning models and hydrodynamic water quality models)",
-  "about.stat.million": " Million",
-  "about.contactInfo": "Contact",
-  "about.contact.business": "Business Cooperation",
-  "about.contact.online": "Online Chat",
-  "about.contact.wechatScan": "Scan QR code",
-  "about.contact.followWechat": "Follow Ecoedu Society on WeChat",
-
-  "services.smartWaterManagement": "Smart Water Management",
-  "services.smartWaterManagement.models": "One to three-dimensional water environment simulation software customization",
-  "services.smartWaterManagement.models.gas": "Transport reaction modeling, gas emissions",
-  "services.smartWaterManagement.models.gas.content": "Our services integrate advection-reaction models and gas emission monitoring to provide comprehensive solutions for environmental protection and management. The advection-reaction model focuses on simulating the migration and reaction processes of pollutants in the aquatic environment, helping scientists and engineers assess the long-term impact of pollutants on water quality. Additionally, we offer monitoring and analysis services for gas emissions, used to evaluate and control greenhouse gas emissions from industrial, agricultural, and other activities. This service helps clients comply with environmental regulations while promoting the achievement of sustainable development goals.",
-  "services.smartWaterManagement.models.gas.learnMore": "Understanding Advection-Reaction Models",
-  "services.smartWaterManagement.models.water": "Hydrodynamics, watershed catchment",
-  "services.smartWaterManagement.models.water.content": "Our hydrodynamics and watershed catchment services integrate advanced water flow simulation and watershed water resource management to provide comprehensive water environment solutions for our clients. Utilizing advanced Computational Fluid Dynamics (CFD) technology, we simulate the behavior of water bodies in various natural and man-made environments, including flow patterns, water level changes, and liquid dynamic effects. At the same time, we analyze the hydrological cycle of the entire watershed, achieving integrated management of rainwater catchment, surface and groundwater flow, supporting the sustainable use and protection of water resources, flood control, and addressing challenges such as drought.",
-
-  "services.smartWaterQuality": "Smart Water Quality",
-  "services.smartWaterQuality.models": "One to three-dimensional water quality modeling",
-  "services.smartWaterQuality.models.pollutants": "Various pollutants",
-  "services.smartWaterQuality.models.Algae": "Algae",
-  "services.smartWaterQuality.models.Nutrient": "Nutrient salts",
-  "services.smartWaterQuality.models.Gases": "Gases",
-
-  "services.smartEcology": "Smart Ecology",
-  "services.smartEcology.Artificial": "Artificial Intelligence Big Data Analytics",
-  "services.smartEcology.Artificial.Ecosystem": "Global Ecosystem Data",
-  "services.smartEcology.Artificial.Lakes": "Global Reservoirs and Lakes Data",
-  "services.smartEcology.Artificial.ML": "Mechanical Learning Models",
-  "services.smartEcology.Ecology": "Ecosphere",
-  "services.smartEcology.Combustion": "Combustion Dynamics",
-
-  "services.digitalTwin": "Digital Twin",
-  "services.digitalTwin.cloud": "Alibaba Cloud",
-  "services.digitalTwin.systems": "Ecohydro Twin Systems",
-
-  "services.educationConsulting": "Education Consulting",
-  "services.educationConsulting.apply": "Study Abroad",
-  "services.educationConsulting.writing": "Essay Writing",
-
-  "news.sum23.title": "Ecoedu Society Mid-Year Summary 2023",
-  "news.sum23.summary": "Looking back over the past six months, Ecoedu Society has achieved remarkable results in the fields of scientific research and cooperation! Let's take a look at our main highlights and accomplishments...",
-  "news.sum23.date": "July 1, 2023",
-
-  "news.tutorialZZ.title": "Zhengzhou Special: Water Environmental Mathematical Model Workshop Concludes Successfully",
-  "news.tutorialZZ.summary": "As the spring breeze blows, the three-day Water Environmental Mathematical Model Workshop held in Zhengzhou, Henan, has successfully concluded, earning unanimous praise from participants...",
-  "news.tutorialZZ.date": "April 2, 2024",
-
-  "news.w2UIv1.title": "Ecoedu Smart Water Model V1.0",
-  "news.w2UIv1.summary": "Introducing the Ecoedu Smart Water Model, a brand-new, domestically produced intelligent hydrodynamics and water quality modeling software. Integrated with a self-developed database, this software represents a major innovation in the field of smart water management...",
-  "news.w2UIv1.date": "March 18, 2024",
 
   "project.huanghe": "Ecological Review of Guxian Project, Yellow River",
   "project.wuliangsu": "Hydrodynamic simulation of the Wuliangsu Sea",
@@ -103,7 +165,11 @@
   "connectWith": "Click on this link to get in touch",
   "back": "Back",
 
-  "blog.internshipRecruitment": "Career",
-  "blog.academicConferences": "Academic Conferences",
-  "blog.relatedTraining": "Training"
+  "contact": {
+    "title": "Contact",
+    "business": "Business Cooperation",
+    "online": "Online Chat",
+    "wechatScan": "Scan QR code",
+    "followWechat": "Follow Ecoedu Society on WeChat"
+  }
 }

@@ -26,21 +26,21 @@
               <router-link
                 to="/about"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t("about") }}</router-link
+                >{{ $t("about.title") }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/services"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t("services") }}</router-link
+                >{{ $t("services.title") }}</router-link
               >
             </li>
             <li>
               <router-link
                 to="/blog"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t("blog") }}</router-link
+                >{{ $t("news.title") }}</router-link
               >
             </li>
             <li>
@@ -54,7 +54,7 @@
               <router-link
                 to="/contacts"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >{{ $t("about.contactInfo") }}</router-link
+                >{{ $t("contact.title") }}</router-link
               >
             </li>
             <!-- <li>
@@ -136,21 +136,21 @@
                   <router-link
                     to="/about"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t("about") }}</router-link
+                    >{{ $t("about.title") }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/services"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t("services") }}</router-link
+                    >{{ $t("services.title") }}</router-link
                   >
                 </li>
                 <li>
                   <router-link
                     to="/blog"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t("blog") }}</router-link
+                    >{{ $t("news.title") }}</router-link
                   >
                 </li>
                 <li>
@@ -164,7 +164,7 @@
                   <router-link
                     to="/contacts"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
-                    >{{ $t("about.contactInfo") }}</router-link
+                    >{{ $t("contact.title") }}</router-link
                   >
                 </li>
                 <!-- <li>

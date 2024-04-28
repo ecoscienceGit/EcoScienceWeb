@@ -5,23 +5,23 @@
 
         <!-- Page header -->
         <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-          <h1 class="h1">{{ $t('blog') }}</h1>
+          <h1 class="h1">{{ $t('news.title') }}</h1>
         </div>
 
         <!-- Section tags -->
         <div class="border-b border-gray-300 pb-4 mb-12">
           <ul class="flex flex-wrap justify-center md:justify-start font-medium -mx-5 -my-1">
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(0)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 0, 'text-blue-600': openTab === 0}">{{ $t('blog') }}</a>
+              <a v-on:click="toggleTabs(0)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 0, 'text-blue-600': openTab === 0}">{{ $t('news.title') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">{{ $t('blog.internshipRecruitment') }}</a>
+              <a v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 1, 'text-blue-600': openTab === 1}">{{ $t('news.career') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">{{ $t('blog.academicConferences') }}</a>
+              <a v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 2, 'text-blue-600': openTab === 2}">{{ $t('news.academicConferences') }}</a>
             </li>
             <li class="mx-5 my-1">
-              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">{{ $t('blog.relatedTraining') }}</a>
+              <a v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-800 hover:underline': openTab !== 3, 'text-blue-600': openTab === 3}">{{ $t('news.training') }}</a>
             </li>
           </ul>
         </div>

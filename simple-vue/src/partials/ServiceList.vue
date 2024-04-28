@@ -7,7 +7,7 @@
             <!-- Article header -->
             <header class="max-w-6xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-left mb-4">{{ $t("services") }}</h1>
+              <h1 class="h1 text-left mb-4">{{ $t("services.title") }}</h1>
             </header>
 
             <div class="max-w-sm mx-auto md:max-w-none">
@@ -15,74 +15,6 @@
               <div
                 class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start"
               >
-                <!-- 2nd article -->
-                <article class="block flex flex-col h-full">
-                  <header>
-                    <router-link
-                      to="/services-category/smart-water-quality"
-                      class="block mb-6"
-                    >
-                      <figure
-                        class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded"
-                      >
-                        <img
-                          class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
-                          width="352"
-                          height="198"
-                          alt="News 01"
-                        />
-                      </figure>
-                    </router-link>
-                    <h3
-                      class="text-xl font-bold leading-snug tracking-tight mb-2"
-                    >
-                      <router-link
-                        to="/services-category/smart-water-quality"
-                        class="hover:underline"
-                        >{{ $t("services.smartWaterQuality") }}</router-link
-                      >
-                    </h3>
-                  </header>
-                  <p class="text-gray-600 grow">
-                    {{ $t("services.smartWaterQuality.models") }}
-                  </p>
-                </article>
-
-                <!-- 2nd article -->
-                <article class="block flex flex-col h-full">
-                  <header>
-                    <router-link
-                      to="/services-category/smart-water-quality"
-                      class="block mb-6"
-                    >
-                      <figure
-                        class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded"
-                      >
-                        <img
-                          class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
-                          width="352"
-                          height="198"
-                          alt="News 01"
-                        />
-                      </figure>
-                    </router-link>
-                    <h3
-                      class="text-xl font-bold leading-snug tracking-tight mb-2"
-                    >
-                      <router-link
-                        to="/services-category/smart-water-quality"
-                        class="hover:underline"
-                        >{{ $t("services.smartWaterQuality") }}</router-link
-                      >
-                    </h3>
-                  </header>
-                  <p class="text-gray-600 grow">
-                    {{ $t("services.smartWaterQuality.models") }}
-                  </p>
-                </article>
-
                 <!-- 1st service type -->
                 <article class="block flex flex-col h-full">
                   <header>
@@ -108,16 +40,50 @@
                       <router-link
                         to="/services-category/smart-water-management"
                         class="hover:underline"
-                        >{{ $t("services.smartWaterManagement") }}</router-link
+                        >{{ $t("services.smartWaterManagement.title") }}</router-link
                       >
                     </h3>
                   </header>
                   <p class="text-gray-600 grow">
-                    {{ $t("services.smartWaterManagement.models") }}
+                    {{ $t("services.smartWaterManagement.intro") }}
                   </p>
                 </article>
 
-                <!-- 3rd article -->
+                <!-- 2nd service type -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link
+                      to="/services-category/smart-water-quality"
+                      class="block mb-6"
+                    >
+                      <figure
+                        class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded"
+                      >
+                        <img
+                          class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
+                          src="../images/tutorial-01.jpg"
+                          width="352"
+                          height="198"
+                          alt="News 01"
+                        />
+                      </figure>
+                    </router-link>
+                    <h3
+                      class="text-xl font-bold leading-snug tracking-tight mb-2"
+                    >
+                      <router-link
+                        to="/services-category/smart-water-quality"
+                        class="hover:underline"
+                        >{{ $t("services.smartWaterQuality.title") }}</router-link
+                      >
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">
+                    {{ $t("services.smartWaterQuality.intro") }}
+                  </p>
+                </article>
+
+                <!-- 3rd service type -->
                 <article class="block flex flex-col h-full">
                   <header>
                     <router-link
@@ -142,22 +108,22 @@
                       <router-link
                         to="/services-category/smart-ecology"
                         class="hover:underline"
-                        >{{ $t("services.smartEcology") }}</router-link
+                        >{{ $t("services.smartEcology.title") }}</router-link
                       >
                     </h3>
                   </header>
                   <p class="text-gray-600 grow">
                     {{
-                      $t("services.smartEcology.Artificial") +
+                      $t("services.smartEcology.Artificial.title") +
                       "; " +
-                      $t("services.smartEcology.Ecology") +
+                      $t("services.smartEcology.Ecology.title") +
                       "; " +
-                      $t("services.smartEcology.Combustion")
+                      $t("services.smartEcology.Combustion.title")
                     }}
                   </p>
                 </article>
 
-                <!-- 4th article -->
+                <!-- 4th service type -->
                 <article class="block flex flex-col h-full">
                   <header>
                     <router-link
@@ -182,20 +148,20 @@
                       <router-link
                         to="/services-category/digital-twin"
                         class="hover:underline"
-                        >{{ $t("services.digitalTwin") }}</router-link
+                        >{{ $t("services.digitalTwin.title") }}</router-link
                       >
                     </h3>
                   </header>
                   <p class="text-gray-600 grow">
                     {{
-                      $t("services.digitalTwin.systems") +
+                      $t("services.digitalTwin.systems.title") +
                       "; " +
-                      $t("services.digitalTwin.cloud")
+                      $t("services.digitalTwin.cloud.title")
                     }}
                   </p>
                 </article>
 
-                <!-- 5th article -->
+                <!-- 5th service type -->
                 <article class="block flex flex-col h-full">
                   <header>
                     <router-link
@@ -220,11 +186,16 @@
                       <router-link
                         to="/services-category/education-consulting"
                         class="hover:underline"
-                        >{{ $t("services.educationConsulting") }}</router-link
+                        >{{ $t("services.educationConsulting.title") }}</router-link
                       >
                     </h3>
                   </header>
-                  <p class="text-gray-600 grow">{{ $t("") }}</p>
+                  <p class="text-gray-600 grow">
+                    {{
+                      $t("services.educationConsulting.apply.title") +
+                      "; " +
+                      $t("services.educationConsulting.writing.title")
+                    }}</p>
                 </article>
               </div>
             </div>
