@@ -97,13 +97,6 @@
 
               <!-- Main content -->
               <div>
-                <img
-                  class="w-full rounded"
-                  src="/projects/images/guxian/guxianshow.jpg"
-                  width="768"
-                  height="432"
-                  alt="Blog single"
-                />
                 <!-- Article body -->
                 <div class="text-lg text-gray-600">
                   <h3
@@ -120,6 +113,13 @@
                     >.
                     的动态模拟。通过这些综合性的模型分析，我们能够帮助工程决策者和环境管理者深入理解和预测工程对当地生态系统的具体影响。
                   </p>
+                  <img
+                    class="w-full rounded"
+                    src="/projects/images/guxian/huanghe.jpg"
+                    width="768"
+                    height="432"
+                    alt="Blog single"
+                  />
                   <h3
                     id="general"
                     class="h3 text-gray-900 mb-4"
@@ -152,18 +152,9 @@
                     id="additional"
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
-                  >
-                    案例动图
-                  </h3>
+                  ></h3>
                   <span>叶绿素生长模拟</span>
                   <figure class="mb-8">
-                    <!-- <img
-                      class="w-full rounded"
-                      src="../images/news-single.jpg"
-                      width="768"
-                      height="432"
-                      alt="Blog single"
-                    /> -->
                     <video
                       class="w-full rounded"
                       controls
