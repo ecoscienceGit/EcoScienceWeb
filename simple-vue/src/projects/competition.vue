@@ -18,7 +18,7 @@
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
                   >
-                    目录
+                    {{ $t("catalogs") }}
                   </h4>
                   <ul class="font-medium -my-1">
                     <li class="py-1">

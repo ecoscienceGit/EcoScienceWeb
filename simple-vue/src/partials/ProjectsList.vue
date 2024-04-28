@@ -12,17 +12,17 @@
         <div class="md:flex md:justify-between">
           <!-- Articles container -->
           <div class="md:grow -mt-4">
-            <!-- Project 1 -->
+            <!-- Project 7 -->
             <article
               class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
             >
               <div
                 class="flex flex-col items-center md:flex-row md:items-center w-full"
               >
-                <router-link to="/project-post/guxian" class="block">
+                <router-link to="/project-post/canada" class="block">
                   <img
-                    src="/projects/images/guxian/cover.jpg"
-                    alt="黄河项目"
+                    src="/projects/images/canada/cover.jpg"
+                    alt="canada"
                     class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
                   />
                 </router-link>
@@ -30,10 +30,10 @@
                   <header>
                     <h2 class="text-xl font-semibold mb-2">
                       <router-link
-                        to="/project-post/guxian"
+                        to="/project-post/canada"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.huanghe") }}
+                        {{ $t("project.canada") }}
                       </router-link>
                     </h2>
                   </header>
@@ -67,6 +67,40 @@
                         class="hover:underline text-blue-600"
                       >
                         {{ $t("project.consultation") }}
+                      </router-link>
+                    </h2>
+                  </header>
+                  <footer class="text-sm flex items-center mt-4">
+                    <div>
+                      <span class="text-gray-600"></span>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 1 -->
+            <article
+              class="flex flex-col md:flex-row items-center py-4 border-b border-gray-200"
+            >
+              <div
+                class="flex flex-col items-center md:flex-row md:items-center w-full"
+              >
+                <router-link to="/project-post/guxian" class="block">
+                  <img
+                    src="/projects/images/guxian/cover.jpg"
+                    alt="黄河项目"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                  />
+                </router-link>
+                <div class="md:ml-6 text-center md:text-left">
+                  <header>
+                    <h2 class="text-xl font-semibold mb-2">
+                      <router-link
+                        to="/project-post/guxian"
+                        class="hover:underline text-blue-600"
+                      >
+                        {{ $t("project.huanghe") }}
                       </router-link>
                     </h2>
                   </header>

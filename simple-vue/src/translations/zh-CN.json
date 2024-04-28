@@ -1,5 +1,7 @@
 {
   "title": "思益清源",
+  "catalogs": "目录",
+  "introduction": "相关介绍",
   "about": "关于我们",
   "services": "业务范围",
   "blog": "公司动态",
@@ -82,7 +84,7 @@
   "news.tutorialZZ.title": "郑州专场：水环境数学模型研习班圆满落幕",
   "news.tutorialZZ.summary": "春风习习之际，为期三天的水环境数学模型研习班河南郑州专场已圆满结束，赢得了参与者一致好评……",
   "news.tutorialZZ.date": "2024年4月2日",
-  
+
   "news.w2UIv1.title": "清源智水模型 V1.0",
   "news.w2UIv1.summary": "清源智水模型，一个全新的、国产智能的水动力与水质模型程序。结合自主研发的数据库，这款软件是智慧水利智慧水务领域的一大创新……",
   "news.w2UIv1.date": "2024年3月18日",
@@ -93,6 +95,13 @@
   "project.training": "研习班",
   "project.models": "模型竞赛辅导",
   "project.consultation": "在线咨询",
+  "project.canada": "推动社交媒体在加拿大非营利组织与中老年人中的应用",
+  "project.canada.p1": "加拿大多伦多 - 作为致力于可持续发展和生态意识的非营利组织，EcoEdu Society联合Canada Mindful Peace Association（加拿大慈善组织）共同发起了一项新的倡议。此次活动旨在推广社交媒体及人工智能技术在中老年群体中的应用，以提高工作与宣传效率。",
+  "project.canada.p2": "此活动特别强调了人工智能如何助力中老年人更有效地接触和利用现代技术。通过组织工作坊和讲座，我们教授参与者如何在社交平台上建立影响力，如何利用AI工具简化日常任务，以及如何通过技术提高生活质量。此外，本次活动也成功吸引了超过50位参与者，展现了社交媒体和AI技术在加强社区互动和信息传播中的巨大潜力。",
+  "project.canada.p3": "我们坚信，通过教育和资源的普及，可以使中老年人不仅能够跟上技术发展的步伐，更能在其中发现增强自己生活的新方式。",
+  "cooperation": "了解细节或寻求更多技术合作",
+  "connectWith": "点击该链接进行联系",
+  "back": "返回",
 
   "blog.internshipRecruitment": "实习招聘",
   "blog.academicConferences": "学术会议",
