@@ -15,7 +15,7 @@
             <!-- Article content -->
             <div class="lg:flex lg:justify-between">
               <!-- Sidebar -->
-              <aside class="relative hidden lg:block w-64 mr-20 shrink-0">
+              <!-- <aside class="relative hidden lg:block w-64 mr-20 shrink-0">
                 <div class="sticky top-28">
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
@@ -76,7 +76,7 @@
                     </li>
                   </ul>
                 </div>
-              </aside>
+              </aside> -->
 
               <!-- Main content -->
               <div>

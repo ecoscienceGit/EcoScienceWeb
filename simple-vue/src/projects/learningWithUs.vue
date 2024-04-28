@@ -7,13 +7,15 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">在线咨询服务 线上辅导模式</h1>
+              <h1 class="h1 text-center mb-4">
+                {{ $t("project.consultation") }}
+              </h1>
             </header>
 
             <!-- Article content -->
             <div class="lg:flex lg:justify-between">
               <!-- Sidebar -->
-              <aside class="relative hidden lg:block w-64 mr-20 shrink-0">
+              <!-- <aside class="relative hidden lg:block w-64 mr-20 shrink-0">
                 <div class="sticky top-28">
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
@@ -40,7 +42,7 @@
                     </li>
                   </ul>
                 </div>
-              </aside>
+              </aside> -->
 
               <!-- Main content -->
               <div>
