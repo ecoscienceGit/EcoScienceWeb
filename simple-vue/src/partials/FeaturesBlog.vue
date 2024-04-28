@@ -110,7 +110,7 @@
         </div>
 
         <!-- See More -->
-        <div class="max-w-2xl mx-auto mt-8 text-center pb-12 md:pb-20">
+        <div class="max-w-2xl mx-auto mt-8 text-center">
           <p class="text-blue-600 mb-4">
             <router-link to="/blog" class="hover:underline"
             >{{ $t('viewMore') }}</router-link>

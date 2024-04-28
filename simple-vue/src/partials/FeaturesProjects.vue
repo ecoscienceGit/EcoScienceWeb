@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20">
+      <div class="pt-12">
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">
@@ -100,7 +100,7 @@
         </div>
 
         <!-- See More-->
-        <div class="max-w-6xl mx-auto mt-8 text-center border-t border-gray-200 pb-12 md:pb-20">
+        <div class="max-w-6xl mx-auto mt-8 text-center border-t border-gray-200">
           <p class="text-blue-600 mt-8">
             <router-link to="/projects" class="hover:underline"
             >{{ $t('viewMore') }}</router-link>

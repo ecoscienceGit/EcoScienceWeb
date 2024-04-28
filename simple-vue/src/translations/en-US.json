@@ -10,7 +10,7 @@
   "ourEmail": "Ecoedu Email：{account}{'@'}{domain}",
   "copyright": "2024 Ecoedu Society",
   "slogan": "Creating a Green Future",
-  "companyIntro": "Ecoedu Society offers top-tier consulting and services in water quality, hydrodynamics, and energy-saving combustion modeling. Upholding our belief in 'empowering nature with technology for a cleaner world,' we stay abreast of tech trends. We merge big data and AI with water resource management to deliver smart, efficient solutions to our clients.",
+  "companyIntro": "Welcome to the EcoEdu Society, a non-profit organization dedicated to harnessing artificial intelligence and digital innovation to promote sustainable development and ecological awareness. Our mission is to empower communities and businesses through social media advocacy, educational consulting in AI, and transformative digital services, all aimed at fostering a greener, more sustainable future. Join us in driving positive change for our planet.",
 
   "about.companyProfile": "Company Profile",
   "about.companyGoal": "Our goal is to enhance water resource efficiency, reduce waste and pollution, and promote sustainable development by incorporating intelligent technologies. As we continue to innovate and progress, we strive to improve our technical capabilities and service quality to meet customer and industry needs.",
@@ -55,7 +55,7 @@
   "services.smartEcology.Combustion": "Combustion Dynamics",
 
   "services.digitalTwin": "Digital Twin",
-  "services.digitalTwin.cloud": "Ali Cloud, Huawei Cloud",
+  "services.digitalTwin.cloud": "Alibaba Cloud",
   "services.digitalTwin.systems": "Ecohydro Twin Systems",
 
   "services.educationConsulting": "Education Consulting",

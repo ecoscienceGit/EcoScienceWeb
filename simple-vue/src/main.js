@@ -11,8 +11,8 @@ import zh from "./translations/zh-CN.json";
 
 const i18n = createI18n({
   legacy: false,
-  locale: "zh",
-  fallbackLocale: "zh",
+  locale: "en",
+  fallbackLocale: "en",
   messages: { zh, en },
 });
 

@@ -6,7 +6,7 @@
     <div class="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
     <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20">
+      <div class="pb-12">
 
         <!-- Section header -->
         <div class="max-w-6xl mx-auto text-left pb-12 md:pb-20">

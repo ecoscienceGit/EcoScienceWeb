@@ -73,17 +73,19 @@
                 <li>
                   <button
                     class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                    @click="changeLocale('en')"
+                    :class="{ 'font-semibold': currentLocale !== 'en' }"
+                    @click="changeLocale('zh')"
                   >
-                    English
+                    简体中文
                   </button>
                 </li>
                 <li>
                   <button
-                    class="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                    @click="changeLocale('zh')"
+                    class="text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
+                    :class="{ 'font-bold': currentLocale === 'en', 'font-normal': currentLocale !== 'en'}"
+                    @click="changeLocale('en')"
                   >
-                    简体中文
+                    English
                   </button>
                 </li>
               </Dropdown>

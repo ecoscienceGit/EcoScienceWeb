@@ -21,7 +21,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
       <!-- Hero content -->
-      <div class="pt-32 pb-12 md:pt-40 md:pb-20">
+      <div class="pt-32 pb-6 md:pt-40">
 
         <!-- Section header -->
         <div class="text-center pb-12 md:pb-16">
