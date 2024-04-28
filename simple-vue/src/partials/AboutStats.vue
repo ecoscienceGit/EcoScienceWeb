@@ -4,10 +4,14 @@
       <div class="py-12 md:py-20 border-t border-gray-200">
 
         <!-- Section header -->
-        <div class="max-w-6xl mx-auto text-left pb-12 md:pb-16">
+        <div class="max-w-6xl mx-auto text-left pb-8 md:pb-10">
           <h2 class="h2 mb-4">{{ $t('about.qualificationsHonors') }}</h2>
           <p class="text-xl text-gray-600"></p>
         </div>
+
+        <figure class="flex justify-center items-start">
+          <img class="w-4/5 rounded mb-4" src="../images/qualifications.png" width="768" height="432" alt="Qualifications" />
+        </figure>
 
         <!-- Items -->
         <div class="max-w-sm mx-auto grid gap-8 md:gap-16 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-5xl pt-8 md:pt-12">
