@@ -1,5 +1,7 @@
 {
   "title": "Ecoedu Society",
+  "catalogs": "Catalogs",
+  "introduction": "Introduction",
   "about": "About",
   "services": "Services",
   "blog": "News",
@@ -80,6 +82,15 @@
   "project.training": "Tutorial class",
   "project.models": "Modeling Competition Coaching",
   "project.consultation": "Online Consultation",
+
+  "project.canada": "Encouraging Social Media Adoption Among Seniors in Canada",
+  "project.canada.p1": "Toronto, Canada - As a non-profit organization dedicated to sustainable development and ecological awareness, EcoEdu Society has partnered with the Canada Mindful Peace Association to launch a new initiative aimed at enhancing the engagement of seniors with social media and artificial intelligence technologies. This initiative focuses on improving operational and promotional efficiencies.",
+  "project.canada.p2": "The event highlighted how artificial intelligence can help seniors more effectively access and utilize modern technologies. Through workshops and lectures, participants were taught how to establish a presence on social media platforms, simplify daily tasks with AI tools, and enhance their quality of life through technology. Additionally, the initiative successfully attracted over 50 participants, demonstrating the significant potential of social media and AI in enhancing community interaction and information dissemination.",
+  "project.canada.p3": "We believe that by democratizing education and resources, seniors can not only keep pace with technological advancements but also discover new ways to enhance their lives through these innovations.",
+
+  "cooperation": "Get the details or seek more technical cooperation",
+  "connectWith": "Click on this link to get in touch",
+  "back": "Back",
 
   "blog.internshipRecruitment": "Career",
   "blog.academicConferences": "Academic Conferences",

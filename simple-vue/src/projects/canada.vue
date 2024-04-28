@@ -7,7 +7,7 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">在线咨询服务 线上辅导模式</h1>
+              <h1 class="h1 text-center mb-4">{{ $t("project.canada") }}</h1>
             </header>
 
             <!-- Article content -->
@@ -35,7 +35,7 @@
                             d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"
                           />
                         </svg>
-                        <span>Introduction</span>
+                        <span>{{ $t("introduction") }}</span>
                       </a>
                     </li>
                   </ul>
@@ -51,14 +51,30 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    我们公司提供多元化的咨询服务，其中包括但不限于数据模型构建、实习辅导、论文辅导等。作为我们业务的一部分，这些服务为客户提供了全面的支持和指导，帮助他们在各自领域取得成功。数据模型构建是我们的一项专长，我们能够根据客户的需求和具体情况，设计和开发各种类型的数据模型，为其业务提供可靠的支持和决策依据。此外，我们还提供实习辅导服务，为学生提供个性化的指导，帮助他们充分发挥潜力并在实习中取得成功。论文辅导也是我们的业务之一，我们的专业团队将为客户提供论文写作指导、修改建议和审查服务，确保其论文质量达到最高水平。无论客户的需求是什么，我们都致力于为他们提供最优质的咨询服务，以帮助他们实现目标并取得成功。
+                    {{ $t("project.canada.p1") }}
                   </p>
+                  <p class="mb-8">
+                    {{ $t("project.canada.p2") }}
+                  </p>
+                  <p class="mb-8">
+                    {{ $t("project.canada.p3") }}
+                  </p>
+                  <figure class="mb-8">
+                    <img
+                      class="w-full rounded"
+                      src="/projects/images/canada/canada.jpg"
+                      width="768"
+                      height="432"
+                      alt="Blog single"
+                    />
+                  </figure>
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="/contacts"
-                        >点击该链接进行联系</a
+                      {{ $t("cooperation") }}
+                      <a class="text-gray-900 underline" href="/contacts">{{
+                        $t("connectWith")
+                      }}</a
                       >.
                     </div>
                     <div class="mt-6">
@@ -93,6 +109,6 @@
 
 <script>
 export default {
-  name: "LearningWithUs",
+  name: "Canada",
 };
 </script>

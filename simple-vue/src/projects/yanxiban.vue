@@ -20,7 +20,7 @@
                   <h4
                     class="text-lg font-bold leading-snug tracking-tight mb-4"
                   >
-                    目录
+                    {{ $t("catalogs") }}
                   </h4>
                   <ul class="font-medium -my-1">
                     <li class="py-1">
@@ -183,7 +183,7 @@
                             d="M.293 5.282L5 .5l1.414 1.436-3 3.048H12v2.032H3.414l3 3.048L5 11.5.293 6.718a1.027 1.027 0 010-1.436z"
                           />
                         </svg>
-                        <span>返回</span>
+                        <span>{{ $t("back") }}</span>
                       </router-link>
                     </div>
                   </div>

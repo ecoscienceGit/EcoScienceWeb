@@ -24,6 +24,7 @@ import Wuliangsuhai from "./../projects/wuliangsuhai.vue";
 import Nanshuibeidiao from "./../projects/nanshuibeidiao.vue";
 import Yanxiban from "./../projects/yanxiban.vue";
 import LearningWithUs from "./../projects/learningWithUs.vue";
+import Canada from "../projects/canada.vue";
 
 import Footer from "./../partials/Footer.vue";
 
@@ -49,6 +50,8 @@ export default {
           return Competition;
         case "learningWithUs":
           return LearningWithUs;
+        case "canada":
+          return Canada;
         // 根据项目ID返回对应的 PostSingle 组件
         default:
           return null; // 或默认组件
