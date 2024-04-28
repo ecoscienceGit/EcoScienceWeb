@@ -27,10 +27,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/swm-01.jpg"
+                          src="../images/swm-cover.jpg"
                           width="352"
                           height="198"
-                          alt="Swm 01"
+                          alt="Smart Water Management cover"
                         />
                       </figure>
                     </router-link>
@@ -61,10 +61,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
+                          src="../images/swq-cover.jpg"
                           width="352"
                           height="198"
-                          alt="News 01"
+                          alt="Smart Water Quality cover"
                         />
                       </figure>
                     </router-link>
@@ -95,10 +95,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
+                          src="../images/se-cover.jpg"
                           width="352"
                           height="198"
-                          alt="News 01"
+                          alt="Smart Ecology cover"
                         />
                       </figure>
                     </router-link>
@@ -135,10 +135,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
+                          src="../images/dt-cover.jpg"
                           width="352"
                           height="198"
-                          alt="News 01"
+                          alt="Digital Twin cover"
                         />
                       </figure>
                     </router-link>
@@ -173,10 +173,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/tutorial-01.jpg"
+                          src="../images/ec-cover.jpg"
                           width="352"
                           height="198"
-                          alt="News 01"
+                          alt="Edu&Consulting cover"
                         />
                       </figure>
                     </router-link>

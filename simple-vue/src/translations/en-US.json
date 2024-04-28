@@ -28,8 +28,7 @@
       "models": {
         "gas": {
           "title": "Transport reaction modeling, gas emissions",
-          "content": "Our services integrate advection-reaction models and gas emission monitoring to provide comprehensive solutions for environmental protection and management. The advection-reaction model focuses on simulating the migration and reaction processes of pollutants in the aquatic environment, helping scientists and engineers assess the long-term impact of pollutants on water quality. Additionally, we offer monitoring and analysis services for gas emissions, used to evaluate and control greenhouse gas emissions from industrial, agricultural, and other activities. This service helps clients comply with environmental regulations while promoting the achievement of sustainable development goals.",
-          "learnMore": "Understanding Advection-Reaction Models"
+          "content": "Our services integrate advection-reaction models and gas emission monitoring to provide comprehensive solutions for environmental protection and management. The advection-reaction model focuses on simulating the migration and reaction processes of pollutants in the aquatic environment, helping scientists and engineers assess the long-term impact of pollutants on water quality. Additionally, we offer monitoring and analysis services for gas emissions, used to evaluate and control greenhouse gas emissions from industrial, agricultural, and other activities. This service helps clients comply with environmental regulations while promoting the achievement of sustainable development goals."
         },
         "water": {
           "title": "Hydrodynamics, watershed catchment",
@@ -41,8 +40,12 @@
       "title": "Smart Water Quality",
       "intro": "One to three-dimensional water quality modeling",
       "models": {
+        "w2": {
+            "title": "Water Quality Modeling",
+            "content": "Advanced hydrodynamic, water quality, and aquatic ecology model jointly developed by Portland State University, Hubei University of Technology, Wuhan Shanshui Qingyuan Environmental Technology, and Ecoedu Society. It excels in simulating a variety of water bodies, including rivers, lakes, and reservoirs, and can precisely model over one hundred water quality and ecological indicators. Its capabilities extend to accurately simulating water levels, flow rates, temperature distributions, and ice cover, making it a valuable tool for environmental research and management."  
+        },
         "pollutants": {
-          "title": "Various pollutants",
+          "title": "Pollutants",
           "content": "Our smart water quality services use one to three-dimensional water quality models to provide accurate water quality analysis and prediction. These models simulate the behavior of various pollutants in water bodies, including their spread, diffusion, and ultimate impact. The service supports pollutant identification, concentration assessment, and risk analysis, helping decision-makers develop effective water quality management and purification strategies. Our solutions are suitable for urban water supply systems, natural water bodies, and industrial wastewater treatment, ensuring the safety and sustainability of water resources."
         },
         "Algae": {
@@ -50,7 +53,7 @@
           "content": "Our smart water quality services combine one to three-dimensional water quality models specifically for monitoring and analyzing the growth and distribution of algae. These models detail the dynamic changes of algae in different aquatic environments, including growth rates, influencing factors, and potential toxicity risks. Through precise data-driven models, we help environmental agencies and water managers identify early signs of algae outbreaks and develop timely and effective control and response strategies to protect water quality and ecological safety."
         },
         "Nutrient": {
-          "title": "Nutrient salts",
+          "title": "Nutrient Salts",
           "content": "Our smart water quality services use one to three-dimensional water quality models to provide high-precision analysis and management solutions for nutrients in water bodies. These models accurately simulate and predict the concentration changes and migration paths of key nutrients such as nitrogen and phosphorus, helping users identify potential eutrophication issues. Our technology supports environmental scientists and water resource managers in developing effective nutrient control strategies and prevention measures to maintain water body health and ecological balance."
         },
         "Gases": {
@@ -62,7 +65,7 @@
     "smartEcology": {
       "title": "Smart Ecology",
       "Artificial": {
-        "intro": "Artificial Intelligence Big Data Analytics",
+        "title": "Artificial Intelligence & Big Data Analytics",
         "Ecosystem": {
           "title": "Global Ecosystem Data",
           "content": "Our smart ecology services use artificial intelligence and big data technology to provide clients with deep analysis and insights into global ecological data. Utilizing advanced algorithms and large-scale data processing capabilities, we analyze ecological trends, environmental stress factors, and biodiversity indicators. This service assists government agencies, research organizations, and environmental protection agencies in making data-based decisions, effectively addressing climate change, ecological degradation, and natural resource management challenges."
@@ -89,7 +92,7 @@
       "title": "Digital Twin",
       "cloud": {
         "title": "Alibaba Cloud",
-        "content": "Our digital twin services are implemented on Alibaba Cloud and Huawei Cloud platforms, fully utilizing these platforms' powerful cloud computing resources and advanced data analysis tools. By building virtual models in the cloud, we can provide customers with real-time data analysis and insights, helping them predict system performance, optimize operations, and reduce maintenance costs. This service is especially applicable to manufacturing, urban infrastructure, and large engineering projects, achieving higher operational efficiency and better decision support. With Alibaba Cloud and Huawei Cloud's digital twin technology, customers can enjoy seamless data integration, efficient computing processing capabilities, and global technical support."
+        "content": "Our digital twin services are implemented on Alibaba Cloud platform, fully utilizing these platforms' powerful cloud computing resources and advanced data analysis tools. By building virtual models in the cloud, we can provide customers with real-time data analysis and insights, helping them predict system performance, optimize operations, and reduce maintenance costs. This service is especially applicable to manufacturing, urban infrastructure, and large engineering projects, achieving higher operational efficiency and better decision support. With Alibaba Cloud and Huawei Cloud's digital twin technology, customers can enjoy seamless data integration, efficient computing processing capabilities, and global technical support."
       },
       "systems": {
         "title": "Ecohydro Twin Systems",
@@ -132,6 +135,7 @@
   "projects": "Projects",
   "slogon": "Dripping water becomes a river, gathering sand becomes a tower",
   "viewMore": "View More",
+  "learnMore": "Learn More →",
   "wechatOfficialAccount": "Ecoedu Society - Wechat Official Account",
   "ourEmail": "Ecoedu Email：{account}{'@'}{domain}",
   "copyright": "2024 Ecoedu Society",

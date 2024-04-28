@@ -9,7 +9,7 @@
             <!-- Article header -->
             <header class="max-w-6xl mx-auto mb-20">
               <!-- Title -->
-              <h2 class="h2 text-left mb-4">立面二维水动力水质水生态模型 CE-QUAL-W2</h2>
+              <h2 class="h2 text-left mb-4">立面二维水动力水质水生态模型</h2>
             </header>
 
             <!-- Article content -->
