@@ -19,13 +19,13 @@
               class="text-blue-600 hover:text-blue-500">
               {{ $t('learnMore')}}</router-link>
           </div>
-          <figure class="lg:col-span-1 mb-8 ml-8">
+          <figure class="lg:col-span-1 mb-8 mx-8">
             <img class="w-full rounded" src="../../images/swm-01.jpg" width="768" height="432" alt="swm 09" />
           </figure>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 py-4 md:py-12 border-t border-gray-200">
-          <figure class="lg:col-span-1 mb-8 mr-8">
+          <figure class="lg:col-span-1 mb-8 mx-8">
             <img class="w-full rounded" src="../../images/swm-02.jpg" width="768" height="432" alt="swm 11" />
           </figure>
           <div class="lg:col-span-1 pb-8 md:pb-8 text-center md:text-left">

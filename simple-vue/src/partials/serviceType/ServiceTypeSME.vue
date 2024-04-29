@@ -15,7 +15,7 @@
             <h4 class="h4 text-gray-900 mb-4" style="scroll-margin-top: 100px">{{ $t('services.socialMediaEcology.awareness.title') }}</h4>
             <p class="text-gray-600 mb-8">{{ $t('services.socialMediaEcology.awareness.content') }}</p>
           </div>
-          <figure class="lg:col-span-1 mb-8 ml-8">
+          <figure class="lg:col-span-1 mb-8 mx-8">
             <img class="w-full rounded" src="../../images/sme-01.jpg" width="768" height="432" alt="sme 01" />
           </figure>
         </div>
