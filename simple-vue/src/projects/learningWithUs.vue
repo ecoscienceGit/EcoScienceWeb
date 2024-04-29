@@ -8,7 +8,7 @@
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
               <h1 class="h1 text-center mb-4">
-                {{ $t("project.consultation") }}
+                {{ $t("project.consultation.title") }}
               </h1>
             </header>
 
@@ -109,14 +109,14 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    {{ $t("project.consultation.p3.1") }}
+                    {{ $t("project.consultation.p31") }}
                   </p>
                   <p
                     id="introduction"
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    {{ $t("project.consultation.p3.2") }}
+                    {{ $t("project.consultation.p32") }}
                   </p>
                   <figure class="mb-8">
                     <img
@@ -140,14 +140,14 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    {{ $t("project.consultation.p4.1") }}
+                    {{ $t("project.consultation.p41") }}
                   </p>
                   <p
                     id="introduction"
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    {{ $t("project.consultation.p4.2") }}
+                    {{ $t("project.consultation.p42") }}
                   </p>
 
                   <div>

@@ -33,7 +33,7 @@
                         to="/project-post/canada"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.canada") }}
+                        {{ $t("project.canada.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -66,7 +66,7 @@
                         to="/project-post/learningWithUs"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.consultation") }}
+                        {{ $t("project.consultation.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -100,7 +100,7 @@
                         to="/project-post/guxian"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.huanghe") }}
+                        {{ $t("project.huanghe.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -133,7 +133,7 @@
                         to="/project-post/wuliangsuhai"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.wuliangsu") }}
+                        {{ $t("project.wuliangsu.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -167,7 +167,7 @@
                         to="/project-post/nanshuibeidiao"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.nanshui") }}
+                        {{ $t("project.nanshui.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -201,7 +201,7 @@
                         to="/project-post/yanxiban"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.training") }}
+                        {{ $t("project.training.title") }}
                       </router-link>
                     </h2>
                   </header>
@@ -235,7 +235,7 @@
                         to="/project-post/competition"
                         class="hover:underline text-blue-600"
                       >
-                        {{ $t("project.models") }}
+                        {{ $t("project.models.title") }}
                       </router-link>
                     </h2>
                   </header>

@@ -7,7 +7,9 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">乌梁素海水动力模拟</h1>
+              <h1 class="h1 text-center mb-4">
+                {{ $t("project.wuliangsu.title") }}
+              </h1>
             </header>
 
             <!-- Article content -->
@@ -54,10 +56,10 @@
                   <div class="flex flex-col lg:flex-row lg:items-start">
                     <div class="lg:w-1/2 mb-8">
                       <p class="text-lg text-gray-600">
-                        乌梁素海前身为黄河故道，属河成湖，湖面南北长35至40公里，东西宽5至10公里，面积约为293平方公里
+                        {{ $t("project.wuliangsu.p1") }}
                       </p>
                       <p class="text-lg text-gray-600 mb-8">
-                        通过高精度的计算模拟来分析和预测乌梁素海这一内陆湖泊的水动力行为。乌梁素海位于中国内蒙古自治区，是一个重要的湿地生态系统，具有丰富的生物多样性和重要的生态功能。
+                        {{ $t("project.wuliangsu.p2") }}
                       </p>
                     </div>
                     <div class="lg:w-1/2 lg:pl-8">
@@ -72,7 +74,7 @@
                     </div>
                   </div>
                   <p class="mb-8">
-                    我们利用自主研发的水动力模型以及数据库来模拟湖泊中水流的流速、流向以及湖泊水位的变化。这些模型通常基于水文学、气象学和物理学的数据，如湖泊的地形、气候条件、入湖和出湖水流的量等因素。
+                    {{ $t("project.wuliangsu.p3") }}
                   </p>
                   <figure class="mb-8">
                     <img
@@ -84,15 +86,16 @@
                     />
                   </figure>
                   <p class="mb-8">
-                    模拟还包括对湖泊内部的营养盐循环和污染物扩散进行可视化分析，以研究人类活动对湖泊水质的影响。通过这种模拟，研究人员可以预测在不同的环境管理策略下湖泊的水质和生态状况的变化，为湖泊的环境保护和可持续管理提供科学依据。
+                    {{ $t("project.wuliangsu.p4") }}
                   </p>
 
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="/contacts"
-                        >点击该链接进行联系</a
+                      {{ $t("cooperation") }}
+                      <a class="text-gray-900 underline" href="/contacts">{{
+                        $t("connectWith")
+                      }}</a
                       >.
                     </div>
                     <div class="mt-6">

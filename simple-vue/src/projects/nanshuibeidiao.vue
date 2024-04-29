@@ -153,9 +153,10 @@
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="/contacts"
-                        >点击该链接进行联系</a
+                      {{ $t("cooperation") }}
+                      <a class="text-gray-900 underline" href="/contacts">{{
+                        $t("connectWith")
+                      }}</a
                       >.
                     </div>
                     <div class="mt-6">

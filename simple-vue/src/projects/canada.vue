@@ -7,7 +7,9 @@
             <!-- Article header -->
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
-              <h1 class="h1 text-center mb-4">{{ $t("project.canada") }}</h1>
+              <h1 class="h1 text-center mb-4">
+                {{ $t("project.canada.title") }}
+              </h1>
             </header>
 
             <!-- Article content -->

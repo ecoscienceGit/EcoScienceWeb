@@ -8,7 +8,7 @@
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
               <h1 class="h1 text-center mb-4">
-                黄河流域古贤水利枢纽工程生态评估
+                {{ $t("project.huanghe.title") }}
               </h1>
             </header>
 
@@ -104,14 +104,15 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    我们的技术亮点
+                    {{ $t("project.huanghe.title1") }}
                   </h3>
                   <p class="mb-8" style="scroll-margin-top: 100px">
-                    面对黄河流域的重大水利枢纽工程，我们的专业团队采取了创新的建模方法，致力于提供高精度的生态模拟服务。我们的服务不仅局限于基础的水库建模，更涵盖了水动力、水质模拟，以及
-                    <strong class="font-medium text-gray-900"
-                      >叶绿素和藻类生长</strong
+                    {{ $t("project.huanghe.p11") }}
+                    <strong class="font-medium text-gray-900">{{
+                      $t("project.huanghe.p12")
+                    }}</strong
                     >.
-                    的动态模拟。通过这些综合性的模型分析，我们能够帮助工程决策者和环境管理者深入理解和预测工程对当地生态系统的具体影响。
+                    {{ $t("project.huanghe.p13") }}
                   </p>
                   <img
                     class="w-full rounded"
@@ -125,27 +126,27 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    技术创新点
+                    {{ $t("project.huanghe.title2") }}
                   </h3>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900">水库建模</strong
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.huanghe.p21")
+                      }}</strong
                       >:
-                      利用先进的GIS和水动力水质模拟技术，构建详尽的水库模型，确保模拟的准确性和可靠性。
+                      {{ $t("project.huanghe.p22") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >水动力水质模拟</strong
-                      >: 综合考虑流速、温度、<strong
-                        class="font-medium text-gray-900"
-                        >沉积物</strong
-                      >等因素，模拟水质变化及其对生态环境的影响。
+                      <strong class="font-medium text-gray-900">
+                        {{ $t("project.huanghe.p23") }}</strong
+                      >
+                      {{ $t("project.huanghe.p24") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >叶绿素与藻类生长模拟</strong
-                      >:
-                      通过生态模型分析光照、营养盐等因素对叶绿素浓度和藻类生长的影响，评估水体健康状况。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.huanghe.p25")
+                      }}</strong
+                      >{{ $t("project.huanghe.p26") }}
                     </li>
                   </ul>
                   <h3
@@ -153,7 +154,7 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   ></h3>
-                  <span>叶绿素生长模拟</span>
+                  <span>{{ $t("project.huanghe.p31") }}</span>
                   <figure class="mb-8">
                     <video
                       class="w-full rounded"
@@ -169,7 +170,7 @@
                     </video>
 
                     <!-- 第二个AVI视频 -->
-                    <span>藻类生长模拟</span>
+                    <span>{{ $t("project.huanghe.p32") }}</span>
                     <video
                       class="w-full rounded"
                       controls
@@ -188,19 +189,19 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    服务价值
+                    {{ $t("project.huanghe.title4") }}
                   </h3>
                   <p>
-                    通过我们的模拟服务，项目管理者可以获得关于水质变化、生态平衡以及环境风险的宝贵数据，进而做出更加明智的管理决策。这些数据不仅能够指导工程的执行，还能够预见和防控可能出现的环境问题，促进区域可持续发展。
+                    {{ $t("project.huanghe.p41") }}
                   </p>
 
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="/contacts"
-                        >点击该链接进行联系</a
-                      >
+                      {{ $t("cooperation") }}
+                      <a class="text-gray-900 underline" href="/contacts">{{
+                        $t("connectWith")
+                      }}</a>
                     </div>
                     <div class="mt-6">
                       <router-link

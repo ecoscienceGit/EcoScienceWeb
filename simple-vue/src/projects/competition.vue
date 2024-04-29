@@ -105,9 +105,10 @@
                   <div>
                     <hr class="w-full h-px pt-px mt-8 bg-gray-200 border-0" />
                     <div class="mt-8">
-                      了解细节或寻求更多技术合作
-                      <a class="text-gray-900 underline" href="/contacts"
-                        >点击该链接进行联系</a
+                      {{ $t("cooperation") }}
+                      <a class="text-gray-900 underline" href="/contacts">{{
+                        $t("connectWith")
+                      }}</a
                       >.
                     </div>
                     <div class="mt-6">
@@ -124,7 +125,7 @@
                             d="M.293 5.282L5 .5l1.414 1.436-3 3.048H12v2.032H3.414l3 3.048L5 11.5.293 6.718a1.027 1.027 0 010-1.436z"
                           />
                         </svg>
-                        <span>返回</span>
+                        <span>{{ $t("back") }}</span>
                       </router-link>
                     </div>
                   </div>

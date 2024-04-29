@@ -41,8 +41,8 @@
       "intro": "One to three-dimensional water quality modeling",
       "models": {
         "w2": {
-            "title": "Water Quality Modeling",
-            "content": "Advanced hydrodynamic, water quality, and aquatic ecology model jointly developed by Portland State University, Hubei University of Technology, Wuhan Shanshui Qingyuan Environmental Technology, and Ecoedu Society. It excels in simulating a variety of water bodies, including rivers, lakes, and reservoirs, and can precisely model over one hundred water quality and ecological indicators. Its capabilities extend to accurately simulating water levels, flow rates, temperature distributions, and ice cover, making it a valuable tool for environmental research and management."  
+          "title": "Water Quality Modeling",
+          "content": "Advanced hydrodynamic, water quality, and aquatic ecology model jointly developed by Portland State University, Hubei University of Technology, Wuhan Shanshui Qingyuan Environmental Technology, and Ecoedu Society. It excels in simulating a variety of water bodies, including rivers, lakes, and reservoirs, and can precisely model over one hundred water quality and ecological indicators. Its capabilities extend to accurately simulating water levels, flow rates, temperature distributions, and ice cover, making it a valuable tool for environmental research and management."
         },
         "pollutants": {
           "title": "Pollutants",
@@ -142,28 +142,58 @@
   "slogan": "Creating a Green Future",
   "companyIntro": "Welcome to the EcoEdu Society, a non-profit organization dedicated to harnessing artificial intelligence and digital innovation to promote sustainable development and ecological awareness. Our mission is to empower communities and businesses through social media advocacy, educational consulting in AI, and transformative digital services, all aimed at fostering a greener, more sustainable future. Join us in driving positive change for our planet.",
 
-  "project.huanghe": "Ecological Review of Guxian Project, Yellow River",
-  "project.wuliangsu": "Hydrodynamic simulation of the Wuliangsu Sea",
-  "project.nanshui": "Wet Deposition, South-North Canal",
-  "project.training": "Tutorial class",
-  "project.models": "Modeling Competition Coaching",
+  "project": {
+    "huanghe": {
+      "title": "Ecological Review of Guxian Project, Yellow River",
+      "title1": "Highlights of our technology",
+      "p11": "Facing the major water hub projects in the Yellow River Basin, our professional team has adopted an innovative modeling approach and is committed to providing high-precision ecological simulation services. Our services are not only limited to basic reservoir modeling, but also cover hydrodynamic and water quality simulation, as well as",
+      "p12": "Chlorophyll and Algae Growth",
+      "p13": "dynamic simulations. Through these comprehensive modeling analyses, we are able to help project decision makers and environmental managers to deeply understand and predict the specific impacts of the project on the local ecosystem.",
+      "title2": "Technological Innovation Points",
+      "p21": "Reservoir Modeling",
+      "p22": "Utilizing advanced GIS and hydrodynamic water quality simulation techniques to construct an exhaustive reservoir model and ensure the accuracy and reliability of the simulation.",
+      "p23": "Hydrodynamic water quality simulation",
+      "p24": ": Comprehensively consider flow rate, temperature, sediment and other factors to simulate water quality changes and their impacts on the ecological environment.",
+      "p25": "Chlorophyll and Algal Growth Simulation",
+      "p26": "The effects of light, nutrients and other factors on chlorophyll concentration and algal growth are analyzed through ecological modeling to assess the health of water bodies.",
+      "p31": "Chlorophyll growth simulation",
+      "p32": "Algae growth simulation",
+      "title4": "Value of Services",
+      "p41": "Through our simulation services, project managers can obtain valuable data on water quality changes, ecological balance, and environmental risks, and thus make more informed management decisions. These data can not only guide the execution of the project, but also anticipate and prevent and control possible environmental problems and promote sustainable regional development."
+    },
+    "wuliangsu": {
+      "title": "Hydrodynamic simulation of the Wuliangsu Sea",
 
-  "project.consultation": "Online Consultation",
-  "project.consultation.title1": "Full range of customized tutoring",
-  "project.consultation.title2": "Research & Development Services",
-  "project.consultation.title3": "Dissertation Rewriting Service",
-  "project.consultation.title4": "Summer Internship Opportunities and Referral Services",
-  "project.consultation.p1": "There is no need to worry about facing academic challenges! We offer comprehensive curriculum support from science and engineering to arts and business, including the fields of mathematics, physics, chemistry, financial mathematics, actuarial science, computer engineering, electrical and biochemical engineering, as well as in-house support for internship opportunities. Our professional tutoring team, with small class sizes and individually customized tutoring, will help you to tackle various academic challenges with ease. Whether it's course work, opening preparation, modeling, or dissertation writing, we can provide professional guidance to ensure that you can move forward smoothly on your academic and research path.",
-  "project.consultation.p2": "We offer full mentoring services from choosing a school and program to approaching potential mentors. Our many-to-one, hands-on instruction is designed to help you get into the graduate school and doctoral program of your choice.",
-  "project.consultation.p3.1": "Facing pressure to publish your SCI paper? Let our team of experts help you to ensure that your research is presented in the best possible light, increasing your publication success rate and allowing the world to witness your academic milestones.",
-  "project.consultation.p3.2": "Whether your dream is to enter a top university or to reach a breakthrough in the field of scientific research, we will do our best to accompany you every step of the way in the new academic year.",
-  "project.consultation.p4.1": "Already started a new semester, but still confused about your future career path? Are you looking forward to gaining valuable experience through an internship, or are you having trouble writing your resume and references? We work closely with international companies, research institutes and universities to provide you with professional bilingual CV and reference writing services, with a team of experienced native speakers to ensure that your documents are authentic and accurate.",
-  "project.consultation.p4.2": "We are committed to packaging your CV so that it perfectly combines your personal experience and career goals, and demonstrates your professional competence and career potential in line with international standards. In addition, our letter of recommendation writing service for prestigious universities will be based on your personal achievements and strengths, and will be written by a team of PhDs, post-docs and professors from the world's most prestigious universities, to enhance the competitiveness of your application and help you stand out from the crowd.",
+      "p1": "The Wuliangsuhai Lake, formerly known as the ancient Yellow River channel, is a river-formed lake with a surface area of approximately 293 square kilometers. Its north-south length ranges from 35 to 40 kilometers, while its east-west width varies from 5 to 10 kilometers.",
+      "p2": "High-precision computational simulations are utilized to analyze and predict the hydrodynamic behaviors of Wuliangsuhai Lake, an inland lake located in the Inner Mongolia Autonomous Region of China. This lake serves as a vital wetland ecosystem, boasting rich biodiversity and significant ecological functions.",
+      "p3": "We employ internally developed hydrodynamic models and databases to simulate water flow velocity, direction, and lake water level changes. These models are typically based on hydrology, meteorology, and physics data, such as lake topography, climatic conditions, and inflow and outflow volumes.",
+      "p4": "The simulations also encompass visual analyses of nutrient cycling and pollutant dispersion within the lake, aiming to investigate the impacts of human activities on lake water quality. Through such simulations, researchers can anticipate variations in water quality and ecological conditions under different environmental management strategies, providing scientific insights for the environmental protection and sustainable management of lakes."
+    },
+    "nanshui": { "title": "Wet Deposition, South-North Canal" },
+    "training": { "title": "Tutorial class" },
+    "models": { "title": "Modeling Competition Coaching" },
 
-  "project.canada": "Encouraging Social Media Adoption Among Seniors in Canada",
-  "project.canada.p1": "Toronto, Canada - As a non-profit organization dedicated to sustainable development and ecological awareness, EcoEdu Society has partnered with the Canada Mindful Peace Association to launch a new initiative aimed at enhancing the engagement of seniors with social media and artificial intelligence technologies. This initiative focuses on improving operational and promotional efficiencies.",
-  "project.canada.p2": "The event highlighted how artificial intelligence can help seniors more effectively access and utilize modern technologies. Through workshops and lectures, participants were taught how to establish a presence on social media platforms, simplify daily tasks with AI tools, and enhance their quality of life through technology. Additionally, the initiative successfully attracted over 50 participants, demonstrating the significant potential of social media and AI in enhancing community interaction and information dissemination.",
-  "project.canada.p3": "We believe that by democratizing education and resources, seniors can not only keep pace with technological advancements but also discover new ways to enhance their lives through these innovations.",
+    "consultation": {
+      "title": "Online Consultation",
+      "title1": "Full range of customized tutoring",
+      "title2": "Research & Development Services",
+      "title3": "Dissertation Rewriting Service",
+      "title4": "Summer Internship Opportunities and Referral Services",
+      "p1": "There is no need to worry about facing academic challenges! We offer comprehensive curriculum support from science and engineering to arts and business, including the fields of mathematics, physics, chemistry, financial mathematics, actuarial science, computer engineering, electrical and biochemical engineering, as well as in-house support for internship opportunities. Our professional tutoring team, with small class sizes and individually customized tutoring, will help you to tackle various academic challenges with ease. Whether it's course work, opening preparation, modeling, or dissertation writing, we can provide professional guidance to ensure that you can move forward smoothly on your academic and research path.",
+      "p2": "We offer full mentoring services from choosing a school and program to approaching potential mentors. Our many-to-one, hands-on instruction is designed to help you get into the graduate school and doctoral program of your choice.",
+      "p31": "Facing pressure to publish your SCI paper? Let our team of experts help you to ensure that your research is presented in the best possible light, increasing your publication success rate and allowing the world to witness your academic milestones.",
+      "p32": "Whether your dream is to enter a top university or to reach a breakthrough in the field of scientific research, we will do our best to accompany you every step of the way in the new academic year.",
+      "p41": "Already started a new semester, but still confused about your future career path? Are you looking forward to gaining valuable experience through an internship, or are you having trouble writing your resume and references? We work closely with international companies, research institutes and universities to provide you with professional bilingual CV and reference writing services, with a team of experienced native speakers to ensure that your documents are authentic and accurate.",
+      "p42": "We are committed to packaging your CV so that it perfectly combines your personal experience and career goals, and demonstrates your professional competence and career potential in line with international standards. In addition, our letter of recommendation writing service for prestigious universities will be based on your personal achievements and strengths, and will be written by a team of PhDs, post-docs and professors from the world's most prestigious universities, to enhance the competitiveness of your application and help you stand out from the crowd."
+    },
+
+    "canada": {
+      "title": "Encouraging Social Media Adoption Among Seniors in Canada",
+      "p1": "Toronto, Canada - As a non-profit organization dedicated to sustainable development and ecological awareness, EcoEdu Society has partnered with the Canada Mindful Peace Association to launch a new initiative aimed at enhancing the engagement of seniors with social media and artificial intelligence technologies. This initiative focuses on improving operational and promotional efficiencies.",
+      "p2": "The event highlighted how artificial intelligence can help seniors more effectively access and utilize modern technologies. Through workshops and lectures, participants were taught how to establish a presence on social media platforms, simplify daily tasks with AI tools, and enhance their quality of life through technology. Additionally, the initiative successfully attracted over 50 participants, demonstrating the significant potential of social media and AI in enhancing community interaction and information dissemination.",
+      "p3": "We believe that by democratizing education and resources, seniors can not only keep pace with technological advancements but also discover new ways to enhance their lives through these innovations."
+    }
+  },
 
   "cooperation": "Get the details or seek more technical cooperation",
   "connectWith": "Click on this link to get in touch",
