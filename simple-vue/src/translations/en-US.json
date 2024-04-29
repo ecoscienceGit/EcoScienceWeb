@@ -112,12 +112,152 @@
       }
     },
     "socialMediaEcology": {
-        "title": "Social Media Ecology",
-        "intro": "Ecological awareness; Social media engagement; Sustainability content",
-        "awareness": {
-            "title": "Social Media Promotion for Ecological Awareness", 
-            "content": "EcoEdu Society leverages social media platforms to disseminate crucial information and boost awareness about ecological and environmental protection. The service aims to inspire positive change and informed decision-making by sharing engaging content on sustainability practices and the impacts of human activities on the environment."
+      "title": "Social Media Ecology",
+      "intro": "Ecological awareness; Social media engagement; Sustainability content",
+      "awareness": {
+        "title": "Social Media Promotion for Ecological Awareness",
+        "content": "EcoEdu Society leverages social media platforms to disseminate crucial information and boost awareness about ecological and environmental protection. The service aims to inspire positive change and informed decision-making by sharing engaging content on sustainability practices and the impacts of human activities on the environment."
+      }
+    }
+  },
+  "servicePosts": {
+    "rtmmr": {
+      "title": "Reactive Transport-Model Reduction Coupling Modeling Method",
+      "intro": "The RTM-MR coupling method is the first domestically developed numerical simulation method for complex environmental processes, collaboratively developed by the University of Waterloo in Canada, Polytechnic University of Milan in Italy, China University of Geosciences, and Ecoedu Society. The RTM-MR coupling method offers unique advantages in terms of simulation accuracy and computational efficiency for numerical simulations of environmental processes involving complex reaction systems such as mine restoration and soil-groundwater pollution management.",
+      "s1": {
+        "title": "Advantages of the RTM-MR Coupling Method",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>Detailed Reaction Modeling</strong>: With a large reaction database, it achieves high precision simulation of environmental processes dependent on reactions such as nutrient cycling, heavy metal transformation, and pollutant degradation in water bodies or soil.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Efficient Computational Process</strong>: The interface between reaction processes and fluids is adaptive, capable of generating optimized numerical simulation plans based on the main features of the simulation scenario.</li></ul>"
+      },
+      "s2": {
+        "title": "RTM-MR Application Scenarios",
+        "content": "<p class='mb-8'>First, quantification and prediction of specific environmental processes (nitrogen-phosphorus cycling, carbon emissions, heavy metal adsorption/desorption, organic matter degradation, etc.) or specific species (particular species or elements, biomass, etc.) in surface-groundwater bodies or soil.</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/rtmmr-01.png' width='768' height='432' alt='RTM-MR 01' /></figure><p class='mb-8'>Second, optimization of remediation techniques for water bodies, soil, or comprehensive polluted sites (in-situ agent injection, circulation wells, reactive walls, or off-site remediation, etc.).</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/rtmmr-02.png' width='768' height='432' alt='RTM-MR 02' /></figure>"
+      }
+    },
+    "w2": {
+      "title": "Vertical 2D Hydrodynamics, Water Quality, and Aquatic Ecology Model",
+      "intro": "CE-QUAL-W2 is the only national vertical 2D hydrodynamics, water quality, and aquatic ecology model, jointly maintained and developed by Portland State University in the USA, Hubei University of Technology, Wuhan Goodwater Eco-Environmental Science & Technology Co., Ltd., and Ecoedu Society.",
+      "s1": {
+        "title": "Model Overview",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>Model Advantages</strong>: Provides detailed simulations of the hydrodynamics, water quality, and aquatic ecology of rivers, lakes, reservoirs, and estuaries. Its unique vertical 2D characteristics offer a wide range of simulation targets, high precision, and fast operation.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Hydrodynamic Module</strong>: The model effectively simulates the distribution of water levels, flow rates, and both longitudinal and vertical water temperatures and velocities, including ice cover simulation; for example, simulating rivers, rainfall, and water temperatures.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Water Quality and Aquatic Ecology Module</strong>: The model can simulate over a hundred water quality and aquatic ecology indicators, including sediment diagenesis and water body interaction modules; for example, simulating nutrients and dissolved oxygen, etc.</li></ul>"
+      },
+      "s2": {
+        "title": "CE-QUAL-W2 Feature Function Introduction",
+        "Accordion": {
+          "a1": {
+            "title": "Coupled Calculation of Water Quality and Hydrodynamic Modules, Yet Relatively Independent",
+            "content": "Automatically adjusts the time step, and the vertical 2D characteristics enhance model operational efficiency and accuracy; for example, simulating the growth dynamics of different algae under various conditions."
+          },
+          "a2": {
+            "title": "Water Bodies Can Be Connected and Combined in Any Way",
+            "content": "Simulates complex water systems, river networks, sluices, and other issues, and can precisely and concisely depict research objectives in natural and artificial facilities such as reservoirs, rivers, and dams; for example, feasibility studies for dam construction and predictive simulations of water quality for reservoir construction."
+          },
+          "a3": {
+            "title": "Hot Start Feature",
+            "content": "Allows using specified output files as initial input files for the next model run, reducing model runtime and significantly improving work efficiency in long-term sequence simulations."
+          }
         }
+      },
+      "s3": {
+        "title": "CE-QUAL-W2 Feature Functions Illustrated",
+        "content": "<figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-01.png' width='768' height='432' alt='CE-QUAL-W2 01' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-02.png' width='768' height='432' alt='CE-QUAL-W2 02' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-03.png' width='768' height='432' alt='CE-QUAL-W2 03' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-04.png' width='768' height='432' alt='CE-QUAL-W2 04' /></figure>"
+      }
+    },
+    "database": {
+      "title": "Global Comprehensive Database",
+      "intro": "Based on providing services in various environmental sectors, the company offers and maintains a comprehensive global database directly usable for various environmental, hydrodynamic, water quality models (such as CE-QUAL-database, EFDC, MIKE), groundwater models (e.g., Hydrogeosphere, MODFLOW), mine restoration (RTM model), combustion, and carbon emission models. The database includes global meteorological data, water flow data, water temperature data, and data on dams and reservoirs.",
+      "Accordion": {
+        "a1": {
+          "title": "Global Meteorological Data",
+          "content": "Hourly data for over 200 meteorological variables dating back to 1940, including information on air temperature at different altitudes, wind speed, wind direction, air pressure, cloud cover, solar radiation, soil, and more."
+        },
+        "a2": {
+          "title": "Water Flow Data",
+          "content": "Global data precise to 1901 to the present."
+        },
+        "a3": {
+          "title": "Water Temperature Data",
+          "content": "Global-scale water temperature data accurate from 1979 to the present."
+        },
+        "a4": {
+          "title": "Dam and Reservoir Data",
+          "content": "Includes data on major global dams and reservoirs."
+        }
+      },
+      "intro2": "Furthermore, the company's database, combined with artificial intelligence technologies (such as the latest ChatGPT membership services and future AI and big data technologies), provides convenient, stable, and rapid modeling and document summarization services to universities and research institutes (see database applications).",
+      "s1": {
+        "title": "Company Database Introduction",
+        "content": "<p class='mb-8'>Based on its own and global databases, the company has developed a complete intelligent database usage system using big data, artificial intelligence, and data integration. It has corresponding scientific papers, invention patents, and software copyrights. Global meteorological data are well-developed and maintained in Western countries.</p><p class='text-gray-900'>For example:</p><div class='max-w-6xl mx-auto px-4 sm:px-6'><div class='py-12 md:py-16 '><!-- Items --><div class='relative max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none'><div class='absolute top-1/2 w-full h-1 bg-gradient-to-r from-blue-500 to-teal-300 hidden lg:block' aria-hidden='true'></div><!-- 1st item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>1</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1 text-center'>European Centre for Medium-Range Weather Forecasts (ECMWF)</h4><p class='text-gray-600 text-center'>It is an international organization supported by 34 countries, uniquely dedicated to global weather forecasting research and operations.</p></div><!-- 2nd item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>2</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>ECMWF Use</h4><p class='text-gray-600 text-center'>Regularly uses its forecasting models and data assimilation systems to 're-analyze' archived observations.</p></div><!-- 3rd item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>3</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>Building Global Datasets</h4><p class='text-gray-600 text-center'>Creates global datasets describing the recent history of the atmosphere, land, and oceans.</p></div></div></div></div><p class='mb-8'>ECMWF's climate reanalysis began in the 1980s with the FGGE reanalysis, followed by ERA-15, ERA-40, and the more recent ERA-Interim and ERA5. From all existing global databases, ECMWF's numerical weather prediction results are recognized as world-leading.</p><p class='mb-8'>The company integrates its model data with observational data from around the world to form a complete, consistent global dataset. It integrates information from other databases based on ECMWF.</p><p class='mb-8 text-gray-900'>For example:</p><ul class='list-disc list-inside mb-8'><li class='mb-1'>GPCC (Global Precipitation), WorldClimate</li><li class='mb-1'>NOAA (National Oceanic and Atmospheric Administration)</li><li class='mb-1'>CRU (Climatic Research Unit database)</li><li class='mb-1'>CMIP (Global Coupled Atmosphere-Ocean Data), GHCN (Global Historical Climatology Network)</li></ul><p class='mb-8'>The company uses big data analytics, artificial intelligence, and multi-threaded intelligent methods to integrate and synthesize database information with company operations in various fields.</p><p class='mb-8'>The company's water environment models and other business models, combined with global meteorological data (hourly data from 1940 to present, including air temperature, wind speed, wind direction, cloud cover, solar radiation, air pressure, rainfall, etc.), as well as global water temperature, water flow, terrain data of dams and reservoirs, and other key parameters, have established a unique database system that provides strong data support for the construction of hydrodynamic water quality models, effectively addressing the problems of short time series and insufficient frequency of existing domestic measured data. It also provides strong big data support for forecasting, monitoring, and other related environmental fields.</p>"
+      },
+      "s2": {
+        "title": "Main Data Set Introduction",
+        "content": "<p class='mb-8'>A total of 240+ data variables:</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/database-01.png' width='768' height='432' alt='Global Database 01' /></figure>"
+      },
+      "s3": {
+        "title": "Partial Global Data Display",
+        "content": "<p class='mb-8'>Global 2m air temperature monthly average data for January 1963:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-02.png' width='768' height='432' alt='Global Database 02' /></figure><p class='mb-8'>Global 100m altitude wind speed_U monthly average for January 2019:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-03.png' width='768' height='432' alt='Global Database 03' /></figure>"
+      },
+      "s4": {
+        "title": "Applications and Real-World Comparisons of the Database",
+        "content": "<p class='mb-8'>The company's database can effectively supplement, reference, and analyze existing insufficient, hard-to-access, or missing environmental data domestically. It provides stable, comprehensive big data support for environmental consulting and research in various fields.</p><p class='mb-8 text-gray-900'>For example:</p><ul class='list-disc list-inside mb-8'><li class='mb-1'>Ecoedu Society's global comprehensive database can combine various city, water quality and hydrodynamic models (CE-QUAL-database, EFDC, MIKE, SWAT, SWMM, etc.) to establish stable data support for related fields;</li><li class='mb-1'>Ecoedu Society's global comprehensive database, combined with various GIS datasets, provides comprehensive, accurate, and effective data support for mine restoration transport reaction models, groundwater models (Hydrogeosphere, MODFLOW, etc.);</li><li class='mb-1'>Ecoedu Society's global comprehensive database provides effective and reliable data and parameter support for various carbon cycle, carbon emission, and combustion models (e.g., the corrected vortex dissipation concept model).</li></ul><p class='mb-8'>Comparison of database data with real-world meteorological station data:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-04.png' width='768' height='432' alt='Global Database 04' /></figure><p class='mb-8'>The database's daily scale data accurately reproduces the meteorological station's hourly scale data. The database holds km-scale data on a global scale. It effectively addresses deficiencies and missing data from meteorological stations, and each database entry can be generated into model-ready data files as needed.</p>"
+      }
+    },
+    "digitalTwin": {
+      "title": "Watershed Numerical Simulation and Water Quality Digital Twinning",
+      "intro": "Ecoedu Society provides advanced watershed numerical simulation and water quality digital twinning services, aiding in the sustainable management and protection of water resources.",
+      "s1": {
+        "title": "Professional Technology",
+        "Accordion": {
+          "a1": {
+            "title": "SWAT",
+            "content": "A watershed scale model used to simulate and analyze soil erosion, non-point source pollution, and agricultural management issues."
+          },
+          "a2": {
+            "title": "EFDC",
+            "content": "Covers one-dimensional, two-dimensional, and three-dimensional simulations, flow fields, substance transport, and pollutant migration and transformation."
+          },
+          "a3": {
+            "title": "CE-QUAL-W2",
+            "content": "A vertical two-dimensional model suitable for rivers, lakes, and reservoirs, providing excellent simulation results for reservoir inundation ranges, ecological flows, habitats, and eutrophication of water bodies."
+          },
+          "a4": {
+            "title": "MIKE 11",
+            "content": "A one-dimensional river model for simulating the flow and water levels, water quality, and sediment transport within rivers, floodplains, irrigation channels, and inland water bodies like reservoirs."
+          }
+        }
+      },
+      "s2": {
+        "title": "Scope of Digital Twinning Services",
+        "content": "<p class='mb-8'>Our digital twinning technology enables in-depth study of the hydrodynamics and water quality of major water systems such as the Yangtze and Yellow River basins, building accurate digital twin models.</p><figure class='mb-8 mt-8'><img class='w-3/5 rounded ms-auto' src='../../src/images/digital-twin-system-01.png' width='768' height='432' alt='Digital Twin System 01' /></figure><h5 class='h5 text-gray-900 mt-8 mb-4'>We can achieve:</h5><ul class='list-disc list-inside mb-8'><li class='mb-1'>Real-time simulation and analysis of water quality parameters (such as chlorophyll, BOD, dissolved oxygen, and nutrients);</li><li class='mb-1'>Providing effective predictive alert systems to help managers respond promptly to changes in the water environment;</li><li class='mb-1'>Committed to using the most advanced technology to provide you with comprehensive, efficient water environment monitoring and management solutions.</li></ul>"
+      },
+      "s3": {
+        "title": "Advanced Technology Integration",
+        "content": "<p class='mb-8'>We not only master individual models but also effectively couple multiple models such as SWAT, CE-QUAL-W2, EFDC, and MIKE 11. This integration improves the adaptability and accuracy of the models, providing more comprehensive analysis and solutions for complex water environmental issues.</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>Software development, cloud development, and user interfaces</strong>: Our team is proficient in programming languages such as Python and Java, developing user-friendly software interfaces. While providing technical services, we enable clients to easily manage and analyze model data.</li><li class='mb-8'><strong class='font-medium text-gray-900'>Customized services and support</strong>: Whether it's data analysis, model adjustment, or user interface design, we tailor our services to meet the specific needs of our clients.</li></ul>"
+      },
+      "s4": {
+        "title": "Model Compilation and Visualization Services",
+        "content": "<p class='mb-8'>Our professional team utilizes the latest numerical simulation technologies to provide services ranging from <strong class='font-medium text-gray-900'>one-dimensional to three-dimensional model compilation and visualization</strong>. Whether it's simple river flow simulation or complex lake ecosystem analysis, we offer precise, intuitive solutions.</p><p class='mb-8'>Next, we provide some simple ideal examples:</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>One-dimensional:</strong><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-02.png' width='768' height='432' alt='Digital Twin System 02' /></figure><figure class='mb-8 mt-8'><img class='w-full rounded' src='../../src/images/digital-twin-system-03.png' width='768' height='432' alt='Digital Twin System 03' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>Two-dimensional:</strong><p class='mt-8 mb-1'><strong class='font-medium text-gray-900'>Heatmaps</strong>: Used to display the distribution of water quality parameters (such as temperature, salinity, pollutant concentration, etc.) on a two-dimensional plane.</p><p class='mb-1'><strong class='font-medium text-gray-900'>Vector Field Plots</strong>: Show the direction and strength of variables. Each vector represents the direction and speed of water flow at a specific point.</p><p class='mb-1'><strong class='font-medium text-gray-900'>Contour Plots</strong>: Used to display contour lines of variables on a two-dimensional plane, such as water depth or flow speed.</p><figure class='mb-8 mt-8'><img class='w-3/5 rounded' src='../../src/images/digital-twin-system-04.png' width='768' height='432' alt='Digital Twin System 04' /></figure><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-05.png' width='768' height='432' alt='Digital Twin System 05' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>Three-dimensional:</strong><p class='mt-8 mb-1'><strong class='font-medium text-gray-900'>3D Surface Plots</strong>: Display the variation of variables in three-dimensional space, such as changes in water depth or temperature by geographic location and depth.</p><p class='mb-1'><strong class='font-medium text-gray-900'>3D Vector Field Plots</strong>: Used to show the direction and strength of variables in three-dimensional space.</p><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-06.png' width='768' height='432' alt='Digital Twin System 06' /></figure><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-07.png' width='768' height='432' alt='Digital Twin System 07' /></figure></li></ul><p class='mb-8'>By combining theoretical models with practical applications, Ecoedu Society is committed to transforming complex technologies into <strong class='font-medium text-gray-900'>simple, intuitive tools</strong>. Our goal is to help you manage and protect valuable water resources more effectively.</p><p class='mb-8'>Contact us to explore the future of water resource management together!</p>"
+      }
+    },
+    "dataProcessing": {
+      "title": "Python Big Data Processing and Data Mining",
+      "intro": "Python is an advanced, object-oriented programming language with built-in data structures and dynamic semantics. It features a range of libraries, packages, frameworks, and modules for data manipulation, statistical computing, web development, machine learning, and data science, allowing for modular programming and code reuse. Its syntax is simple and computation efficient, offering significant advantages in data processing and data mining.",
+      "s1": {
+        "title": "File Merging and Splitting",
+        "content": "<p class='mb-8'>Actual data may be saved across different files, and when modeling and analysis are needed, it is necessary to <strong class='font-medium text-gray-900'>merge</strong> all documents into one file; or for files with large amounts of data, direct reading or opening can be difficult, thus requiring the data to be <strong class='font-medium text-gray-900'>split</strong>.</p><p class='mb-8'>For example, merging multiple CSVs:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/data-python-01.png' width='768' height='432' alt='Data Python 01' /></figure>"
+      },
+      "s2": {
+        "title": "Data Preprocessing",
+        "content": "<p class='mb-8'>Includes data reading, missing value handling, outlier processing, conversion of descriptive variables to numeric, training/testing set division, data normalization, etc.</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>File Reading</strong>: <figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-02.png' width='768' height='432' alt='Data Python 02' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>Missing Value Inspection</strong>: <figure class='mb-8 mt-8'><img class='w-full rounded' src='../../src/images/data-python-03.png' width='768' height='432' alt='Data Python 03' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>Outlier Detection</strong>: <figure class='mb-8 mt-8'><img class='w-3/5 rounded' src='../../src/images/data-python-04.png' width='768' height='432' alt='Data Python 04' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>Data Normalization</strong>: <figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-05.png' width='768' height='432' alt='Data Python 05' /></figure></li></ul>"
+      },
+      "s3": {
+        "title": "Data Feature Analysis",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>Distribution Analysis</strong>: Reveals the distribution characteristics and types of data. For quantitative categorical data, intuitive analysis can be performed by drawing frequency distribution tables, histograms, and stem-and-leaf plots. For qualitative categorical data, pie charts and bar charts can visually display the distribution.</li><li class='mb-8'><strong class='font-medium text-gray-900'>Statistical Analysis</strong>: Statistical indicators are used for the descriptive statistics of quantitative data, often analyzing from the aspects of central/dispersion tendencies. Commonly represented by mean, standard deviation, percentiles, and range.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Correlation Analysis</strong>: The process of analyzing the degree of linear correlation between continuous variables and representing it with appropriate statistical indicators is known as correlation analysis. Scatter plots, matrix plots, and calculating correlation coefficients can accurately describe the degree of linear correlation between variables.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Principal Component Analysis</strong>: A multivariate statistical analysis used to reduce the dimensionality of a dataset while retaining features that contribute most to the variance.</li></ul>"
+      },
+      "s4": {
+        "title": "Machine Learning",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>Classification/Clustering</strong>: Dividing data into groups based on similar or same attributes using common algorithms such as Random Forest, KNN, Bayesian methods, Decision Trees, Logistic Regression, and SVM.</li><li class='mb-1'><strong class='font-medium text-gray-900'>Regression</strong>: Selecting important variables for predicting and simulating future data.</li></ul>"
+      },
+      "footer": "References: <p>1. Migliavacca M, Musavi T, Mahecha M D, et al. The three major axes of terrestrial ecosystem function. Nature, 2021, 598(7881): 468-472.</p><p>2. Zhang J, Zhang N, Liu Y, et al. Root microbiota shift in rice correlates with resident time in the field and developmental stage. Science China-life Sciences, 2018, 61(6): 613-621.</p>"
     }
   },
   "news": {

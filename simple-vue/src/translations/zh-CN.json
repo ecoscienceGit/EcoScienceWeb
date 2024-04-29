@@ -120,6 +120,146 @@
       }
     }
   },
+  "servicePosts": {
+    "rtmmr": {
+      "title": "反应运移-机理简化耦合建模方法",
+      "intro": "RTM-MR耦合方法是由加拿大滑铁卢大学，意大利米兰理工大学，中国地质大学，以及陕西思益清源科技有限公司联手合作的<strong class='font-medium text-gray-900'>国内首个</strong>面向复杂环境过程的数值仿真方法。RTM-MR耦合方法对于<strong class='font-medium text-gray-900'>矿山修复、土壤-地下水污染治理</strong>等涉及复杂反应系统的环境过程的数值仿真，在模拟精度和计算效率上具有得天独厚的优势。",
+      "s1": {
+        "title": "RTM-MR耦合方法优势",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>精细的反应建模</strong>: 拥有庞大的反应数据库，能够实现对水体或土壤中的营养元素循环、重金属迁移转化、污染物降解等反应依赖的环境过程的高精度模拟。</li><li class='mb-1'><strong class='font-medium text-gray-900'>高效的计算过程</strong>: 反应过程和流体间具有自适应接口，能够根据模拟场景的主要特征生成最优化的数值模拟方案。</li></ul>"
+      },
+      "s2": {
+        "title": "RTM-MR应用场景介绍",
+        "content": "<p class='mb-8'>一、地表-地下水体或土壤中的特定环境过程(氮磷循环、碳排放、重金属吸附/解吸、有机质降解等)或特定物种（特定物种或特定元素、生物质等）的量化和预测。</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/rtmmr-01.png' width='768' height='432' alt='RTM-MR 01' /></figure><p class='mb-8'>二、水体、土壤或综合污染场地的修复工艺（原位药剂注入、循环井、反应墙或异位修复等）参数优化。</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/rtmmr-02.png' width='768' height='432' alt='RTM-MR 02' /></figure>"
+      }
+    },
+    "w2": {
+      "title": "立面二维水动力水质水生态模型",
+      "intro": "CE-QUAL-W2是由美国波特兰州立大学、湖北工业大学、武汉善水清源环境科技有限公司、陕西思益清源科技有限公司联合维护及开发的全国唯一的<strong class='font-medium text-gray-900'>立面二维水动力水质水生态</strong>模型。",
+      "s1": {
+        "title": "模型简介",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>模型优势</strong>: 对河流、湖泊、水库、河口等水体的水流水质水生态进行精细的模拟，其立面二维的特性独一无二；该特性使得该模型具有<strong class='font-medium text-gray-900'>模拟对象广、模拟精度高、运行速度快</strong>的特点。</li><li class='mb-1'><strong class='font-medium text-gray-900'>水动力模块</strong>: 模型能较好的模拟<strong class='font-medium text-gray-900'>水位、流量</strong>、纵向及垂向上<strong class='font-medium text-gray-900'>水温</strong>和<strong class='font-medium text-gray-900'>流速</strong>的分布，并且包含了冰盖的模拟；例如：针对河流，降雨，水温的模拟。</li><li class='mb-1'><strong class='font-medium text-gray-900'>水质水生态模块</strong>: 模型可模拟水质水生态指标<strong class='font-medium text-gray-900'>超过百种</strong>，具有<strong class='font-medium text-gray-900'>沉积物成岩</strong>以及水体交互的模块；例如 ：营养盐以及溶解氧等等的模拟。</li></ul>"
+      },
+      "s2": {
+        "title": "CE-QUAL-W2特色功能介绍",
+        "Accordion": {
+          "a1": {
+            "title": "水质模块和水动力模块耦合计算且相对独立",
+            "content": "算时间步长自动调整，立面二维特性使模型运行效率更高更精确；例如：对不同藻类在不同条件下的生长动力模拟。"
+          },
+          "a2": {
+            "title": "可将水体以任意方式连接组合",
+            "content": "模拟复杂水系、河网、闸坝等问题，在处理水库，河流，大坝等自然人工设施中可以简洁精确的刻画研究目标；例如针对筑坝可行性，建造水库等水质的模拟预测。"
+          },
+          "a3": {
+            "title": "热启动功能",
+            "content": "可使其以指定时间输出文件作为下次模型运行初始输入文件，减少模型运行时间，在长时间序列模拟工作中可大大提高工作效率。"
+          }
+        }
+      },
+      "s3": {
+        "title": "CE-QUAL-W2特色功能图解",
+        "content": "<figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-01.png' width='768' height='432' alt='CE-QUAL-W2 01' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-02.png' width='768' height='432' alt='CE-QUAL-W2 02' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-03.png' width='768' height='432' alt='CE-QUAL-W2 03' /></figure><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/w2-04.png' width='768' height='432' alt='CE-QUAL-W2 04' /></figure>"
+      }
+    },
+    "database": {
+      "title": "全球综合数据库",
+      "intro": "公司在提供不同环境业务的服务基础上，提供并维护各种环境、水动力、水质模型（CE-QUAL-database, EFDC, MIKE等）、地下水模型（例如Hydrogeosphere，MODFLOW等）、矿山修复（RTM模型）、燃烧、碳排放模型可直接使用的全球范围，综合的数据库。数据库包含全球气象数据、水流流量数据、水温数据、大坝及水库数据。",
+      "Accordion": {
+        "a1": {
+          "title": "全球气象数据",
+          "content": "精确到1940年至今200+气象变量的每小时数据，例如不同高度的气温，风速，风向，气压，云层，太阳辐射，土壤等等信息。"
+        },
+        "a2": {
+          "title": "水流流量数据",
+          "content": "精确到1901年至今的全球数据。"
+        },
+        "a3": {
+          "title": "水温数据",
+          "content": "精确到1979年至今的全球尺度的水温数据。"
+        },
+        "a4": {
+          "title": "大坝及水库数据",
+          "content": "包含全球主要大坝以及水库的数据。"
+        }
+      },
+      "intro2": "此外，公司的数据库结合人工智能的技术（例如最新的ChatGPT会员服务以及未来的人工智能，大数据技术），为广大高校，科研所的小伙伴们提供便捷，稳定，迅速的建模以及文稿总结等服务（详见数据库应用）。",
+      "s1": {
+        "title": "公司数据库介绍",
+        "content": "<p class='mb-8'>公司在全球以及自己数据库基础上，用大数据，人工智能，数据融合等方法开发了完整的智能数据库使用体系。并有了相应的科研论文以及发明专利，软件著作。全球气象数据在西方国家有良好的数据库以及发展维护。</p><p class='text-gray-900'>例如:</p><div class='max-w-6xl mx-auto px-4 sm:px-6'><div class='py-12 md:py-16 '><!-- Items --><div class='relative max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none'><div class='absolute top-1/2 w-full h-1 bg-gradient-to-r from-blue-500 to-teal-300 hidden lg:block' aria-hidden='true'></div><!-- 1st item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>1</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1 text-center'>欧洲天气预报中心（ECMWF）</h4><p class='text-gray-600 text-center'>是一个包括34个国家支持的国际性组织，是当今全球独树一帜的国际性天气预报研究和业务机构。</p></div><!-- 2nd item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>2</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>ECMWF使用</h4><p class='text-gray-600 text-center'>定期使用其预测模型和数据同化系统来“重新分析”已存档的观测值。</p></div><!-- 3rd item --><div class='relative flex flex-col items-center p-6 bg-white rounded shadow-xl'><div class='flex justify-center items-center h-12 w-12 rounded-full bg-blue-600 text-white font-bold mb-3'>3</div><h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>构建全球数据集</h4><p class='text-gray-600 text-center'>创建描述大气，陆地和海洋近期历史的全球数据集。</p></div></div></div></div><p class='mb-8'>ECMWF气候再分析始于20世纪80年代产生的FGGE再分析，接着是ERA-15、ERA-40和最近的ERA-Interim 和 ERA5。从全球现有的所有数据库来看，目前ECMWF的数值预报结果是公认的世界领先数据。</p><p class='mb-8'>公司将其模型数据与来自世界各地的观测数据结合起来，形成一个全球完整的、一致的数据集。在ECMWF的基础上整合其他数据库的信息。</p><p class='mb-8 text-gray-900'>例如:</p><ul class='list-disc list-inside mb-8'><li class='mb-1'>GPCC(全球大气降水)、WorldClimate</li><li class='mb-1'>NOAA(美国国家海洋和大气管理局)</li><li class='mb-1'>CRU(英国气候研究中心数据库)</li><li class='mb-1'>CMIP(全球大气海洋耦合数据)、GHCN(全球大气历史数据)</li></ul><p class='mb-8'>并使用大数据分析，人工智能，多线程的智能方法将数据库信息与公司业务在不同领域进行了整合、集成。</p><p class='mb-8'>公司的水环境模型以及其它业务模型结合全球的气象数据（从1940年至今的小时数据，有气温，风速，风向，云层，太阳辐射，气压，降雨等等的信息），以及全球的水温，水流，大坝，水库的地形数据以及其它关键参数，原创建立了一套独有的数据库系统，为水动力水质模型的构建提供了强有力的数据支撑，有效解决国内现有实测数据时间序列短、频率不足等问题。并且为预测，监测等相关的环境领域提供强有力的智能大数据支撑。</p>"
+      },
+      "s2": {
+        "title": "主要数据集简介",
+        "content": "<p class='mb-8'>总共240+数据变量:</p><figure class='mb-8'><img class='w-full rounded' src='../../src/images/database-01.png' width='768' height='432' alt='Global Database 01' /></figure>"
+      },
+      "s3": {
+        "title": "部分全球数据展示",
+        "content": "<p class='mb-8'>1963年1月全球2m气温月平均数据:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-02.png' width='768' height='432' alt='Global Database 02' /></figure><p class='mb-8'>2019年1月全球海拔100m处风速_U月平均:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-03.png' width='768' height='432' alt='Global Database 03' /></figure>"
+      },
+      "s4": {
+        "title": "数据库的应用以及实测对比",
+        "content": "<p class='mb-8'>公司数据库可以对国内现有环境领域数据不足、不易获取、缺失等问题进行有效补充，参考以及分析使用。为不同领域的环境咨询以及研究给予稳定、全面的大数据支撑。</p><p class='mb-8 text-gray-900'>例如:</p><ul class='list-disc list-inside mb-8'><li class='mb-1'>思益清源全球综合数据库可以结合各种城市，水质水动力模型 (CE-QUAL-database, EFDC, MIKE，SWAT, SWMM等等) 为相关领域的小伙伴建立稳定的数据支撑；</li><li class='mb-1'>思益清源全球综合数据库结合各种GIS数据集，为矿山修复的运移反应模型，地下水模型（Hydrogeosphere, MODFLOW等等）提供全面的，准确的，有效的数据支撑；</li><li class='mb-1'>思益清源全球综合数据库为各种碳循环，碳排放，燃烧模型提供有效，可靠的数据，参数支撑(例如，修正涡耗散概念模型)</li></ul><p class='mb-8'>数据库数据与实测气象站数据对比:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/database-04.png' width='768' height='432' alt='Global Database 04' /></figure><p class='mb-8'>数据库天尺度的数据很好的再现了气象站每小时尺度的数据。数据库拥有全球尺度的km级数据。很好弥补了气象站不足，缺失等问题，并且每一个数据库的数据都可按需求生成成模型可用的数据文件。</p>"
+      }
+    },
+    "digitalTwin": {
+      "title": "流域数值模拟与水质数字孪生化",
+      "intro": "思益清源提供先进的流域数值模拟和水质数字孪生化服务，助力水资源的可持续管理与保护。",
+      "s1": {
+        "title": "专业技术",
+        "Accordion": {
+          "a1": {
+            "title": "SWAT",
+            "content": "流域尺度模型，用来模拟和分析水土流失、面源污染和农业管理等问题。"
+          },
+          "a2": {
+            "title": "EFDC",
+            "content": "涵盖一维、二维、三维模拟，流场、物质运输、污染物迁移转化。"
+          },
+          "a3": {
+            "title": "CE-QUAL-W2",
+            "content": "适用于河流湖库等的立面二维模型，对于水库淹没范围、生态流量、栖息地、水体富营养化等都有很好的模拟效果。"
+          },
+          "a4": {
+            "title": "MIKE 11",
+            "content": "一维河流模型，河流、洪泛平原、灌溉渠道、水库等内陆水体的流动和水位、水质和沉积物运输。"
+          }
+        }
+      },
+      "s2": {
+        "title": "数字孪生化服务范围",
+        "content": "<p class='mb-8'>我们的数字孪生化技术能够对长江流域、黄河流域等重要水系的水动力和水质进行深入研究，构建准确的数字孪生模型。</p><figure class='mb-8 mt-8'><img class='w-3/5 rounded ms-auto' src='../../src/images/digital-twin-system-01.png' width='768' height='432' alt='Digital Twin System 01' /></figure><h5 class='h5 text-gray-900 mt-8 mb-4'>我们能实现:</h5><ul class='list-disc list-inside mb-8'><li class='mb-1'>水质参数（如叶绿素、BOD、溶解氧和营养盐）的<strong class='font-medium text-gray-900'>实时模拟和分析</strong>；</li><li class='mb-1'>提供有效的<strong class='font-medium text-gray-900'>预测预警系统</strong>，帮助管理者及时响应水环境变化；</li><li class='mb-1'>致力于使用最先进的技术，为您提供<strong class='font-medium text-gray-900'>全面、高效</strong>的水环境监测和管理解决方案。</li></ul>"
+      },
+      "s3": {
+        "title": "高级技术融合",
+        "content": "<p class='mb-8'>我们不仅掌握单一模型，更能将 SWAT, CE-QUAL-W2, EFDC, MIKE 11 等多个模型进行有效耦合。这种融合方式提高了模型的适应性和精确度，能够针对复杂的水环境问题提供更全面的分析和解决方案。</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>软件开发，云端开发与用户界面</strong>：团队精通 Python 和 Java 等编程语言，正在开发用户友好的软件界面。提供技术服务的同时，让客户能够轻松管理和分析模型数据。</li><li class='mb-8'><strong class='font-medium text-gray-900'>定制化服务与支持</strong>：数据分析、模型调整还是用户界面设计，我们都能根据客户的具体需求进行量身定制。</li></ul>"
+      },
+      "s4": {
+        "title": "模型编译和可视化服务",
+        "content": "<p class='mb-8'>我们的专业团队利用最新的数值模拟技术，提供从<strong class='font-medium text-gray-900'>一维到三维的模型编译和可视化</strong>服务。无论是简单的河流流动模拟，还是复杂的湖泊生态系统分析，我们都能提供精确、直观的解决方案。</p><p class='mb-8'>接下来我们提供一些简单的理想示例：</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>一维：</strong><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-02.png' width='768' height='432' alt='Digital Twin System 02' /></figure><figure class='mb-8 mt-8'><img class='w-full rounded' src='../../src/images/digital-twin-system-03.png' width='768' height='432' alt='Digital Twin System 03' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>二维：</strong><p class='mt-8 mb-1'><strong class='font-medium text-gray-900'>热图（Heatmaps）</strong>：用于展示水质参数（如温度、盐度、污染物浓度等）在二维平面上的分布。</p><p class='mb-1'><strong class='font-medium text-gray-900'>矢量场图（Vector Field Plots）</strong>：显示变量的方向和强度。每个矢量代表水流在特定点的方向和速度。</p><p class='mb-1'><strong class='font-medium text-gray-900'>等高线图（Contour Plots）</strong>：用于展示变量在二维平面上的等值线，例如水深或流速。</p><figure class='mb-8 mt-8'><img class='w-3/5 rounded' src='../../src/images/digital-twin-system-04.png' width='768' height='432' alt='Digital Twin System 04' /></figure><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-05.png' width='768' height='432' alt='Digital Twin System 05' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>三维：</strong><p class='mt-8 mb-1'><strong class='font-medium text-gray-900'>三维曲面图（3D Surface Plots）</strong>：显示变量在三维空间中的变化，如水深或温度随地理位置和深度的变化。</p><p class='mb-1'><strong class='font-medium text-gray-900'>三维矢量场图（3D Vector Field Plots）</strong>：用于展示变量在三维空间中的方向和强度。</p><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-06.png' width='768' height='432' alt='Digital Twin System 06' /></figure><figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/digital-twin-system-07.png' width='768' height='432' alt='Digital Twin System 07' /></figure></li></ul><p class='mb-8'>通过理论模型与实际应用的结合，思益清源致力于将复杂的技术转化为<strong class='font-medium text-gray-900'>简单、直观的工具</strong>。我们的目标是帮助您更有效地管理和保护宝贵的水资源。</p><p class='mb-8'>联系我们，一起探索水资源管理的未来！</p>"
+      }
+    },
+    "dataProcessing": {
+      "title": "Python大数据处理与数据挖掘",
+      "intro": "Python是一种高级的、面向对象的编程语言，具有内置的数据结构和动态语义。拥有一系列用于数据操作、统计计算、Web开发、机器学习和数据科学的库、包、框架和模块，允许程序模块化和代码重用，语法简单、计算高效，在数据处理、数据挖掘方面具有较大优势。",
+      "s1": {
+        "title": "文件合并与拆分",
+        "content": "<p class='mb-8'>实际数据可能在不同的文件中保存，而建模分析时需要读取所有数据，这时需要将所有文档<strong class='font-medium text-gray-900'>合并</strong>到一个文件中；或者对于数据量比较大的文件，直接读取或者打开比较困难，这时需要<strong class='font-medium text-gray-900'>拆分</strong>数据。</p><p class='mb-8'>以合并多个csv为例:</p><figure class='mb-8'><img class='w-4/5 rounded' src='../../src/images/data-python-01.png' width='768' height='432' alt='Data Python 01' /></figure>"
+      },
+      "s2": {
+        "title": "数据预处理",
+        "content": "<p class='mb-8'>包括数据读取、缺失值处理、异常值处理、描述性变量转换为数值型、训练集测试集划分、数据规范化等。</p><ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>文件读取</strong>: <figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-02.png' width='768' height='432' alt='Data Python 02' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>缺失值查看</strong>: <figure class='mb-8 mt-8'><img class='w-full rounded' src='../../src/images/data-python-03.png' width='768' height='432' alt='Data Python 03' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>异常值检测</strong>: <figure class='mb-8 mt-8'><img class='w-3/5 rounded' src='../../src/images/data-python-04.png' width='768' height='432' alt='Data Python 04' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>数据规范化</strong>: <figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-05.png' width='768' height='432' alt='Data Python 05' /></figure></li></ul>"
+      },
+      "s3": {
+        "title": "数据特征分析",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>分布分析</strong>：分布分析能揭示数据的分布特征和分布类型。对于定量分类数据，可通过绘制频率分布表，绘制频率分布直方图，绘制茎叶图进行直观的分析，对于定性分类数据，可用于图饼和条形图直观的显示分布情况。<figure class='mb-8 mt-8'><img class='w-3/5 rounded' src='../../src/images/data-python-06.png' width='768' height='432' alt='Data Python 06' /></figure></li><li class='mb-8'><strong class='font-medium text-gray-900'>统计量分析</strong>：用于统计指标对于定量数据进行统计描述，常从集中/离散趋势两个方面进行分析。常用均值、标准差、分位数、极差等表示。</li><li class='mb-1'><strong class='font-medium text-gray-900'>相关性分析</strong>：分析连续变量之间线性相关程度的强弱，并用于适当的统计指标表示出来的过程称为相关分析。可绘制散点图、矩阵图、计算相关系数等，来准确地描述变量之间线性相关程度。<figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-07.png' width='768' height='432' alt='Data Python 07' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>主成分分析</strong>：多元统计分析，用于减少数据集的维数，同时保持数据集中的对方差贡献最大的特征。<figure class='mb-8 mt-8'><img class='w-full rounded' src='../../src/images/data-python-08.png' width='768' height='432' alt='Data Python 08' /></figure></li></ul>"
+      },
+      "s4": {
+        "title": "机器学习",
+        "content": "<ul class='list-disc list-inside mb-8'><li class='mb-1'><strong class='font-medium text-gray-900'>分类/聚类</strong>：对具有相同或相似属性的数据进行划分等，常用算法有随机森林、KNN算法、贝叶斯算法、决策树算法、逻辑回归算法和SVM算法等。<figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-09.png' width='768' height='432' alt='Data Python 09' /></figure></li><li class='mb-1'><strong class='font-medium text-gray-900'>回归</strong>：筛选重要变量，对未来数据进行预测模拟等。<figure class='mb-8 mt-8'><img class='w-4/5 rounded' src='../../src/images/data-python-10.png' width='768' height='432' alt='Data Python 10' /></figure><figure class='mb-8'><img class='w-3/4 rounded' src='../../src/images/data-python-11.png' width='768' height='432' alt='Data Python 11' /></figure></li></ul>"
+      },
+      "footer": "参考文献: <p>1. Migliavacca M, Musavi T, Mahecha M D, et al. The three major axes of terrestrial ecosystem function[J]. Nature, 2021, 598(7881): 468-472.</p><p>2. Zhang J, Zhang N, Liu Y, et al. Root microbiota shift in rice correlates with resident time in the field and developmental stage. Science China-life Sciences, 2018, 61(6): 613-621.</p>"
+    }
+  },
   "news": {
     "title": "公司动态",
     "career": "实习招聘",
