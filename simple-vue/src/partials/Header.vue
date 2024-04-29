@@ -225,6 +225,7 @@ export default {
 
     const changeLocale = (newLocale) => {
       locale.value = newLocale;
+      localStorage.setItem('userLanguage', newLocale); // store it in local storage
     };
 
     return {

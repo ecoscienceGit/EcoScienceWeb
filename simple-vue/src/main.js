@@ -9,9 +9,12 @@ import "./css/style.css";
 import en from "./translations/en-US.json";
 import zh from "./translations/zh-CN.json";
 
+// Retrieve the user's language preference from Local Storage or default to English
+const savedLanguage = localStorage.getItem('userLanguage') || 'en';
+
 const i18n = createI18n({
   legacy: false,
-  locale: "en",
+  locale: savedLanguage,
   fallbackLocale: "en",
   messages: { zh, en },
 });
