@@ -21,7 +21,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/guxian" class="hover:underline">{{ $t('project.huanghe') }}</router-link>
+                  <router-link to="/project-post/guxian" class="hover:underline">{{ $t('project.huanghe.title') }}</router-link>
                 </h3>
               </header>
             </article>
@@ -35,7 +35,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/wuliangsuhai" class="hover:underline">{{ $t('project.wuliangsu') }}</router-link>
+                  <router-link to="/project-post/wuliangsuhai" class="hover:underline">{{ $t('project.wuliangsu.title') }}</router-link>
                 </h3>
               </header>
             </article>
@@ -49,7 +49,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/nanshuibeidiao" class="hover:underline">{{ $t('project.nanshui') }}</router-link>
+                  <router-link to="/project-post/nanshuibeidiao" class="hover:underline">{{ $t('project.nanshui.title') }}</router-link>
                 </h3>
               </header>
             </article>
@@ -63,7 +63,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/yanxiban" class="hover:underline">{{ $t('project.training') }}</router-link>
+                  <router-link to="/project-post/yanxiban" class="hover:underline">{{ $t('project.training.title') }}</router-link>
                 </h3>
               </header>
             </article>
@@ -77,7 +77,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/competition" class="hover:underline">{{ $t('project.models') }}</router-link>
+                  <router-link to="/project-post/competition" class="hover:underline">{{ $t('project.models.title') }}</router-link>
                 </h3>
               </header>
             </article>
@@ -91,7 +91,7 @@
                   </figure>
                 </router-link>
                 <h3 class="text-xl font-bold leading-snug tracking-tight">
-                  <router-link to="/project-post/learningWithUs" class="hover:underline">{{ $t('project.consultation') }}</router-link>
+                  <router-link to="/project-post/learningWithUs" class="hover:underline">{{ $t('project.consultation.title') }}</router-link>
                 </h3>
               </header>
             </article>
