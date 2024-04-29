@@ -24,7 +24,9 @@ import ServiceTypeSWM from './../partials/serviceType/ServiceTypeSWM.vue'
 import ServiceTypeSWQ from './../partials/serviceType/ServiceTypeSWQ.vue'
 import ServiceTypeSE from './../partials/serviceType/ServiceTypeSE.vue'
 import ServiceTypeDT from './../partials/serviceType/ServiceTypeDT.vue'
-import ServiceTypeEC from './../partials/serviceType/ServiceTypeEC.vue'
+import ServiceTypeAI from '../partials/serviceType/ServiceTypeAI.vue'
+import ServiceTypeSME from '../partials/serviceType/ServiceTypeSME.vue'
+// import ServiceTypeEC from './../partials/serviceType/ServiceTypeEC.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -45,8 +47,12 @@ export default {
           return ServiceTypeSE
         case "digital-twin":
           return ServiceTypeDT
-        case "education-consulting":
-          return ServiceTypeEC
+        case "ai-transformation":
+          return ServiceTypeAI
+        case "social-media-ecology":
+          return ServiceTypeSME
+        // case "education-consulting":
+        //   return ServiceTypeEC
         default:
           return null;
       }

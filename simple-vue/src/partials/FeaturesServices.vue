@@ -48,7 +48,6 @@
             </div>
           </router-link>
 
-
           <!-- 3rd item -->
           <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/smart-ecology">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
@@ -65,12 +64,11 @@
               <p class="text-gray-600 text-center">{{ $t('services.smartEcology.Artificial.title') + '; ' + $t('services.smartEcology.Ecology.title') + '; ' + $t('services.smartEcology.Combustion.title') }}</p>
             </div>
           </router-link>
-          
-
 
           <!-- 4th item -->
           <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/digital-twin">
             <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
+
               <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g stroke-width="4" class="transform translate-x-2 translate-y-2">
                   <rect class="stroke-current text-blue-600" stroke-linecap="round" stroke-linejoin="round" x="19" y="32" width="10" height="9"/>
@@ -79,9 +77,69 @@
                   <path class="stroke-current text-blue-600" stroke-linecap="round" stroke-linejoin="round" d="M14 41L34 41"/>
                 </g>
               </svg>
+              <!-- <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g stroke-width="4" class="transform translate-x-2 translate-y-2">
+                  <path class="stroke-current text-blue-600" d="M44 29H4V42H44V29Z" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M35.5 38C36.8807 38 38 36.8807 38 35.5C38 34.1193 36.8807 33 35.5 33C34.1193 33 33 34.1193 33 35.5C33 36.8807 34.1193 38 35.5 38Z"/>
+                  <path class="stroke-current text-blue-600" d="M4 28.9998L9.03837 4.99902H39.0205L44 28.9998" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M19.006 16.0259C16.8635 16.0259 15 17.5124 15 19.5128C15 21.9998 17.0947 22.9998 19.6973 22.9998C20.1437 22.9998 20.5567 22.9998 20.9768 22.9998" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M29.007 16.0259C31.1039 16.0259 33 16.9994 33 19.5128C33 21.9998 30.8902 22.9998 28.2877 22.9998C27.8412 22.9998 27.4013 22.9998 26.9871 22.9998" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M29.0069 16.0261C29.0069 13.0423 27.0231 11 23.9998 11C20.9766 11 19.0059 12.9927 19.0059 16.0261" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M20 23H28"/>
+                </g>
+              </svg> -->
 
               <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.digitalTwin.title') }}</p>
               <p class="text-gray-600 text-center">{{ $t('services.digitalTwin.systems.title') + '; ' + $t('services.digitalTwin.cloud.title') }}</p>
+            </div>
+          </router-link>
+
+          <!-- 5th item -->
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/ai-transformation">
+            <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
+
+              <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g stroke-width="4" class="transform translate-x-2 translate-y-2">
+                  <rect class="stroke-current text-blue-600" x="9" y="17" width="30" height="26" rx="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M33 9L28 17" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M15 9L20 17" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle class="stroke-current text-blue-600" cx="34" cy="7" r="2" />
+                  <circle class="stroke-current text-blue-600" cx="14" cy="7" r="2" />
+                  <rect class="stroke-current text-blue-600" x="16" y="24" width="16" height="8" rx="4" />
+                  <path class="stroke-current text-blue-600" d="M9 24H4V34H9" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M39 24H44V34H39" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.aiTransformation.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.aiTransformation.intro') }}</p>
+            </div>
+          </router-link>
+
+          <!-- 6th item -->
+          <router-link class="transition duration-300 ease-in-out hover:shadow-lg mb-4" to="/services-category/social-media-ecology">
+            <div class="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
+              
+              <!-- <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g stroke-width="4" class="transform translate-x-2 translate-y-2">
+                  <path class="stroke-current text-blue-600" d="M4 6H44V36H29L24 41L19 36H4V6Z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M23 21H25.0025" stroke-linecap="round"/>
+                  <path class="stroke-current text-blue-600" d="M33.001 21H34.9999" stroke-linecap="round"/>
+                  <path class="stroke-current text-blue-600" d="M13.001 21H14.9999" stroke-linecap="round"/>
+                </g>
+              </svg> -->
+
+              <svg class="w-24 h-24 p-1 -mt-1 mb-2" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g stroke-width="4" class="transform translate-x-2 translate-y-2">
+                  <path class="stroke-current text-blue-600" d="M44.0001 24C44.0001 35.0457 35.0458 44 24.0001 44C18.0266 44 4.00006 44 4.00006 44C4.00006 44 4.00006 29.0722 4.00006 24C4.00006 12.9543 12.9544 4 24.0001 4C35.0458 4 44.0001 12.9543 44.0001 24Z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M14 18L32 18" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M14 26H32" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path class="stroke-current text-blue-600" d="M14 34H24" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+
+              <p class="text-xl font-bold leading-snug tracking-tight mb-1">{{ $t('services.socialMediaEcology.title') }}</p>
+              <p class="text-gray-600 text-center">{{ $t('services.socialMediaEcology.intro') }}</p>
             </div>
           </router-link>
         </div>

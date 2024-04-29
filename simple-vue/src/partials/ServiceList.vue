@@ -165,7 +165,7 @@
                 <article class="block flex flex-col h-full">
                   <header>
                     <router-link
-                      to="/services-category/education-consulting"
+                      to="/services-category/ai-transformation"
                       class="block mb-6"
                     >
                       <figure
@@ -173,10 +173,10 @@
                       >
                         <img
                           class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
-                          src="../images/ec-cover.jpg"
+                          src="../images/ai-cover.jpg"
                           width="352"
                           height="198"
-                          alt="Edu&Consulting cover"
+                          alt="AI Transformation cover"
                         />
                       </figure>
                     </router-link>
@@ -184,17 +184,50 @@
                       class="text-xl font-bold leading-snug tracking-tight mb-2"
                     >
                       <router-link
-                        to="/services-category/education-consulting"
+                        to="/services-category/ai-transformation"
                         class="hover:underline"
-                        >{{ $t("services.educationConsulting.title") }}</router-link
+                        >{{ $t("services.aiTransformation.title") }}</router-link
                       >
                     </h3>
                   </header>
                   <p class="text-gray-600 grow">
                     {{
-                      $t("services.educationConsulting.apply.title") +
-                      "; " +
-                      $t("services.educationConsulting.writing.title")
+                      $t("services.aiTransformation.intro")
+                    }}</p>
+                </article>
+
+                <!-- 6th service type -->
+                <article class="block flex flex-col h-full">
+                  <header>
+                    <router-link
+                      to="/services-category/social-media-ecology"
+                      class="block mb-6"
+                    >
+                      <figure
+                        class="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded"
+                      >
+                        <img
+                          class="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out"
+                          src="../images/sme-cover.jpg"
+                          width="352"
+                          height="198"
+                          alt="social media ecology cover"
+                        />
+                      </figure>
+                    </router-link>
+                    <h3
+                      class="text-xl font-bold leading-snug tracking-tight mb-2"
+                    >
+                      <router-link
+                        to="/services-category/social-media-ecology"
+                        class="hover:underline"
+                        >{{ $t("services.socialMediaEcology.title") }}</router-link
+                      >
+                    </h3>
+                  </header>
+                  <p class="text-gray-600 grow">
+                    {{
+                      $t("services.socialMediaEcology.intro")
                     }}</p>
                 </article>
               </div>

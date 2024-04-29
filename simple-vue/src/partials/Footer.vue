@@ -68,7 +68,12 @@
             </li>
             <li class="mb-2">
               <div class="text-gray-600">
-                {{ $t("services.educationConsulting.title") }}
+                {{ $t("services.aiTransformation.title") }}
+              </div>
+            </li>
+            <li>
+              <div class="text-gray-600">
+                {{ $t("services.socialMediaEcology.title") }}
               </div>
             </li>
           </ul>

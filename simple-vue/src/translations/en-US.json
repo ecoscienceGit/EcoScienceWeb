@@ -75,7 +75,7 @@
           "content": "Our smart ecology services focus on the analysis of global reservoir and lake data using artificial intelligence and big data technology. This service uses advanced algorithms to process and analyze a large amount of water body data, including water quality, water level, biodiversity, and water usage. Our goal is to help environmental agencies, government departments, and research institutions formulate more effective water resource management and protection strategies, promoting the sustainable development of the water environment."
         },
         "ML": {
-          "title": "Mechanical Learning Models",
+          "title": "Machine Learning Models",
           "content": "Our smart ecology services utilize artificial intelligence and big data technologies, especially advanced machine learning models, to analyze and predict environmental changes. These models are capable of processing complex ecological datasets, identifying patterns, predicting future trends, and proposing possible environmental interventions. Applications include climate change impact assessments, biodiversity protection, and natural resource management. Through these deep learning technologies, we help clients make scientific, data-driven decisions to more effectively address global environmental challenges."
         }
       },
@@ -99,16 +99,25 @@
         "content": "The Qingyuan Digital Twin System uses advanced digital twin technology to provide users with comprehensive real-time data monitoring and analysis capabilities. This system, by creating precise virtual models of physical objects or processes, can achieve continuous performance evaluation and predictive maintenance. Suitable for environmental management, water treatment, and industrial automation, the Qingyuan system helps users optimize operational processes, reduce energy consumption, and improve the overall reliability and efficiency of the system through simulation and data analysis. With its powerful data processing and visualization tools, users can gain in-depth insights to support more accurate decision-making."
       }
     },
-    "educationConsulting": {
-      "title": "Education Consulting",
-      "apply": {
-        "title": "Study Abroad",
-        "content": "Our educational consulting services focus on supporting students in various stages of studying abroad and postgraduate entrance examination processes. For study abroad applications, we provide comprehensive guidance from school selection, essay writing to interview preparation, helping students improve their application quality and increasing the chance of being admitted to their desired universities. At the same time, we also provide professional exam preparation services for students planning to take postgraduate entrance exams, including exam strategies, review plans, and mock tests. Our goal is to maximize students' potential through personalized consulting and strategy development, enabling them to smoothly achieve their academic and career development goals."
+    "aiTransformation": {
+      "title": "AI Transformation",
+      "intro": "AI in education; Eco-friendly consultancy; Digital business modernization",
+      "consulting": {
+        "title": "Educational Consulting and Advocacy in AI Applications",
+        "content": "EcoEdu Society is dedicated to enhancing education through artificial intelligence, targeting significant improvements across all educational levels. This service includes consultancy and workshops designed to harness AI for educational excellence and ecological awareness."
       },
-      "writing": {
-        "title": "Essay Writing",
-        "content": "Our educational consulting services provide specialized thesis writing support, helping students from topic selection, literature review to the writing and modification of the final manuscript. Our expert team has a rich academic background and writing experience, can provide targeted suggestions and feedback, ensuring that students' research complies with academic norms and publication standards. In addition, we also provide language polishing and format adjustment services to help non-native students improve the clarity and professionalism of their papers. Whether it is an undergraduate academic paper, a master's thesis, or a doctoral research paper, we can provide the necessary support, enabling students to confidently complete their academic tasks."
+      "digital": {
+        "title": "Digital Transformation Services for Established Businesses",
+        "content": "EcoEdu Society assists traditional businesses in modernizing their operations with a focus on integrating eco-friendly practices and AI technologies. The goal is to enhance operational efficiency, minimize environmental impacts, and ensure long-term sustainability."
       }
+    },
+    "socialMediaEcology": {
+        "title": "Social Media Ecology",
+        "intro": "Ecological awareness; Social media engagement; Sustainability content",
+        "awareness": {
+            "title": "Social Media Promotion for Ecological Awareness", 
+            "content": "EcoEdu Society leverages social media platforms to disseminate crucial information and boost awareness about ecological and environmental protection. The service aims to inspire positive change and informed decision-making by sharing engaging content on sustainability practices and the impacts of human activities on the environment."
+        }
     }
   },
   "news": {
