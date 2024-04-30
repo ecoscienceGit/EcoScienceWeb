@@ -318,9 +318,46 @@
       "p3": "We employ internally developed hydrodynamic models and databases to simulate water flow velocity, direction, and lake water level changes. These models are typically based on hydrology, meteorology, and physics data, such as lake topography, climatic conditions, and inflow and outflow volumes.",
       "p4": "The simulations also encompass visual analyses of nutrient cycling and pollutant dispersion within the lake, aiming to investigate the impacts of human activities on lake water quality. Through such simulations, researchers can anticipate variations in water quality and ecological conditions under different environmental management strategies, providing scientific insights for the environmental protection and sustainable management of lakes."
     },
-    "nanshui": { "title": "Wet Deposition, South-North Canal" },
-    "training": { "title": "Tutorial class" },
-    "models": { "title": "Modeling Competition Coaching" },
+    "nanshui": {
+      "title": "Wet Deposition, South-North Canal",
+      "p1": "The South-to-North Water Diversion Project's Middle Route, as one of the largest water conservancy projects in the world, plays a crucial role in improving the water scarcity situation in northern China. However, the protection and management of water quality along the route are also key to the successful implementation of the project. Our company, through simulation analysis of wet deposition—the process where atmospheric water molecules carry pollutants and deposit them on the ground—establishes an atmospheric-water dynamic water quality model for the Middle Route, aiming to provide scientific strategies and measures for water quality management to ensure water safety, serving social and ecological sustainable development.",
+      "title1": "Technical Overview",
+      "p2": "In this project, we use advanced water quality simulation software (such as CE-QUAL-W2) and technologies, integrating meteorological, hydrological, and Geographic Information System (GIS) data, focusing on how wet deposition affects the water quality of the Middle Route canal. Through meticulous model building, we can predict the trends of suspended particulates, heavy metals, and organic pollutants in the canal under different meteorological conditions.",
+      "title2": "Research Significance",
+      "p3": "This study will help scientifically predict and assess the impact of extreme weather events and changing environmental conditions on the water quality of the Middle Route Project. The results not only provide decision-making support for the water quality management and protection of the South-to-North Water Diversion Middle Route Project but also offer valuable references and experience for similar large-scale water conservancy projects.",
+      "title3": "Collaboration and Prospects",
+      "p4": "We look forward to collaborating with government departments, research institutions, and environmental protection organizations to explore and implement more effective water quality protection strategies."
+    },
+    "training": {
+      "title": "Tutorial class",
+      "titleInner": "Online and Offline Model Training Classes—Customized Training Services",
+      "p1": "Our model training courses focus on professional training and practical applications in hydrodynamic water quality simulation, dedicated to providing a comprehensive learning platform for professionals and scholars in water resources engineering, environmental science, and related fields. By integrating both online and offline teaching methods, our courses not only impart theoretical knowledge but also emphasize the cultivation of practical skills, aiming to enhance participants' abilities in model building, analysis, and solving real water quality issues.",
+      "title1": "Course Features",
+      "p21": "Practicality",
+      "p22": "The course content revolves around the latest technologies and case studies in hydrodynamic simulation, ensuring that participants master the most cutting-edge knowledge and skills in the industry.",
+      "p23": "Online and Offline Integration",
+      "p24": "Flexible training methods allow participants to choose the most suitable learning mode based on their personal schedules, enabling involvement from home or the workplace.",
+      "p25": "Expert Guidance",
+      "p26": "Taught by experts with extensive experience in the field of hydrodynamic simulation, offering one-on-one consultations to ensure personalized guidance and feedback for each participant.",
+      "p27": "Target Audience",
+      "p28": "This training class is suitable for hydraulic engineers, environmental scientists, graduate scholars, and professionals interested in hydrodynamic simulation.",
+      "p29": "Interactive Exchange",
+      "p291": "Special sessions for real-time communication and discussion are set up to encourage the exchange of ideas among participants, jointly solving practical issues.",
+      "title2": "Past Cases",
+      "p31": "First to third national model training classes",
+      "p32": "Zhengzhou special model training class: in cooperation with the Yellow River Water Resources Protection Science Research Institute",
+      "p33": "Customized model training at Yunnan University",
+      "p34": "Customized training at the Yangtze River Commission Design Institute"
+    },
+    "models": {
+      "title": "Modeling Competition Coaching",
+      "p11": "The fourth National College Student Water Environment Model Simulation Competition was jointly launched by Beijing IntelliWare - Resolute Computational Intelligence Laboratory (RCIL), School of Environmental Science and Engineering at Peking University, Nanjing ZhiShui Environmental Technology Co., Ltd., School of Environment at Beijing Normal University, School of Environment at Nanjing University, Institute of Geography and Lakes, Chinese Academy of Sciences, and the Intelligent Control Research Institute at Sichuan University. The competition is open to college students nationwide, including master's and doctoral students, and aims to explore model technologies in intelligent watershed management. The organizing committee will provide each registered participant with a set of model software with capabilities of three-dimensional hydrodynamics, water quality, sediment flux, and aquatic plant dynamics simulation as the computing platform, along with a set of three-dimensional water quality and aquatic ecology models as the research subjects for the competition.",
+      "p12": "Participants will independently learn using the materials or references provided by the organizing committee, and then adjust and calibrate the competition models. The methods for model calibration are not restricted; participants can choose manual adjustment or develop automated calibration methods for intelligent calibration of water quality models and aquatic plant modules. Scoring will be based solely on the precision metrics of the model results, such as the value of the logarithmic Nash efficiency index, to ensure the objectivity and fairness of the evaluation.",
+      "title1": "Our Achievements",
+      "p21": "We are proud to announce that several students under our guidance achieved excellent results in the fourth National College Student Water Environment Model Simulation Competition, with many even winning third place. These achievements are not only the result of their personal diligence and effort but also the outcome of our team's full support and guidance. Through relentless learning and practice, they not only demonstrated their professional skills in water environment simulation but also highlighted the importance of teamwork and innovation. We will continue to provide high-quality guidance and support to our students, helping more achieve brilliant success in various competitions.",
+      "p22": "Four students won the third prize",
+      "p23": "22 members participated in 2021"
+    },
 
     "consultation": {
       "title": "Online Consultation",

@@ -8,7 +8,7 @@
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
               <h1 class="h1 text-center mb-4">
-                线上线下模型培训班——定制化培训班服务
+                {{ $t("project.training.titleInner") }}
               </h1>
             </header>
 
@@ -87,7 +87,7 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    我们的模型培训班专注于水动力水质模拟的专业培训与实践应用，致力于为水利工程、环境科学以及相关领域的专业人士和学者提供全方位的学习平台。通过线上线下相结合的教学方式，本培训班不仅传授理论知识，更注重实战技能的培养，旨在提升学员的模型构建、分析和解决实际水质问题的能力。
+                    {{ $t("project.training.p1") }}
                   </p>
 
                   <figure class="mb-8">
@@ -104,31 +104,38 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    课程特色
+                    {{ $t("project.training.title1") }}
                   </h3>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900">实用性强</strong
-                      >:
-                      课程内容围绕当前水动力模拟的最新技术与应用案例，确保学员能够掌握行业内最前沿的知识与技能。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.training.p21")
+                      }}</strong
+                      >:{{ $t("project.training.p22") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900"
-                        >线上线下结合</strong
-                      >：灵活的培训方式，学员可根据个人时间安排选择最适合的学习模式，无论在家还是工作地点均可参与。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.training.p23")
+                      }}</strong
+                      >{{ $t("project.training.p24") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900">专家指导</strong
-                      >:
-                      由在水动力模拟领域拥有丰富经验的专家亲自授课，提供多对一咨询，确保学员能够得到个性化的指导和反馈。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.training.p25")
+                      }}</strong
+                      >{{ $t("project.training.p26") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900">互动交流</strong
-                      >:特设实时交流与讨论环节，鼓励学员间的思想碰撞，共同解决实际问题。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.training.p29")
+                      }}</strong
+                      >{{ $t("project.training.p291") }}
                     </li>
                     <li class="mb-1">
-                      <strong class="font-medium text-gray-900">适用人群</strong
-                      >:本培训班适合水利工程师、环境科学家、研究生学者以及对水动力模拟感兴趣的专业人士。
+                      <strong class="font-medium text-gray-900">{{
+                        $t("project.training.p27")
+                      }}</strong
+                      >{{ $t("project.training.p28") }}
                     </li>
                   </ul>
                   <h3
@@ -136,27 +143,27 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    往期案例
+                    {{ $t("project.training.title2") }}
                   </h3>
                   <ul class="list-disc list-inside mb-8">
                     <li class="mb-1">
                       <span class="text-gray-900 underline"
-                        >第一期到第三期全国模型培训班
+                        >{{ $t("project.training.p31") }}
                       </span>
                     </li>
                     <li class="mb-1">
                       <span class="text-gray-900 underline"
-                        >郑州专场模型培训班：与黄河水资源保护科学研究院合作
+                        >{{ $t("project.training.p32") }}
                       </span>
                     </li>
                     <li class="mb-1">
                       <span class="text-gray-900 underline"
-                        >云南大学定制化模型培训
+                        >{{ $t("project.training.p33") }}
                       </span>
                     </li>
                     <li class="mb-1">
                       <span class="text-gray-900 underline"
-                        >长江委设计院定制化培训
+                        >{{ $t("project.training.p34") }}
                       </span>
                     </li>
                   </ul>

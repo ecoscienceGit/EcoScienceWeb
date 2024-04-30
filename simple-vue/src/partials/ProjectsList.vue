@@ -23,7 +23,7 @@
                   <img
                     src="/projects/images/canada/cover.jpg"
                     alt="canada"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">
@@ -56,7 +56,7 @@
                   <img
                     src="/projects/images/learningWithUs/cover.jpg"
                     alt="learningWithUs"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">
@@ -123,7 +123,7 @@
                   <img
                     src="/projects/images/wuliangsuhai/cover.jpg"
                     alt="wuliangsuhai"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">
@@ -157,7 +157,7 @@
                   <img
                     src="/projects/images/nanshuibeidiao/cover.jpg"
                     alt="nanshuibeidiao"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">
@@ -191,7 +191,7 @@
                   <img
                     src="/projects/images/yanxiban/cover.jpg"
                     alt="yanxiban"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">
@@ -225,7 +225,7 @@
                   <img
                     src="/projects/images/competition/cover.jpg"
                     alt="competition"
-                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md"
+                    class="w-48 h-32 md:w-64 md:h-48 rounded-lg shadow-md object-cover"
                   />
                 </router-link>
                 <div class="md:ml-6 text-center md:text-left">

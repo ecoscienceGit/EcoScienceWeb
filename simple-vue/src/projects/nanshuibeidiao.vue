@@ -8,7 +8,7 @@
             <header class="max-w-3xl mx-auto mb-20">
               <!-- Title -->
               <h1 class="h1 text-center mb-4">
-                湿沉降对南水北调中线工程干渠水质影响模拟研究
+                {{ $t("project.nanshui.title") }}
               </h1>
             </header>
 
@@ -104,7 +104,7 @@
                     class="mb-8"
                     style="scroll-margin-top: 100px"
                   >
-                    南水北调中线工程，作为世界上最大的水利工程之一，对于改善我国北方地区水资源短缺的状况发挥着至关重要的作用。然而，沿途水质的保护与管理同样是项目成功实施的关键。我们公司通过模拟分析湿沉降——即大气中水分子携带污染物沉积到地面的过程——对干渠水质的影响，为中线工程建立大气-水动力水质模型，旨在为水质管理提供科学的策略与措施，确保水质安全，服务于社会和生态的可持续发展。
+                    {{ $t("project.nanshui.p1") }}
                   </p>
 
                   <figure class="mb-8">
@@ -122,10 +122,10 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    技术概述
+                    {{ $t("project.nanshui.title1") }}
                   </h3>
                   <p class="mb-8">
-                    在本项目中，我们采用了先进的水质模拟软件（例如CE-QUAL-W2等）和技术，集成气象、水文和地理信息系统（GIS）数据，重点分析湿沉降如何影响中线工程干渠的水质。通过细致的模型构建，我们能够预测不同气象条件下，干渠内悬浮颗粒物、重金属以及有机污染物的变化趋势。
+                    {{ $t("project.nanshui.p2") }}
                   </p>
 
                   <h3
@@ -133,10 +133,10 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    研究意义
+                    {{ $t("project.nanshui.title2") }}
                   </h3>
                   <p class="mb-8">
-                    本研究将有助于科学预测和评估极端天气事件和变化的环境条件对中线工程水质的影响。研究成果不仅可以为南水北调中线工程的水质管理和保护提供决策支持，也可以为类似的大型水利工程提供宝贵的参考和经验。
+                    {{ $t("project.nanshui.p3") }}
                   </p>
 
                   <h3
@@ -144,10 +144,10 @@
                     class="h3 text-gray-900 mb-4"
                     style="scroll-margin-top: 100px"
                   >
-                    合作与展望
+                    {{ $t("project.nanshui.title3") }}
                   </h3>
                   <p>
-                    我们期待与政府部门、科研机构以及环境保护组织合作，共同探索和实施更有效的水质保护策略。
+                    {{ $t("project.nanshui.p4") }}
                   </p>
 
                   <div>
