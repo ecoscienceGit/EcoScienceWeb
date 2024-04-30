@@ -21,7 +21,7 @@
             </router-link>
           </div>
           <figure class="lg:col-span-1 mb-8 mx-8">
-            <img class="w-full rounded pl-48" src="../../images/dt-01.jpg" width="768" height="432" alt="dt 01" />
+            <img class="w-full rounded" src="../../images/dt-01.jpg" width="768" height="432" alt="dt 01" />
           </figure>
         </div>
 
