@@ -242,15 +242,5 @@
 <script>
 export default {
   name: "ServiceList",
-  data() {
-    return {
-      openTab: 1,
-    };
-  },
-  methods: {
-    toggleTabs: function (tabNumber) {
-      this.openTab = tabNumber;
-    },
-  },
 };
 </script>
