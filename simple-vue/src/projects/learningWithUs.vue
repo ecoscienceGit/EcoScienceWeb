@@ -69,7 +69,7 @@
                       src="/projects/images/learningWithUs/c1.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
 
@@ -93,7 +93,7 @@
                       src="/projects/images/learningWithUs/c2.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
 
@@ -124,7 +124,7 @@
                       src="/projects/images/learningWithUs/c3.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
 

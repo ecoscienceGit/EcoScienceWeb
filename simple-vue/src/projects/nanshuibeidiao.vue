@@ -113,7 +113,7 @@
                       src="/projects/images/nanshuibeidiao/nanshuibeidiao.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
 

@@ -8,7 +8,7 @@
           <h2 class="h2 mb-4">{{ $t('news.title') }}</h2>
         </div>
 
-        <!-- Blog list -->
+        <!-- News list -->
         <div class="md:flex md:justify-between">
           <div class="md:grow -mt-4">
             <!-- 1st article -->
@@ -112,7 +112,7 @@
         <!-- See More -->
         <div class="max-w-2xl mx-auto mt-8 text-center">
           <p class="text-blue-600 mb-4">
-            <router-link to="/blog" class="hover:underline"
+            <router-link to="/News" class="hover:underline"
             >{{ $t('viewMore') }}</router-link>
           </p>
         </div>
@@ -123,6 +123,6 @@
 
 <script>
 export default {
-  name: "ProjectsBlog",
+  name: "ProjectsNews",
 };
 </script>

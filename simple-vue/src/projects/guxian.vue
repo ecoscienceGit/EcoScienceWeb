@@ -119,7 +119,7 @@
                     src="/projects/images/guxian/huanghe.jpg"
                     width="768"
                     height="432"
-                    alt="Blog single"
+                    alt="News single"
                   />
                   <h3
                     id="general"

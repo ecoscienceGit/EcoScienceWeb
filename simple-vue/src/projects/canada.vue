@@ -67,7 +67,7 @@
                       src="/projects/images/canada/canada.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
                   <div>

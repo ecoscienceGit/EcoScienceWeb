@@ -82,7 +82,7 @@
                       src="/projects/images/wuliangsuhai/wuliangsu.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
                   <p class="mb-8">

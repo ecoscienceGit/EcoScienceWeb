@@ -13,7 +13,7 @@
       <FeaturesServices />
       <!-- <FeaturesWorld /> -->
       <FeaturesProjects />
-      <FeaturesBlog />
+      <FeaturesNews />
 
     </main>
 
@@ -28,7 +28,7 @@ import Header from './../partials/Header.vue'
 import HeroHome from './../partials/HeroHome.vue'
 import FeaturesServices from './../partials/FeaturesServices.vue'
 import FeaturesProjects from './../partials/FeaturesProjects.vue'
-import FeaturesBlog from './../partials/FeaturesBlog.vue'
+import FeaturesNews from './../partials/FeaturesNews.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -38,7 +38,7 @@ export default {
     HeroHome,
     FeaturesServices,
     FeaturesProjects,
-    FeaturesBlog,
+    FeaturesNews,
     Footer,
   },
 }

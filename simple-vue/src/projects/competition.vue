@@ -77,7 +77,7 @@
                     src="/projects/images/competition/competition1.png"
                     width="768"
                     height="432"
-                    alt="Blog single"
+                    alt="News single"
                   />
                   <p class="mb-8">
                     {{ $t("project.models.p12") }}
@@ -88,7 +88,7 @@
                       src="/projects/images/guxian/guxianshow.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
                   <h3

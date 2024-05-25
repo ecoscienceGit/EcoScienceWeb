@@ -38,7 +38,7 @@
             </li>
             <li>
               <router-link
-                to="/blog"
+                to="/News"
                 class="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 >{{ $t("news.title") }}</router-link
               >
@@ -148,7 +148,7 @@
                 </li>
                 <li>
                   <router-link
-                    to="/blog"
+                    to="/News"
                     class="flex text-gray-600 hover:text-gray-900 py-2"
                     >{{ $t("news.title") }}</router-link
                   >

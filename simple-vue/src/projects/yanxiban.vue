@@ -96,7 +96,7 @@
                       src="/projects/images/yanxiban/px1.jpg"
                       width="768"
                       height="432"
-                      alt="Blog single"
+                      alt="News single"
                     />
                   </figure>
                   <h3

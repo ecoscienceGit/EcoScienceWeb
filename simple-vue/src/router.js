@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
-import Blog from "./pages/Blog.vue";
+import News from "./pages/News.vue";
 import ProjectPost from "./pages/ProjectPost.vue";
 import About from "./pages/About.vue";
 import Services from "./pages/Services.vue";
@@ -47,8 +47,8 @@ const router = createRouter({
       props: true,
     },
     {
-      path: "/blog",
-      component: Blog,
+      path: "/News",
+      component: News,
     },
     {
       path: "/projects",
